@@ -1,0 +1,125 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "LevelZombieResistanceItemDifficultyModifier" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "LevelZombieResistanceItem",
+				"Width": {
+					"Value": "54"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(ItemBackgroundImage@.)", "RTID(ResistanceIndicator@.)" ]
+			}
+		}, {
+			"aliases": [ "ItemBackgroundImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemBackgroundImage",
+				"Width": {
+					"Value": "74%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_SeedPackets" ],
+				"Image": "IMAGE_UI_PACKETS_MINTFAM_BANNER",
+				"DrawStyle": "stretched_aspectX",
+				"Children": [ "RTID(ItemImage@.)" ]
+			}
+		}, {
+			"aliases": [ "ItemImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemImage",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_SeedPackets" ],
+				"Image": "$ITEMIMAGE",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "ResistanceIndicator" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ResistanceIndicator",
+				"Width": {
+					"Value": "16"
+				},
+				"Height": {
+					"Value": "16"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-6"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "$RESISTANCEICON",
+				"DrawStyle": "stretch"
+			}
+		} ]
+}

@@ -1,0 +1,957 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustPointOfLossDialogMain" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "JoustPointOfLossDialogMain",
+				"Resources": [ "AudioJoust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(JoustPointOfLossDialog@.)", "RTID(JoustPointOfLossConfirmDialog@.)", "RTID(CurrencyWidget@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustPointOfLossDialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustPointOfLossDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Dialog@.)", "RTID(DialogDismiss@.)", "RTID(DialogXButtonImage@.)", "RTID(DialogXButton@.)", "RTID(DialogButtonList@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogDismiss" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogDismiss",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreMouseInput": false,
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "DialogXButtonImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogXButtonImage",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "-60.0"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_CLOSE_BTN"
+			}
+		}, {
+			"aliases": [ "DialogXButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogXButton",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-80"
+					}
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "700"
+				},
+				"Height": {
+					"Value": "425"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)", "RTID(DialogTitle@.)", "RTID(WinStreakHolder@.)", "RTID(DialogCurrentWinstreak@.)", "RTID(DialogCallToActionCurrent@.)", "RTID(DialogCallToActionTarget@.)", "RTID(DialogCallToAction@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "11.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "-2.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "380"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_DIALOG_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "WinStreakHolder" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "WinStreakHolder",
+				"Width": {
+					"Value": "720"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "120.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"UIFileName": "JoustWinStreakDisplay",
+				"AdaptorClassName": "AdaptorJoustWinStreakDisplay"
+			}
+		}, {
+			"aliases": [ "DialogCurrentWinstreak" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCurrentWinstreak",
+				"Width": {
+					"Value": "80.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_CURRENT_WINSTREAK]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "DialogCallToActionCurrent" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCallToActionCurrent",
+				"Width": {
+					"Value": "40%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "30"
+					},
+					"OffsetY": {
+						"Value": "68"
+					}
+				},
+				"Children": [ "RTID(DialogCallToActionCurrentScore@.)" ],
+				"Label": "[JOUST_POINT_OF_LOSS_CALL_TO_ACTION_CURRENT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "DialogCallToActionCurrentScore" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCallToActionCurrentScore",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "40"
+					}
+				},
+				"Children": [],
+				"Label": "289,432",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_46_HARDSHADOW",
+				"Color": "LightBlue"
+			}
+		}, {
+			"aliases": [ "DialogCallToActionTarget" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCallToActionTarget",
+				"Width": {
+					"Value": "40%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-30"
+					},
+					"OffsetY": {
+						"Value": "68"
+					}
+				},
+				"Children": [ "RTID(DialogCallToActionTargetScore@.)" ],
+				"Label": "[JOUST_POINT_OF_LOSS_CALL_TO_ACTION_TARGET]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "DialogCallToActionTargetScore" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCallToActionTargetScore",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "40"
+					}
+				},
+				"Children": [],
+				"Label": "319,155",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_46_HARDSHADOW",
+				"Color": "Red"
+			}
+		}, {
+			"aliases": [ "DialogCallToAction" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogCallToAction",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "155"
+					}
+				},
+				"Children": [],
+				"Label": "[JOUST_POINT_OF_LOSS_CALL_TO_ACTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "PlantHost" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "PlantHost",
+				"IgnoreMouseInput": true,
+				"Resources": [ "PlantThymeWarp" ],
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-70.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"PopAnimName": "POPANIM_PLANT_THYMEWARP",
+				"ScaleOverride": 2.0,
+				"InitialAnimationName": "idle",
+				"AnimLayersToDisable": [ "custom_01", "custom_02" ],
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "DialogButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "65%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Children": [ "RTID(DeclineButton@.)", "RTID(AcceptAdButton@.)", "RTID(AcceptGemsButton@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "AcceptGemsButton" ],
+			"objclass": "HotUIPurchaseButtonProperties",
+			"objdata": {
+				"Name": "AcceptGemsButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_GEMS]",
+				"LabelInset": {
+					"Left": {
+						"Value": "5.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_GEMSBUYBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_GEMSBUYBUTTON_DOWN",
+				"DownAudio": "Play_UI_PointOfLoss_Gems_Press",
+				"UpAudio": "Play_UI_PointOfLoss_Gems_Release",
+				"IncludelistID": "POINT_OF_LOSS_ACCEPT_GEMS_BUTTON"
+			}
+		}, {
+			"aliases": [ "AcceptAdButton" ],
+			"objclass": "HotUIPurchaseButtonProperties",
+			"objdata": {
+				"Name": "AcceptAdButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_AD]",
+				"LabelInset": {
+					"Left": {
+						"Value": "40.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_PointOfLoss_WatchAd_Press",
+				"UpAudio": "Play_UI_PointOfLoss_WatchAd_Release",
+				"IncludelistID": "POINT_OF_LOSS_ACCEPT_AD_BUTTON",
+				"Children": [ "RTID(AdVideoIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "AdVideoIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AdVideoIcon",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "8"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_ICON_WATCH_VIDEO",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DeclineButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DeclineButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[NOT_NOW_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Forfeit_Press",
+				"UpAudio": "Play_UI_Forfeit_Release",
+				"IncludelistID": "POINT_OF_LOSS_DECLINE_BUTTON"
+			}
+		}, {
+			"aliases": [ "CurrencyWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CurrencyWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(PointOfLossDialog@.)",
+					"OffsetX": {
+						"Value": "140"
+					},
+					"OffsetY": {
+						"Value": ""
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AddMoreCurrencyButton@.)" ]
+			}
+		}, {
+			"aliases": [ "AddMoreCurrencyButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AddMoreCurrencyButton",
+				"Width": {
+					"Value": "125"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_NORMAL",
+				"DownImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_SELECTED",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "POINT_OF_LOSS_ADD_CURRENCY_BUTTON"
+			}
+		}, {
+			"aliases": [ "JoustPointOfLossConfirmDialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustPointOfLossConfirmDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(DialogConfirm@.)", "RTID(ConfirmPlayButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogConfirm" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "DialogConfirm",
+				"Resources": [],
+				"Width": {
+					"Value": "450"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCardConfirm@.)", "RTID(DialogTitleConfirm@.)", "RTID(DialogDescriptionConfirm@.)", "RTID(ConfirmPlantHost@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "11.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCardConfirm" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCardConfirm",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "230"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitleConfirm" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitleConfirm",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "65.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_DIALOG_TITLE_CONFIRM]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogDescriptionConfirm" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogDescriptionConfirm",
+				"Width": {
+					"Value": "65.0%"
+				},
+				"Height": {
+					"Value": "110.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"Parent": "RTID(DialogTitleConfirm@.)",
+					"OffsetX": {
+						"Value": "-15.0"
+					},
+					"OffsetY": {
+						"Value": "100.0"
+					}
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_CONFIRM_DESCRIPTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "ConfirmPlantHost" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ConfirmPlantHost",
+				"IgnoreMouseInput": true,
+				"Resources": [ "PlantThymeWarp" ],
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "70.0"
+					},
+					"OffsetY": {
+						"Value": "-70.0"
+					}
+				},
+				"PopAnimName": "POPANIM_PLANT_THYMEWARP",
+				"ScaleOverride": 2.0,
+				"InitialAnimationName": "idle",
+				"AnimLayersToDisable": [ "custom_01", "custom_02" ],
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "ConfirmPlayButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ConfirmPlayButton",
+				"Width": {
+					"Value": "125"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogConfirm@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Label": "[JOUST_POINT_OF_LOSS_CONFIRM_PLAY]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Buy_PointOfLoss_Confirm_Press",
+				"UpAudio": "Play_UI_Menu_Buy_PointOfLoss_Confirm_Release",
+				"IncludelistID": "POINT_OF_LOSS_CONFIRM_PLAY_BUTTON"
+			}
+		} ]
+}

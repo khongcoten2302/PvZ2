@@ -1,0 +1,508 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MarketItemEntry" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MarketItemEntry",
+				"EntryPoint": true,
+				"Resources": [],
+				"Width": {
+					"Value": "170"
+				},
+				"Height": {
+					"Value": "422"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "50.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(ShineBackground@.)", "RTID(ItemImage@.)", "RTID(ItemSeedPacket@.)", "RTID(ItemPlantAnim@.)", "RTID(ItemTitle@.)", "RTID(ItemLongDescription@.)", "RTID(PurchaseButton@.)", "RTID(InfoButton@.)", "RTID(HiddenInfoAreaButton@.)", "RTID(MarketTimer@.)", "RTID(BadgeBackground@.)", "RTID(ValueBackground@.)", "RTID(CheatText@.)", "RTID(CategoryText@.)" ]
+			}
+		}, {
+			"aliases": [ "CheatText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CheatText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "LogGlassesPink"
+			}
+		}, {
+			"aliases": [ "CategoryText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CategoryText",
+				"Width": {
+					"Value": "210"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "406"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_SHADED",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ShineBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ShineBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_CARD_SHINE_BORDER",
+				"ImageInsets": {
+					"Left": {
+						"Value": "5.0"
+					},
+					"Top": {
+						"Value": "6.0"
+					},
+					"Right": {
+						"Value": "5.0"
+					},
+					"Bottom": {
+						"Value": "6.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "MarketTimer" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MarketTimer",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "32.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "2"
+					}
+				},
+				"Label": "$MARKET_TIMER",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BadgeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BadgeBackground",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "40"
+					}
+				},
+				"Children": [ "RTID(BadgeText@.)", "RTID(BadgeVideoIcon@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_RED_FLAG"
+			}
+		}, {
+			"aliases": [ "BadgeText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BadgeText",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "[POWERUP_NEW_BADGE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BadgeVideoIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BadgeVideoIcon",
+				"Width": {
+					"Value": "24"
+				},
+				"Height": {
+					"Value": "24"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_ICON_WATCH_VIDEO",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ValueBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ValueBackground",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "12.0"
+					},
+					"OffsetY": {
+						"Value": "46.0"
+					}
+				},
+				"Children": [ "RTID(ValueText@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_GENERIC_STAR_ICON"
+			}
+		}, {
+			"aliases": [ "ValueText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ValueText",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "3x\n Value",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ItemImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemImage",
+				"Width": {
+					"Value": "73%"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "22"
+					},
+					"OffsetY": {
+						"Value": "90"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "$ITEMIMAGE",
+				"DrawStyle": "stretched_aspectBoth"
+			}
+		}, {
+			"comment": "Not expected to be used, but here.  We can't scale the seed packet.",
+			"aliases": [ "ItemSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "180"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "70"
+					},
+					"OffsetY": {
+						"Value": "200"
+					}
+				},
+				"PacketConfig": {
+					"PlantType": "$ITEMSEEDPACKET"
+				}
+			}
+		}, {
+			"aliases": [ "ItemPlantAnim" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "ItemPlantAnim",
+				"Width": {
+					"Value": "76%"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "38"
+					},
+					"OffsetY": {
+						"Value": "200"
+					}
+				},
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override",
+				"PlantConfig": {
+					"PlantType": "$ITEMANIMPLANTTYPE",
+					"CostumeLayer": "$ITEMANIMCOSTUMETYPE"
+				}
+			}
+		}, {
+			"aliases": [ "ItemLongDescription" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemLongDescription",
+				"Width": {
+					"Value": "86.0%"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Label": "$LONGDESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ItemTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemTitle",
+				"Width": {
+					"Value": "86.0%"
+				},
+				"Height": {
+					"Value": "42.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$ITEM_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "InfoButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "InfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "-12"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Button_Click_Press",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "HiddenInfoAreaButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "HiddenInfoAreaButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"HideButtonImages": "true",
+				"DownAudio": "",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "PurchaseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PurchaseButton",
+				"Width": {
+					"Value": "84%"
+				},
+				"Height": {
+					"Value": "42"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "34.0"
+					}
+				},
+				"Label": "Buy Me",
+				"Font": "BLACK_32_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Buy_Coins_Press",
+				"UpAudio": "Play_UI_Menu_Buy_Coins_Release"
+			}
+		} ]
+}

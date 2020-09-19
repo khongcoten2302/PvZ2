@@ -1,0 +1,157 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ScrollHolder" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ScrollHolder",
+				"Width": {
+					"Value": "444.0"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-1"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(DifficultyInset@.)", "RTID(DifficultyScrollArea@.)", "RTID(LeftScrollArrow@.)", "RTID(RightScrollArrow@.)" ]
+			}
+		}, {
+			"aliases": [ "LeftScrollArrow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Name": "LeftScrollArrow",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_MODIFIER_ARROW_LEFT",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "RightScrollArrow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Name": "RightScrollArrow",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_MODIFIER_ARROW_RIGHT",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DifficultyInset" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Name": "DifficultyInset",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "32"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_SCORE_METER_BG_TEXT",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DifficultyScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "DifficultyScrollArea",
+				"Width": {
+					"Value": "376.0"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Children": [ "RTID(DifficultyInnerScrollArea@.)" ],
+				"ScrollMode": "horizontal"
+			}
+		}, {
+			"aliases": [ "DifficultyInnerScrollArea" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "DifficultyInnerScrollArea",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"MinHeight": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "40.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "30.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		} ]
+}

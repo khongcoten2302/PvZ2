@@ -1,0 +1,321 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ProgressiveRegistrationCodeScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "ProgressiveRegistrationCodeScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(ProgressiveRegistrationLoginWithCodeDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressiveRegistrationLoginWithCodeDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ProgressiveRegistrationLoginWithCodeDialog",
+				"Width": {
+					"Value": "60.0%"
+				},
+				"Height": {
+					"Value": "90.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(ProgressiveRegistrationCodeScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogFooterImage@.)", "RTID(BackButton@.)", "RTID(DialogTitle@.)", "RTID(CodeTextField@.)", "RTID(AcceptButton@.)", "RTID(ChangeEmailButton@.)", "RTID(ResendCodeButton@.)", "RTID(NoteAboutCode@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "17.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "CodeTextField" ],
+			"objclass": "HotUITextEntryProperties",
+			"objdata": {
+				"Name": "CodeTextField",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "62.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogTitle@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0%"
+					}
+				},
+				"DefaultText": "[PROGRESSIVE_REGISTRATION_CODE_TEXT_ENTRY_HINT]",
+				"MaxCharacters": 12,
+				"UseNumericKeyboard": true,
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center"
+			}
+		}, {
+			"aliases": [ "DialogFooterImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogFooterImage",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "56.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_MAINMENU_BTN_BKGD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "-8.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "-8.0"
+					},
+					"Bottom": {
+						"Value": "-4.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "78.0%"
+				},
+				"Height": {
+					"Value": "52.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "2.0%"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_VERIFY_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "NoteAboutCode" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NoteAboutCode",
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-200.0"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_NOTE_CODE_SENT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Main_Menu_Legal",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Width": {
+					"Value": "240.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_BUTTON_VERIFY_CODE]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "ChangeEmailButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ChangeEmailButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(AcceptButton@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Width": {
+					"Value": "240.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_BUTTON_CHANGE_EMAIL]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN"
+			}
+		}, {
+			"aliases": [ "ResendCodeButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ResendCodeButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(ChangeEmailButton@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Width": {
+					"Value": "240.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_BUTTON_RESEND_CODE]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN"
+			}
+		} ]
+}

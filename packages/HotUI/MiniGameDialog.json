@@ -1,0 +1,553 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MiniGameDialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "MiniGameDialog",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [ "RTID(Dialog@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "520.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(CloseButton@.)", "RTID(DialogPadding@.)" ],
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [ "UI_AlwaysLoaded" ],
+				"Width": {
+					"Value": "46.0"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-48.0"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DialogPadding" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogPadding",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "23.0"
+					},
+					"Top": {
+						"Value": "25.0"
+					},
+					"Right": {
+						"Value": "23.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(InnerBackground@.)", "RTID(LowerPane@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "70.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "50.0"
+					}
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_60_HARDSHADOW",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "InnerBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InnerBackground",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_AlwaysLoaded" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "270.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "44.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "1.0"
+					},
+					"Top": {
+						"Value": "21.0"
+					},
+					"Right": {
+						"Value": "1.0"
+					},
+					"Bottom": {
+						"Value": "22.0"
+					}
+				},
+				"Children": [ "RTID(MiniGameListArea@.)", "RTID(ScrollFaderRight@.)", "RTID(ScrollFaderLeft@.)" ],
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "9slice",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "ScrollFaderRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ScrollFaderRight",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Almanac_Gradients" ],
+				"Width": {
+					"Value": "40.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right"
+				},
+				"Image": "IMAGE_UI_ALMANAC_EDGE_GRADIENT",
+				"DrawType": "3slice_vertical",
+				"DrawStyle": "stretched",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-20.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "-20.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ScrollFaderLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ScrollFaderLeft",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Almanac_Gradients" ],
+				"Width": {
+					"Value": "40.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"Image": "IMAGE_UI_ALMANAC_EDGE_GRADIENT_LEFT",
+				"DrawType": "3slice_vertical",
+				"DrawStyle": "stretched",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-20.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "-20.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "MiniGameListArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MiniGameListArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Children": [ "RTID(MiniGameListScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "MiniGameListScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "MiniGameListScrollArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Children": [ "RTID(MiniGameListInnerScrollArea@.)" ],
+				"ScrollMode": "horizontal"
+			}
+		}, {
+			"aliases": [ "MiniGameListInnerScrollArea" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "MiniGameListInnerScrollArea",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "227.0"
+				},
+				"MinWidth": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "21.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "21.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "20.0"
+				}
+			}
+		}, {
+			"aliases": [ "LowerPane" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LowerPane",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Children": [ "RTID(EndlessModePane@.)", "RTID(PowerUpPane@.)" ]
+			}
+		}, {
+			"aliases": [ "EndlessModePane" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EndlessModePane",
+				"Resources": [ "UI_VaseBreakerMenu" ],
+				"Width": {
+					"Value": "290.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-2.0"
+					}
+				},
+				"Children": [ "RTID(EndlessModeLabel@.)", "RTID(EndlessModeRecordLabel@.)", "RTID(EndlessModeButtonAnim@.)", "RTID(EndlessModeButtonLabel@.)", "RTID(EndlessModeButton@.)" ],
+				"Image": "IMAGE_UI_VASEBREAKER_ENDLESS_BG",
+				"DrawType": "9slice",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "EndlessModeLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EndlessModeLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "44.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[ARCADE_ENDLESS_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "EndlessModeRecordLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EndlessModeRecordLabel",
+				"Width": {
+					"Value": "140.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-5.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "EndlessModeButtonAnim" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "EndlessModeButtonAnim",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_VaseBreakerMenu" ],
+				"Width": {
+					"Value": "120.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_VASEBREAKER_ENDLESS_NODE",
+				"ScaleOverride": 1,
+				"DrawStyle": "scale_override",
+				"InitialAnimationName": "locked_idle"
+			}
+		}, {
+			"//": "This button is intentionally invisible and the size of the endless mode pane."
+		}, {
+			"aliases": [ "EndlessModeButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "EndlessModeButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"HideButtonImages": true
+			}
+		}, {
+			"aliases": [ "EndlessModeButtonLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EndlessModeButtonLabel",
+				"Width": {
+					"Value": "140.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "5.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "PowerUpPane" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PowerUpPane",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "290.0"
+					}
+				},
+				"Padding": {
+					"Right": {
+						"Value": "290.0"
+					}
+				},
+				"Children": [ "RTID(PowerUpList@.)", "RTID(DialogFooterLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PowerUpList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PowerUpList",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "16.0"
+				}
+			}
+		}, {
+			"aliases": [ "DialogFooterLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogFooterLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom"
+				},
+				"Label": "[ARCADE_DIALOG_FOOTER]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "bottom",
+				"Font": "BLACK_28_OUTLINE",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		} ]
+}

@@ -1,0 +1,91 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "CarouselDot" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "CarouselDot",
+				"Resources": [],
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DotSocket@.)", "RTID(DotFill@.)" ]
+			}
+		}, {
+			"aliases": [ "DotSocket" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DotSocket",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_NAVDOT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "DotFill" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DotFill",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_NAVDOT_FILL",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": []
+			}
+		} ]
+}

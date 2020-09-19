@@ -1,0 +1,723 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftZombossProgress" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "RiftZombossProgress",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(GlowyRays@.)", "RTID(PennyBlastLeft@.)", "RTID(PennyBlastRight@.)", "RTID(PennyTrumpetLeft@.)", "RTID(PennyTrumpetRight@.)", "RTID(PennyTrumpetLeftBig@.)", "RTID(PennyTrumpetRightBig@.)", "RTID(PennyIcon@.)", "RTID(RiftLevelDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "GlowyRays" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "GlowyRays",
+				"Resources": [ "PrizeEffectsCommon" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_EFFECTS_PRIZE_RAYS",
+				"InitialAnimationName": "animation",
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandcontinue"
+			}
+		}, {
+			"aliases": [ "PennyBlastLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyBlastLeft",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-150.0"
+					},
+					"OffsetY": {
+						"Value": "-150.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": ""
+			}
+		}, {
+			"aliases": [ "PennyBlastRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyBlastRight",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "150.0"
+					},
+					"OffsetY": {
+						"Value": "-150.0"
+					}
+				},
+				"DrawType": "mirror",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": ""
+			}
+		}, {
+			"aliases": [ "PennyTrumpetLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyTrumpetLeft",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-160.0"
+					},
+					"OffsetY": {
+						"Value": "-200.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_PENNY_2FANFARE"
+			}
+		}, {
+			"aliases": [ "PennyTrumpetRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyTrumpetRight",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "160.0"
+					},
+					"OffsetY": {
+						"Value": "-200.0"
+					}
+				},
+				"DrawType": "mirror",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_PENNY_2FANFARE"
+			}
+		}, {
+			"aliases": [ "PennyTrumpetLeftBig" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyTrumpetLeftBig",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-200.0"
+					},
+					"OffsetY": {
+						"Value": "-200.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_PENNY_4FANFARE"
+			}
+		}, {
+			"aliases": [ "PennyTrumpetRightBig" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyTrumpetRightBig",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "200.0"
+					},
+					"OffsetY": {
+						"Value": "-200.0"
+					}
+				},
+				"DrawType": "mirror",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_PENNY_4FANFARE"
+			}
+		}, {
+			"aliases": [ "PennyIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyIcon",
+				"Width": {
+					"Value": "350"
+				},
+				"Height": {
+					"Value": "230"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-185.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_PENNY"
+			}
+		}, {
+			"aliases": [ "RiftLevelDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "RiftLevelDialog",
+				"Width": {
+					"Value": "560"
+				},
+				"Height": {
+					"Value": "400"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [ "RTID(DialogCard@.)", "RTID(DialogTitle@.)", "RTID(AcceptButton@.)", "RTID(RewardBackground@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "15.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "15.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "540"
+				},
+				"Height": {
+					"Value": "380"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_BACKGROUND_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"Children": [ "RTID(ProgressBackground@.)", "RTID(ProgressRow@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "70.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$RIFT_LEVEL_SETUP_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "30.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Label": "[JOUST_PLAY]",
+				"Font": "Dialog_Header_Font_36",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Resources": [ "UI_AlwaysLoaded" ],
+				"Width": {
+					"Value": "46.0"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-38.0"
+					},
+					"OffsetY": {
+						"Value": "-17.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ProgressBackground" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ProgressBackground",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "90.0"
+					}
+				},
+				"Children": [ "RTID(ProgressLine@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressLine" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressLine",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "13"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-1"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_LINE",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressRow" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ProgressRow",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "90.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ProgressBackground1@.)", "RTID(ProgressBackground2@.)", "RTID(ProgressBackground3@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressBackground1" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground1",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-180"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_LEFT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox1@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox1" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox1",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM1",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBackground2" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground2",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_MID",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox2@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox2" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox2",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM2",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBackground3" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground3",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "180"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_RIGHT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox3@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox3" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox3",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM3",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "RewardBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Name": "RewardBackground",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_ZOMBOSS_END_CARD",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RewardTitle@.)", "RTID(RewardList@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "RewardList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "RewardTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardTitle",
+				"Width": {
+					"Value": "160"
+				},
+				"Height": {
+					"Value": "24"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "[GRAND_PRIZE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_THICKOUTLINE",
+				"Color": "White"
+			}
+		} ]
+}

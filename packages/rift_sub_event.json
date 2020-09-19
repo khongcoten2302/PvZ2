@@ -1,0 +1,274 @@
+{
+	"objects": [ {
+			"aliases": [ "RiftSandboxSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "explodeonut",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift1ASoftLaunchSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift1BSoftLaunchSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift2HotdateSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "hotdate",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift3ExplodeonutSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "explodeonut",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift4StarfruitSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "starfruit",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift5SolartomatoSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "solartomato",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift6BombegranateSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "bombegranate",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift7DandelionSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "dandelion",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift8ChomperSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "chomper",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift9KiwibeastSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "kiwibeast",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift10ShadowpeashooterSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "shadowpeashooter",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift11AloeSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "aloe",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift12ExplodeonutSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "explodeonut",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "RiftFutureSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift14DazeychainSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "dazeychain",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift15ZoybeanpodSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "zoybeanpod",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "RiftDarkSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift17PowerlilySubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "powerlily",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift18SapflingSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "sapfling",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift19DazeychainSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "dazeychain",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "RiftPirateSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift21BloomingheartsSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "bloominghearts",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift22GumnutSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "gumnut",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift23HotdateSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "hotdate",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift24EscapeRootSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "escaperoot",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "RiftLostcitySubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "none",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift26ShadowpeashooterSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "shadowpeashooter",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift27ElectricblueberrySubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "electricblueberry",
+				"PennyTechPerBonusObjective": 1
+			}
+		}, {
+			"aliases": [ "Rift28WasabiwhipSubEvent" ],
+			"objclass": "RiftSubEventProperties",
+			"objdata": {
+				"AddedLevelModules": [ "RTID(MutatorBuffRift1A@LevelMutatorModules)" ],
+				"Description": "[ZOMBOSS_GRAND_PRIZE_GENERIC]",
+				"FeaturedPlant": "wasabiwhip",
+				"PennyTechPerBonusObjective": 1
+			}
+		} ],
+	"version": 1
+}

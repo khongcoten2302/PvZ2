@@ -1,0 +1,339 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustLeagueInfoEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustLeagueInfoEntry",
+				"Resources": [ "CollectableCommon", "UI_Joust", "UI_Sprouts" ],
+				"Width": {
+					"Value": "767"
+				},
+				"Height": {
+					"Value": "105"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					}
+				},
+				"Resources": [ "UI_Joust" ],
+				"Image": "$BACKGROUNDIMAGE",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(LeagueBox@.)", "RTID(LeftBox@.)", "RTID(MiddleBox@.)", "RTID(RightBox@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeagueBox",
+				"Width": {
+					"Value": "183"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(LeagueIcon@.)", "RTID(LeagueNameLabel@.)", "RTID(LeagueVerticalDivider@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueIcon",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Resources": [ "UI_Leagues" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-50.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Image": "$LEAGUEIMAGE",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "LeagueNameLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueNameLabel",
+				"Width": {
+					"Value": "108"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "42.0"
+					}
+				},
+				"Label": "$LEAGUENAME",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "LeagueVerticalDivider" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueVerticalDivider",
+				"Width": {
+					"Value": "2.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Resources": [ "UI_Joust" ],
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right"
+				},
+				"Image": "IMAGE_UI_JOUST_LEAGUE_INFO_DIVIDER",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "LeftBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeftBox",
+				"Width": {
+					"Value": "25%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "25%"
+					}
+				},
+				"Children": [ "RTID(LeftPrizeIcon@.)", "RTID(LeftPrizeLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "LeftPrizeIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeftPrizeIcon",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "20"
+					}
+				},
+				"Image": "$REWARDIMAGE1",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "LeftPrizeLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardLabel",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "110"
+					}
+				},
+				"Label": "$REWARD1",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "MiddleBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MiddleBox",
+				"Width": {
+					"Value": "25%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "50%"
+					}
+				},
+				"Children": [ "RTID(MiddlePrizeIcon@.)", "RTID(MiddlePrizeLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "MiddlePrizeIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MiddlePrizeIcon",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "40"
+					}
+				},
+				"Image": "$REWARDIMAGE2",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "MiddlePrizeLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MiddlePrizeLabel",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "90"
+					}
+				},
+				"Label": "$REWARD2",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "RightBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RightBox",
+				"Width": {
+					"Value": "25%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "75%"
+					}
+				},
+				"Children": [ "RTID(RightPrizeIcon@.)", "RTID(RightPrizeLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "RightPrizeIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RightPrizeIcon",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "40"
+					}
+				},
+				"Image": "$REWARDIMAGE3",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "RightPrizeLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RightPrizeLabel",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "90"
+					}
+				},
+				"Label": "$REWARD3",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		} ]
+}

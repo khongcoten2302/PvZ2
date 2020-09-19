@@ -1,0 +1,360 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustWinStreakDisplayEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustWinStreakDisplayEntry",
+				"Resources": [ "UI_Joust_Winstreak", "Joust_Winstreak_Explosion" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)", "RTID(RewardsRoot@.)", "RTID(CheckmarkContainer@.)", "RTID(ExplosionContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "CheckmarkContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CheckmarkContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "30%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Children": [ "RTID(Checkmark@.)" ]
+			}
+		}, {
+			"aliases": [ "Checkmark" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "Checkmark",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_GENERIC_CHECK_MARK_ANIM",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "ExplosionContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ExplosionContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "30%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Children": [ "RTID(Explosion@.)" ]
+			}
+		}, {
+			"aliases": [ "Explosion" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "Explosion",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Resources": [ "UI_Joust_Winstreak", "Joust_Winstreak_Explosion" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PopAnimName": "POPANIM_EFFECTS_WINSTREAK_EXPLOSION",
+				"InitialAnimationName": "",
+				"PlayStyle": "none",
+				"ScaleOverride": 2,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Resources": [ "UI_Joust_Winstreak", "Joust_Winstreak_Explosion" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_JOUST_WIN_STREAK_WIN_STREAK_REWARDS_PANEL",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched_aspectY",
+				"Children": [ "RTID(WinNumberLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "WinNumberLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "WinNumberLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "25%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Label": "X",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "RewardsRoot" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardsRoot",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RewardsContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardsContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardsContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "10%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Children": [ "RTID(RewardImage@.)", "RTID(RewardSeedPacket@.)", "RTID(RewardTextLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardImage",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Resources": [ "UI_QuestTinyPinatas" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "RewardSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "RewardSeedPacket",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PlantType": ""
+			}
+		}, {
+			"aliases": [ "RewardTextLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardTextLabel",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Label": "X",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "CrownsContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CrownsContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(CrownsImage@.)", "RTID(CrownTextLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "CrownsImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CrownsImage",
+				"Width": {
+					"Value": "45%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Resources": [ "UI_Joust_Icons" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "10%"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_ICONS_CROWNS_CROWNS_SMALL",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "CrownTextLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CrownTextLabel",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Label": "x99",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

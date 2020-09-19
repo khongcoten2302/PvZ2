@@ -1,0 +1,38 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "CarouselDotsContainer" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "CarouselDotsContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": []
+			}
+		} ]
+}

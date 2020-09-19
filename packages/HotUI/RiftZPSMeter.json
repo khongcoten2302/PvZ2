@@ -1,0 +1,154 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftZPSMeter" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RiftZPSMeter",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ZPSMeter@.)" ]
+			}
+		}, {
+			"aliases": [ "ZPSMeter" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ZPSMeter",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Resources": [ "UI_Rift_ZPS" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetY": {
+						"Value": "-80"
+					},
+					"OffsetX": {
+						"Value": "-180"
+					}
+				},
+				"Children": [ "RTID(FightZombossButton@.)", "RTID(ZPSLabel@.)", "RTID(ZombossLockedLabel@.)", "RTID(ZombossReturnTime@.)" ],
+				"PopAnimName": "POPANIM_UI_PENNY_PURSUITS_ZPS_ZPS_METER",
+				"InitialAnimationName": "anim_idle",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "fixed"
+			}
+		}, {
+			"aliases": [ "ZPSLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZPSLabel",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ZombossLockedLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZombossLockedLabel",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "10"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Label": "[RIFT_ZOMBOSS_OUT_TO_LUNCH]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ZombossReturnTime" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZombossReturnTime",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "10"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "[RIFT_ZOMBOSS_REFRESH_TIME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "FightZombossButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "FightZombossButton",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"HideButtonImages": true,
+				"DownAudio": "Play_UI_Button_Click_Press",
+				"UpAudio": "Play_UI_Menu_Button_Select",
+				"IncludelistID": "FIGHT_ZOMBOSS_BUTTON"
+			}
+		} ]
+}

@@ -1,0 +1,1040 @@
+{
+	"objects": [ {
+			"aliases": [ "LevelSet0" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/JoustSandbox",
+				"LevelSeeds": [ "JoustSandbox.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet1" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust1",
+				"LevelSeeds": [ "Joust1.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet1b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust1boost",
+				"LevelSeeds": [ "Joust1.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet2" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust2",
+				"LevelSeeds": [ "Joust2.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet2b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust2boost",
+				"LevelSeeds": [ "Joust2.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet3" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust3",
+				"LevelSeeds": [ "Joust3.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet4" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust4",
+				"LevelSeeds": [ "Joust4.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet4b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust4boost",
+				"LevelSeeds": [ "Joust4.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet5" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust5",
+				"LevelSeeds": [ "Joust5.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet6" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust6",
+				"LevelSeeds": [ "Joust6.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet6b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust6boost",
+				"LevelSeeds": [ "Joust6.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet7" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust7",
+				"LevelSeeds": [ "Joust7.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet8" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust8",
+				"LevelSeeds": [ "Joust8.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet8b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust8boost",
+				"LevelSeeds": [ "Joust8.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet9" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust9",
+				"LevelSeeds": [ "Joust9.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet9b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust9boost",
+				"LevelSeeds": [ "Joust9.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet10" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust10",
+				"LevelSeeds": [ "Joust10.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet10b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust10boost",
+				"LevelSeeds": [ "Joust10.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet11" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust11",
+				"LevelSeeds": [ "Joust11.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet11b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust11boost",
+				"LevelSeeds": [ "Joust11.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet12" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust12",
+				"LevelSeeds": [ "Joust12.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet12b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust12boost",
+				"LevelSeeds": [ "Joust12.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet13" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust13",
+				"LevelSeeds": [ "Joust13.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet14" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust14",
+				"LevelSeeds": [ "Joust14.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet15" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust15",
+				"LevelSeeds": [ "Joust15.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet15b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust15boost",
+				"LevelSeeds": [ "Joust15.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet16" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust16",
+				"LevelSeeds": [ "Joust16.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet17" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust17",
+				"LevelSeeds": [ "Joust17.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet18" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust18",
+				"LevelSeeds": [ "Joust18.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet19" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust19",
+				"LevelSeeds": [ "Joust19.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet20" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust20",
+				"LevelSeeds": [ "Joust20.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet21" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust21",
+				"LevelSeeds": [ "Joust21.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet22" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust22",
+				"LevelSeeds": [ "Joust22.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet23" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust23",
+				"LevelSeeds": [ "Joust23.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet23b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust23boost",
+				"LevelSeeds": [ "Joust23.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet24" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust24",
+				"LevelSeeds": [ "Joust24.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet25" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust25",
+				"LevelSeeds": [ "Joust25.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet25b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust25boost",
+				"LevelSeeds": [ "Joust25.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet26" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust26",
+				"LevelSeeds": [ "Joust26.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet26b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust26boost",
+				"LevelSeeds": [ "Joust26.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet27" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust27",
+				"LevelSeeds": [ "Joust27.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet28" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust28",
+				"LevelSeeds": [ "Joust28.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet29" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust29",
+				"LevelSeeds": [ "Joust29.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet30" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust30",
+				"LevelSeeds": [ "Joust30.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet31" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust31",
+				"LevelSeeds": [ "Joust31.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet31b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust31boost",
+				"LevelSeeds": [ "Joust31.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet32" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust32",
+				"LevelSeeds": [ "Joust32.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet33" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust33",
+				"LevelSeeds": [ "Joust33.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet33b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust33boost",
+				"LevelSeeds": [ "Joust33.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet34" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust34",
+				"LevelSeeds": [ "Joust34.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet35" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust35",
+				"LevelSeeds": [ "Joust35.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet35b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust35boost",
+				"LevelSeeds": [ "Joust35.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet36" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust36",
+				"LevelSeeds": [ "Joust36.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet37" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust37",
+				"LevelSeeds": [ "Joust37.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet37b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust37boost",
+				"LevelSeeds": [ "Joust37.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet38" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust38",
+				"LevelSeeds": [ "Joust38.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet39" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust39",
+				"LevelSeeds": [ "Joust39.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet39b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust39boost",
+				"LevelSeeds": [ "Joust39.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet40" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust40",
+				"LevelSeeds": [ "Joust40.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet41" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust41",
+				"LevelSeeds": [ "Joust41.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet41b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust41boost",
+				"LevelSeeds": [ "Joust41.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet42" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust42",
+				"LevelSeeds": [ "Joust42.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet43" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust43",
+				"LevelSeeds": [ "Joust43.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet44" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust44",
+				"LevelSeeds": [ "Joust44.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet45" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust45",
+				"LevelSeeds": [ "Joust45.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet46" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust46",
+				"LevelSeeds": [ "Joust46.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet47" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust47",
+				"LevelSeeds": [ "Joust47.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet48" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust48",
+				"LevelSeeds": [ "Joust48.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet49" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust49",
+				"LevelSeeds": [ "Joust49.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet50" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust50",
+				"LevelSeeds": [ "Joust50.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet51" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust51",
+				"LevelSeeds": [ "Joust51.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet52" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust52",
+				"LevelSeeds": [ "Joust52.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet53" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust53",
+				"LevelSeeds": [ "Joust53.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet54" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust54",
+				"LevelSeeds": [ "Joust54.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet55" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust55",
+				"LevelSeeds": [ "Joust55.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet56" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust56",
+				"LevelSeeds": [ "Joust56.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet57" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust57",
+				"LevelSeeds": [ "Joust57.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet58" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust58",
+				"LevelSeeds": [ "Joust58.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet58b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust58boost",
+				"LevelSeeds": [ "Joust58.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet59" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust59",
+				"LevelSeeds": [ "Joust59.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet60" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust60",
+				"LevelSeeds": [ "Joust60.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet60b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust60boost",
+				"LevelSeeds": [ "Joust60.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet61" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust61",
+				"LevelSeeds": [ "Joust61.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet61b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust61boost",
+				"LevelSeeds": [ "Joust61.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet62" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust62",
+				"LevelSeeds": [ "Joust62.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet62b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust62boost",
+				"LevelSeeds": [ "Joust62.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet63" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust63",
+				"LevelSeeds": [ "Joust63.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet64" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust64",
+				"LevelSeeds": [ "Joust64.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet65" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust65",
+				"LevelSeeds": [ "Joust65.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet66" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust66",
+				"LevelSeeds": [ "Joust66.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet66b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust66boost",
+				"LevelSeeds": [ "Joust66.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet67" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust67",
+				"LevelSeeds": [ "Joust67.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet67b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust67boost",
+				"LevelSeeds": [ "Joust67.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet68" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust68",
+				"LevelSeeds": [ "Joust68.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet68b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust68boost",
+				"LevelSeeds": [ "Joust68.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet69" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust69",
+				"LevelSeeds": [ "Joust69.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet69b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust69boost",
+				"LevelSeeds": [ "Joust69.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet70" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust70",
+				"LevelSeeds": [ "Joust70.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet70b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust70boost",
+				"LevelSeeds": [ "Joust70.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet71" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust71",
+				"LevelSeeds": [ "Joust71.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet72" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust72",
+				"LevelSeeds": [ "Joust72.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet73" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust73",
+				"LevelSeeds": [ "Joust73.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet74" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust74",
+				"LevelSeeds": [ "Joust74.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet75" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust75",
+				"LevelSeeds": [ "Joust75.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet76" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust76",
+				"LevelSeeds": [ "Joust76.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet77" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust77",
+				"LevelSeeds": [ "Joust77.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet77b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust77boost",
+				"LevelSeeds": [ "Joust77.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet78" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust78",
+				"LevelSeeds": [ "Joust78.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet78b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust78boost",
+				"LevelSeeds": [ "Joust78.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet79" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust79",
+				"LevelSeeds": [ "Joust79.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet80" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust80",
+				"LevelSeeds": [ "Joust80.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet81" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust81",
+				"LevelSeeds": [ "Joust81.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet81b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust81boost",
+				"LevelSeeds": [ "Joust81.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet82" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust82",
+				"LevelSeeds": [ "Joust82.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet83" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust83",
+				"LevelSeeds": [ "Joust83.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet84" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust84",
+				"LevelSeeds": [ "Joust84.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet84b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust84boost",
+				"LevelSeeds": [ "Joust84.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet85" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust85",
+				"LevelSeeds": [ "Joust85.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet86" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust86",
+				"LevelSeeds": [ "Joust86.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet87" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust87",
+				"LevelSeeds": [ "Joust87.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet88" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust88",
+				"LevelSeeds": [ "Joust88.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet89" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust89",
+				"LevelSeeds": [ "Joust89.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet90" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust90",
+				"LevelSeeds": [ "Joust90.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet91" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust91",
+				"LevelSeeds": [ "Joust91.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet92" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust92",
+				"LevelSeeds": [ "Joust92.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet93" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust93",
+				"LevelSeeds": [ "Joust93.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet93b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust93boost",
+				"LevelSeeds": [ "Joust93.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet94" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust94",
+				"LevelSeeds": [ "Joust94.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet95" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust95",
+				"LevelSeeds": [ "Joust95.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet96" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust96",
+				"LevelSeeds": [ "Joust96.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet97" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust97",
+				"LevelSeeds": [ "Joust97.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet98" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust98",
+				"LevelSeeds": [ "Joust98.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet99" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust99",
+				"LevelSeeds": [ "Joust99.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet100" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust100",
+				"LevelSeeds": [ "Joust100.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet101" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust101",
+				"LevelSeeds": [ "Joust101.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet102" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust102",
+				"LevelSeeds": [ "Joust102.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet103" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust103",
+				"LevelSeeds": [ "Joust103.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet103b" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust103boost",
+				"LevelSeeds": [ "Joust103.8.4.1" ]
+			}
+		}, {
+			"aliases": [ "LevelSet104" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust104",
+				"LevelSeeds": [ "Joust104.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet105" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust105",
+				"LevelSeeds": [ "Joust105.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet106" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust106",
+				"LevelSeeds": [ "Joust106.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet107" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust107",
+				"LevelSeeds": [ "Joust107.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet108" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust108",
+				"LevelSeeds": [ "Joust108.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet109" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust109",
+				"LevelSeeds": [ "Joust109.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet110" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust110",
+				"LevelSeeds": [ "Joust110.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet111" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust111",
+				"LevelSeeds": [ "Joust111.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet112" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust112",
+				"LevelSeeds": [ "Joust112.8.4" ]
+			}
+		}, {
+			"aliases": [ "LevelSet113" ],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust113",
+				"LevelSeeds": [ "Joust113.8.4" ]
+			}
+		} ],
+	"version": 1
+}

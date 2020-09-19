@@ -1,0 +1,382 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustHowToPlayScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "JoustHowToPlayScreen",
+				"Resources": [ "UI_Joust_HowToPlay" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(JoustHowToPlayScreenDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustHowToPlayScreenDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "JoustHowToPlayScreenDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "650"
+				},
+				"Height": {
+					"Value": "450"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)", "RTID(PreviousButton@.)", "RTID(ContinueButton@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [ "UI_Quests" ],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-15.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "610"
+				},
+				"Height": {
+					"Value": "400"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(HowToPlayEntryImage@.)", "RTID(HowToPlayEntryDescription@.)", "RTID(DialogTitle@.)", "RTID(SubtitleLabel@.)", "RTID(CloseButton@.)" ]
+			}
+		}, {
+			"aliases": [ "HowToPlayEntryImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "HowToPlayEntryImage",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "200"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-25.0"
+					}
+				},
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "HowToPlayEntryDescription" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "HowToPlayEntryDescription",
+				"Width": {
+					"Value": "95.0%"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-15.0"
+					}
+				},
+				"Label": "asdfasdfasdfasdfasdf",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_HOW_TO_PLAY_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "SubtitleLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SubtitleLabel",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "35.0"
+					}
+				},
+				"Label": "[STEP_NUMBER]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogCarouselDots" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogCarouselDots",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": []
+			}
+		}, {
+			"aliases": [ "PreviousButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PreviousButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[PREVIOUS_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "PREVIOUS_BUTTON"
+			}
+		}, {
+			"aliases": [ "ContinueButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ContinueButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-50.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[CONTINUE_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "CONTINUE_BUTTON"
+			}
+		} ]
+}

@@ -1,0 +1,227 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "LevelZombieResistanceFloater" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"IgnoreMouseInput": true,
+				"Name": "LevelZombieResistanceFloater",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "200.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"Parent": ""
+				},
+				"Children": [ "RTID(LevelZombieResistanceBox@.)" ]
+			}
+		}, {
+			"aliases": [ "LevelZombieResistanceBox" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "LevelZombieResistanceBox",
+				"Resources": [],
+				"Width": {
+					"Value": "184.0"
+				},
+				"Height": {
+					"Value": "160.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-0.0"
+					},
+					"OffsetY": {
+						"Value": "-62.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogImage@.)", "RTID(DialogTitle@.)", "RTID(ItemList@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-0.0"
+					},
+					"OffsetY": {
+						"Value": "-4.0"
+					}
+				},
+				"Label": "$TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_THICKOUTLINE",
+				"Color": "Dialog_Header_Color",
+				"Children": [ "RTID(ResistanceInfoButton@.)" ]
+			}
+		}, {
+			"aliases": [ "ResistanceInfoButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ResistanceInfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "+22.0"
+					},
+					"OffsetY": {
+						"Value": "-24.0"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "DialogImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogImage",
+				"Resources": [ "UI_SeedChooser" ],
+				"Width": {
+					"Value": "142"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-4.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_CARDS_CHOOSER_CHOOSER_PLANT_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ItemList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "ItemList",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "2.0"
+					},
+					"OffsetY": {
+						"Value": "-4.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		} ]
+}

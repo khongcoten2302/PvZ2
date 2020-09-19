@@ -1,0 +1,485 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ZenGardenBoostSelector" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "ZenGardenBoostSelector",
+				"Resources": [],
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ButtonHide@.)", "RTID(Dialog@.)", "RTID(DialogTitle@.)" ]
+			}
+		}, {
+			"aliases": [ "ImagePlant" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ImagePlant",
+				"Resources": [ "ZenGardenGroup" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_ZEN_GARDEN_PLANTS_SUNFLOWER",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color",
+				"Children": [ "RTID(ImagePlant@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "80.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "50.0"
+					}
+				},
+				"Children": [ "RTID(Boost1_Button@.)", "RTID(Boost2_Button@.)", "RTID(Boost3_Button@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ButtonHide" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ButtonHide",
+				"Resources": [],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "-45.0"
+					}
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"IncludelistID": "ZEN_GARDEN_BOOST_SELECTOR_CLOSE_BUTTON"
+			}
+		}, {
+			"aliases": [ "Boost1_Button" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Boost1_Button",
+				"Resources": [],
+				"Width": {
+					"Value": "480"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "3slice",
+				"Children": [ "RTID(Boost1_Image@.)", "RTID(Boost1_Title@.)", "RTID(Boost1_Description@.)" ],
+				"IncludelistID": "ZEN_GARDEN_BOOST_SELECTOR_BOOST1_BUTTON"
+			}
+		}, {
+			"aliases": [ "Boost1_Image" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Boost1_Image",
+				"Resources": [ "ZenGardenGroup" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_ZEN_GARDEN_BOOSTS_BOOST_BOUNTY_HUNTER",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "Boost1_Title" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost1_Title",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST1_TITLE",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Boost1_Description" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost1_Description",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST1_DESCRIPTION",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Boost2_Button" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Boost2_Button",
+				"Resources": [],
+				"Width": {
+					"Value": "480"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "160.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "3slice",
+				"Children": [ "RTID(Boost2_Image@.)", "RTID(Boost2_Title@.)", "RTID(Boost2_Description@.)" ]
+			}
+		}, {
+			"aliases": [ "Boost2_Image" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Boost2_Image",
+				"Resources": [ "ZenGardenGroup" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_ZEN_GARDEN_BOOSTS_BOOST_BOUNTY_HUNTER",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "Boost2_Title" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost2_Title",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST2_TITLE",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Boost2_Description" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost2_Description",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST2_DESCRIPTION",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Boost3_Button" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Boost3_Button",
+				"Resources": [],
+				"Width": {
+					"Value": "480"
+				},
+				"Height": {
+					"Value": "150.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "310.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "3slice",
+				"Children": [ "RTID(Boost3_Image@.)", "RTID(Boost3_Title@.)", "RTID(Boost3_Description@.)" ]
+			}
+		}, {
+			"aliases": [ "Boost3_Image" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Boost3_Image",
+				"Resources": [ "ZenGardenGroup" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_ZEN_GARDEN_BOOSTS_BOOST_BOUNTY_HUNTER",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "Boost3_Title" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost3_Title",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST3_TITLE",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Boost3_Description" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Boost3_Description",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BOOST3_DESCRIPTION",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

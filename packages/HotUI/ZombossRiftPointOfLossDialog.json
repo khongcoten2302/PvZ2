@@ -1,0 +1,408 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ZombossRiftPointOfLossDialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "ZombossRiftPointOfLossDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Dialog@.)", "RTID(DialogButtonList@.)", "RTID(CurrencyWidget@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "650"
+				},
+				"Height": {
+					"Value": "330"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)", "RTID(GourdImage@.)", "RTID(DialogTitle@.)", "RTID(DialogContentsLabel@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "UsageLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "UsageLabel",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "20.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "GourdImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "GourdImage",
+				"Resources": [ "UI_SecurityGourds" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "20"
+					},
+					"OffsetY": {
+						"Value": "50"
+					}
+				},
+				"DrawType": "normal ",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_SECURITY_GOURDS_SECURITY_GOURD1",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "65.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "[ZOMBOSS_RIFT_POL_DIALOG_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "FONT_STORE_COMING_SOON_Q",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogContentsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogContentsLabel",
+				"Width": {
+					"Value": "60.0%"
+				},
+				"Height": {
+					"Value": "66.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "",
+					"OffsetX": {
+						"Value": "-5.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(UsageLabel@.)" ],
+				"Label": "[ZOMBOSS_RIFT_POL_DIALOG_BODY]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Message_Color"
+			}
+		}, {
+			"aliases": [ "DialogButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Children": [ "RTID(DeclineButton@.)", "RTID(AcceptButton@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "DeclineButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DeclineButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[NOT_NOW_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "SECURITY_GOURD_DECLINE_BUTTON"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIPurchaseButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[SECURITY_GOURD_HIRE]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_GEMSBUYBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_GEMSBUYBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Buy_SecurityGourd_Confirm_Press",
+				"UpAudio": "Play_UI_Menu_Buy_SecurityGourd_Confirm_Release",
+				"IncludelistID": "SECURITY_GOURD_ACCEPT_BUTTON"
+			}
+		}, {
+			"aliases": [ "CurrencyWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CurrencyWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(SecurityGourdDialog@.)",
+					"OffsetX": {
+						"Value": "165"
+					},
+					"OffsetY": {
+						"Value": ""
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AddMoreCurrencyButton@.)" ]
+			}
+		}, {
+			"aliases": [ "AddMoreCurrencyButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AddMoreCurrencyButton",
+				"Width": {
+					"Value": "125"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_NORMAL",
+				"DownImage": "IMAGE_UI_GENERIC_BUTTONS_PREMIUM_SELECTED",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "SECURITY_GOURD_ADD_CURRENCY_BUTTON"
+			}
+		} ]
+}

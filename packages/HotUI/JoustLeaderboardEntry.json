@@ -1,0 +1,461 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustLeaderboardEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustLeaderboardEntry",
+				"Width": {
+					"Value": "310"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(LocalPlayerBackground@.)", "RTID(InnerSpace@.)" ]
+			}
+		}, {
+			"aliases": [ "LocalPlayerBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LocalPlayerBackground",
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "92%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "4"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_LEADERBOARD_LEADERBOARD_SCROLL_BOTTOM",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "InnerSpace" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "InnerSpace",
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "96%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "1"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Children": [ "RTID(LeftBox@.)", "RTID(MiddleBox@.)", "RTID(RightBox@.)", "RTID(AvatarChangeButton@.)" ]
+			}
+		}, {
+			"aliases": [ "AvatarChangeButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarChangeButton",
+				"Width": {
+					"Value": "310"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"ButtonImageType": "stretched",
+				"HideButtonImages": true,
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "JOUST_CHANGE_AVATAR_BUTTON"
+			}
+		}, {
+			"aliases": [ "LeftBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeftBox",
+				"Width": {
+					"Value": "16%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(Badge@.)", "RTID(PositionLabel@.)", "RTID(Gem@.)", "RTID(Mint@.)", "RTID(RewardLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PositionLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PositionLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Label": "$PLACE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Gem" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Gem",
+				"Width": {
+					"Value": "40%"
+				},
+				"Height": {
+					"Value": "34%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "2"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_GEM_ICON_SMALL",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "Mint" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Mint",
+				"Width": {
+					"Value": "53%"
+				},
+				"Height": {
+					"Value": "48%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "-1"
+					},
+					"OffsetY": {
+						"Value": "-2"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_MINT_ICON_SMALL",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "RewardLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardLabel",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"Label": "$REWARD",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Badge" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Badge",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "93%"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "3.5%"
+					},
+					"OffsetY": {
+						"Value": "3.2%"
+					}
+				},
+				"Image": "$LEADERBOARD_BADGE",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "MiddleBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MiddleBox",
+				"Width": {
+					"Value": "24%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "16%"
+					}
+				},
+				"Children": [ "RTID(PlayerIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "PlayerIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlayerIcon",
+				"Width": {
+					"Value": "89%"
+				},
+				"Height": {
+					"Value": "89%"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "5%"
+					},
+					"OffsetX": {
+						"Value": "5%"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(NewBadgeNotification@.)" ]
+			}
+		}, {
+			"aliases": [ "NewBadgeNotification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NewBadgeNotification",
+				"Width": {
+					"Value": "22"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-2"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(NewBadgeNotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "NewBadgeNotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NewBadgeNotificationText",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PlayerNameLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerNameLabel",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "35%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-7"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"Label": "$PLAYERNAME",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "RightBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RightBox",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "97%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "39%"
+					}
+				},
+				"Children": [ "RTID(PlayerNameLabel@.)", "RTID(ScoreBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "ScoreBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ScoreBackground",
+				"Width": {
+					"Value": "88%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "-5"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_CHALLENGE_BACKGROUND",
+				"DrawStyle": "normal",
+				"DrawType": "9slice",
+				"Children": [ "RTID(Crown@.)", "RTID(ScoreLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "Crown" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Crown",
+				"Width": {
+					"Value": "38%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "3"
+					},
+					"OffsetY": {
+						"Value": "-0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_ICONS_CROWNS_CROWNS_LARGE",
+				"DrawStyle": "stretched",
+				"Rotation": 0.1,
+				"RotationCenterX": 0,
+				"RotationCenterY": 0
+			}
+		}, {
+			"aliases": [ "ScoreLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ScoreLabel",
+				"Width": {
+					"Value": "55%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "-0"
+					}
+				},
+				"Label": "$SCORE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

@@ -1,0 +1,649 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonEvent" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonEvent",
+				"Resources": [ "CollectableCommon", "UI_Joust", "UI_Joust_Winstreak" ],
+				"Width": {
+					"Value": "450"
+				},
+				"Height": {
+					"Value": "112"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)", "RTID(BackgroundGlow@.)", "RTID(EventMainContainer@.)", "RTID(EventUnknownContainer@.)", "RTID(TournamentNameLabel@.)", "RTID(TournamentCountLabel@.)", "RTID(TournamentTimeLabel@.)", "RTID(CurrentTournamentFlag@.)" ]
+			}
+		}, {
+			"aliases": [ "TournamentNameLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TournamentNameLabel",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "asdf",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "BLACK_28_OUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "TournamentCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TournamentCountLabel",
+				"Width": {
+					"Value": "12%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-5"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "2/5",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24_OUTLINE",
+				"Color": "White",
+				"Children": [ "RTID(TournamentCountFlairStar@.)", "RTID(TournamentCountFlairLock@.)", "RTID(TournamentCountFlairCheck@.)" ]
+			}
+		}, {
+			"aliases": [ "TournamentCountFlairCheck" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TournamentCountFlairCheck",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_CHECK_MARK_SM",
+				"DrawStyle": "stretched_aspectY",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "TournamentCountFlairStar" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TournamentCountFlairStar",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_STAR_ICON",
+				"DrawStyle": "stretched_aspectY",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "TournamentCountFlairLock" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TournamentCountFlairLock",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Image": "IMAGE_UI_LOCK_SMALL_GOLD",
+				"DrawStyle": "stretched_aspectY",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "TournamentTimeLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TournamentTimeLabel",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-120.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "3d 5h Remaining",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_HARDSHADOW",
+				"Color": "White",
+				"Children": [ "RTID(TournamentContextLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "TournamentContextLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TournamentContextLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "[JOUST_SEASON_CURRENT_EVENT]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_16_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Resources": [ "UI_Seasons" ],
+				"Image": "IMAGE_UI_SEASONS_PVZ2_SEASONS_UIASSET_CALENDAR_PANEL_FUTURE",
+				"DrawStyle": "stretch",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "BackgroundGlow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundGlow",
+				"Width": {
+					"Value": "456"
+				},
+				"Height": {
+					"Value": "122"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Resources": [ "UI_Seasons" ],
+				"Image": "IMAGE_UI_SEASONS_PVZ2_SEASONS_UIASSET_CALENDAR_PANEL_CURRENT",
+				"DrawStyle": "stretch",
+				"DrawType": "9slice",
+				"IgnoreClipRect": true
+			}
+		}, {
+			"aliases": [ "EventUnknownContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventUnknownContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(EventUnknownGraphic@.)" ]
+			}
+		}, {
+			"aliases": [ "EventUnknownGraphic" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EventUnknownGraphic",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "20"
+					},
+					"OffsetX": {
+						"Value": "10.0"
+					}
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_CALENDAR_UNKNOWN"
+			}
+		}, {
+			"aliases": [ "EventMainContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventMainContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(FeaturedPlantAnim@.)", "RTID(BuffsAndBruisesListContainer@.)", "RTID(EventStatsList@.)" ]
+			}
+		}, {
+			"aliases": [ "FeaturedPlantAnim" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "FeaturedPlantAnim",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "15"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"ScaleOverride": 1.0,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "EventStatsList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "EventStatsList",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "15"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(EventStat1Container@.)", "RTID(EventStat2Container@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "4"
+				}
+			}
+		}, {
+			"aliases": [ "EventStat1Container" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventStat1Container",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(EventStat1Label@.)", "RTID(EventStat1Image@.)" ]
+			}
+		}, {
+			"aliases": [ "EventStat1Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EventStat1Label",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT1",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "EventStat1Image" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EventStat1Image",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "-10"
+					}
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_ICON_TIMER",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "EventStat2Container" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventStat2Container",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(EventStat2Label@.)", "RTID(EventStat2Image@.)" ]
+			}
+		}, {
+			"aliases": [ "EventStat2Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EventStat2Label",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT2",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "EventStat2Image" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EventStat2Image",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "-10"
+					}
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_ICON_SUN",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "BuffsAndBruisesListContainer" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BuffsAndBruisesListContainer",
+				"Width": {
+					"Value": "55"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetY": {
+						"Value": "-5"
+					},
+					"OffsetX": {
+						"Value": "-40"
+					}
+				},
+				"Children": [ "RTID(BuffsAndBruisesList@.)" ]
+			}
+		}, {
+			"aliases": [ "BuffsAndBruisesList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BuffsAndBruisesList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "CurrentTournamentFlag" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CurrentTournamentFlag",
+				"Width": {
+					"Value": "22%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "5"
+					},
+					"OffsetX": {
+						"Value": "-5"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(CurrentFlagBackground@.)", "RTID(CurrentLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "CurrentLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CurrentLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "CURRENT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "CurrentFlagBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CurrentFlagBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "-2%"
+					}
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_RED_FLAG",
+				"DrawStyle": "stretched",
+				"DrawType": "normal"
+			}
+		} ]
+}

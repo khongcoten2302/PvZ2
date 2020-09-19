@@ -1,0 +1,337 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftFirstClearRewardEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RiftFirstClearRewardEntry",
+				"Width": {
+					"Value": "170"
+				},
+				"Height": {
+					"Value": "170"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Resources": [],
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(GlowyRays@.)", "RTID(FirstClearRewardBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "GlowyRays" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "GlowyRays",
+				"Resources": [ "PrizeEffectsCommon" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_EFFECTS_PRIZE_RAYS",
+				"InitialAnimationName": "animation",
+				"ScaleOverride": 1.0,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandcontinue"
+			}
+		}, {
+			"aliases": [ "FirstClearRewardBackground" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "FirstClearRewardBackground",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "85%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [],
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(FirstClearReward@.)", "RTID(CheckmarkBackground@.)", "RTID(CheckmarkShade@.)", "RTID(ClearCheckmark@.)", "RTID(RewardShade@.)", "RTID(DifficultyIcon@.)" ],
+				"IgnoreMouseInput": true,
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_PENNY_PURSUITS_FIRST_CLEAR_REWARDS_UI_CIRCLE_BACK_DARK",
+				"ImageInsets": {
+					"Left": {
+						"Value": "5.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "5.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"BorderDrawType": "normal",
+				"BorderDrawStyle": "stretched",
+				"BorderImage": "IMAGE_UI_PENNY_PURSUITS_FIRST_CLEAR_REWARDS_DEFAULT_BORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "RewardShade" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [],
+				"Name": "RewardShade",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_FIRST_CLEAR_REWARDS_UI_CIRCLE_SHADE",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DifficultyIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [],
+				"Name": "DifficultyIcon",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "FirstClearReward" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "FirstClearReward",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(FirstClearIcon@.)", "RTID(FirstClearSeedPacket@.)", "RTID(FirstClearRewardAmount@.)" ]
+			}
+		}, {
+			"aliases": [ "FirstClearRewardAmount" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "FirstClearRewardAmount",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "8.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_OUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "FirstClearIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Difficulty_Selection", "UI_QuestTinyPinatas" ],
+				"Name": "FirstClearIcon",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "FirstClearSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "FirstClearSeedPacket",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "10"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"PlantType": ""
+			}
+		}, {
+			"aliases": [ "CheckmarkBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [],
+				"Name": "CheckmarkBackground",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "20%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "20"
+					},
+					"OffsetX": {
+						"Value": "-10"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_FIRST_CLEAR_REWARDS_UI_CIRCLE_BACK_DARK",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "CheckmarkShade" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [],
+				"Name": "CheckmarkShade",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "20%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "20"
+					},
+					"OffsetX": {
+						"Value": "-10"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_FIRST_CLEAR_REWARDS_UI_CIRCLE_SHADE",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ClearCheckmark" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ClearCheckmark",
+				"Width": {
+					"Value": "35%"
+				},
+				"Height": {
+					"Value": "35%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "5.0"
+					},
+					"OffsetY": {
+						"Value": "-3.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_CHECK_MARK_SM",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		} ]
+}

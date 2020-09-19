@@ -1,0 +1,153 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustMainScreenWinStreakDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustMainScreenWinStreakDisplay",
+				"Resources": [ "CollectableCommon", "UI_Joust", "UI_Sprouts", "AudioJoust" ],
+				"Width": {
+					"Value": "325.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)", "RTID(EntryListContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "17%"
+				},
+				"Resources": [ "UI_Joust_Winstreak", "Joust_Winstreak_Explosion" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "4%"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_WIN_STREAK_WIN_STREAK_BAR",
+				"DrawStyle": "streched",
+				"DrawType": "9slice"
+			}
+		}, {
+			"aliases": [ "EntryListContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EntryListContainer",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(EntryList@.)" ]
+			}
+		}, {
+			"aliases": [ "EntryList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "EntryList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(WinStreakEntry1@.)", "RTID(WinStreakEntry2@.)", "RTID(WinStreakEntry3@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "15.0%"
+				}
+			}
+		}, {
+			"aliases": [ "WinStreakEntry1" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "WinStreakEntry1",
+				"Width": {
+					"Value": "12%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UIFileName": "JoustWinStreakDisplayEntry",
+				"AdaptorClassName": "AdaptorJoustWinStreakDisplayEntry"
+			}
+		}, {
+			"aliases": [ "WinStreakEntry2" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "WinStreakEntry2",
+				"Width": {
+					"Value": "12%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UIFileName": "JoustWinStreakDisplayEntry",
+				"AdaptorClassName": "AdaptorJoustWinStreakDisplayEntry"
+			}
+		}, {
+			"aliases": [ "WinStreakEntry3" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "WinStreakEntry3",
+				"Width": {
+					"Value": "12%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UIFileName": "JoustWinStreakDisplayEntry",
+				"AdaptorClassName": "AdaptorJoustWinStreakDisplayEntry"
+			}
+		} ]
+}

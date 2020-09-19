@@ -1,0 +1,348 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustPlayerProfileScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustPlayerProfileScreen",
+				"DarkenBackground": 0.7,
+				"Resources": [ "UI_Joust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(JoustPlayerProfileDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustPlayerProfileDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "JoustPlayerProfileDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "640"
+				},
+				"Height": {
+					"Value": "440"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-14.0"
+					},
+					"OffsetY": {
+						"Value": "14.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN"
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "590"
+				},
+				"Height": {
+					"Value": "390"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(JoustAvatarIconArea@.)", "RTID(JoustPlayerStatsArea@.)", "RTID(CloseButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "75.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_PLAYER_PROFILE_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "JoustAvatarIconArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustAvatarIconArea",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "410"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(JoustAvatarIconButton@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustAvatarIconButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustAvatarIconButton",
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "12.0"
+					},
+					"OffsetY": {
+						"Value": "8.0"
+					}
+				},
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "260"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpImage": "$PLAYER_ICON_IMAGE",
+				"DownImage": "$PLAYER_ICON_IMAGE",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "JoustPlayerStatsArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustPlayerStatsArea",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "410"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(PlayerStatsList@.)" ]
+			}
+		}, {
+			"aliases": [ "PlayerStatsList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "PlayerStatsList",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "96%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(PlayerStatCurrentLeague@.)", "RTID(PlayerStatCurrentHighScore@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerStatCurrentLeague" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerStatCurrentLeague",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$LEAGUENAME",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Dialog_Contents_Color"
+			}
+		}, {
+			"aliases": [ "PlayerStatCurrentHighScore" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerStatCurrentHighScore",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$TOPSCORE",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Dialog_Contents_Color"
+			}
+		} ]
+}

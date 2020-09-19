@@ -1,0 +1,48 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustNetworkConnection" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustNetworkConnection",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Title@.)" ]
+			}
+		}, {
+			"aliases": [ "Title" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Title",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-10.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[JOUST_CONNECTING_MESSAGE]",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "bottom",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

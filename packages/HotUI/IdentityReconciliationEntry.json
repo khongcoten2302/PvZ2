@@ -1,0 +1,962 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "IdentityReconciliationEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "IdentityReconciliationEntry",
+				"Resources": [ "CollectableCommon" ],
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "225"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Button@.)" ]
+			}
+		}, {
+			"aliases": [ "Button" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Button",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-25"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0"
+					},
+					"Right": {
+						"Value": "0"
+					}
+				},
+				"ButtonImageType": "9slice",
+				"UpImage": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"DownImage": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"Children": [ "RTID(SelectedBackground@.)", "RTID(InnerArea@.)", "RTID(SourceIconImageSmall1@.)", "RTID(SourceIconImageSmall2@.)", "RTID(LoadingFlower@.)" ]
+			}
+		}, {
+			"aliases": [ "SelectedBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "SelectedBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": ""
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0"
+					},
+					"Right": {
+						"Value": "0"
+					}
+				},
+				"DrawType": "9slice",
+				"Image": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"ImageColor": "Green",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "SourceIconImageSmall1" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Nimble" ],
+				"Name": "SourceIconImageSmall1",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-55"
+					},
+					"OffsetY": {
+						"Value": "-50"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "$SOURCEICONIMAGE1",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "SourceIconImageSmall2" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Nimble" ],
+				"Name": "SourceIconImageSmall2",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-15"
+					},
+					"OffsetY": {
+						"Value": "-50"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "$SOURCEICONIMAGE2",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "LoadingFlower" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LoadingFlower",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(LoadingFlowerBack@.)", "RTID(LoadingFlowerFront@.)" ]
+			}
+		}, {
+			"aliases": [ "LoadingFlowerFront" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "LoadingFlowerFront",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"PopAnimName": "POPANIM_EFFECTS_LOAD_ICON_FRONT",
+				"InitialAnimationName": "animation",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandcontinue"
+			}
+		}, {
+			"aliases": [ "LoadingFlowerBack" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "LoadingFlowerBack",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"PopAnimName": "POPANIM_EFFECTS_LOAD_ICON_BACK",
+				"InitialAnimationName": "animation",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandcontinue"
+			}
+		}, {
+			"aliases": [ "InnerArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "InnerArea",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(IdentityLabel@.)", "RTID(Break@.)", "RTID(AdventureLoadingLabel@.)", "RTID(BattlezLoadingLabel@.)", "RTID(AdventureArea@.)", "RTID(BattlezArea@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "IdentityLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$PCPID_STRING",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_28",
+				"Color": "Black"
+			}
+		}, {
+			"aliases": [ "Break" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Break",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "3"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "35"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_4PXDIVIDER",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "AdventureLoadingLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AdventureLoadingLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-30"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$ADVENTURE_LOADING",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BattlezLoadingLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BattlezLoadingLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "45"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$BATTLEZ_LOADING",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "AdventureArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AdventureArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(LabelArea@.)", "RTID(CurrencyBanks@.)" ]
+			}
+		}, {
+			"aliases": [ "CurrencyBanks" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CurrencyBanks",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "12"
+					},
+					"OffsetY": {
+						"Value": "62"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(CoinCountBackground@.)", "RTID(GemCountBackground@.)", "RTID(MintCountBackground@.)", "RTID(LevelCountBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "CoinCountBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CoinCountBackground",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_COUNTER_BG",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(CoinImage@.)", "RTID(CoinCountLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "CoinImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CoinImage",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-13"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_COIN_ICON_SMALL",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "CoinCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CoinCountLabel",
+				"Width": {
+					"Value": "72%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$COIN_COUNT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "GemCountBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "GemCountBackground",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "25%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_COUNTER_BG",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(GemImage@.)", "RTID(GemCountLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "GemImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "GemImage",
+				"Width": {
+					"Value": "45"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-15"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_GEM_ICON_SMALL",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "GemCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "GemCountLabel",
+				"Width": {
+					"Value": "72%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$GEM_COUNT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "MintCountBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MintCountBackground",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "50%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_COUNTER_BG",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(MintImage@.)", "RTID(MintCountLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "MintImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MintImage",
+				"Width": {
+					"Value": "45"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-15"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_MINT_ICON_SMALL",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "MintCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MintCountLabel",
+				"Width": {
+					"Value": "72%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$MINT_COUNT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "LevelCountBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LevelCountBackground",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "75%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_COUNTER_BG",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(LevelImage@.)", "RTID(LevelCountLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "LevelImage" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "LevelImage",
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "45"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"PopAnimName": "POPANIM_WORLDMAP_LEVEL_NODE",
+				"InitialAnimationName": "finished",
+				"ScaleOverride": 1.0,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandstop"
+			}
+		}, {
+			"aliases": [ "LevelCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LevelCountLabel",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$LEVEL_COUNT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "LabelArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LabelArea",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-15"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(PlantsCollectedLabel@.)", "RTID(ProfileCountLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PlantsCollectedLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantsCollectedLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$PLANTS_COLLECTED",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Black",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "ProfileCountLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ProfileCountLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$PROFILE_COUNT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Black",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "BattlezArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BattlezArea",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(BattlezLeagueHeader@.)", "RTID(BattlezWinstreakHeader@.)" ]
+			}
+		}, {
+			"aliases": [ "BattlezLeagueHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BattlezLeagueHeader",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "33%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[IDENTITY_RECONCILIATION_BATTLEZ_LEAGUE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Black",
+				"Children": [ "RTID(LeagueIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueIcon",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Leagues" ],
+				"Image": "$LEAGUE_ICON",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "BattlezWinstreakHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BattlezWinstreakHeader",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "33%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[IDENTITY_RECONCILIATION_BATTLEZ_WINSTREAK]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Black",
+				"Children": [ "RTID(WinstreakIcon@.)", "RTID(BattlezWinstreakValue@.)" ]
+			}
+		}, {
+			"aliases": [ "WinstreakIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "WinstreakIcon",
+				"Width": {
+					"Value": "55"
+				},
+				"Height": {
+					"Value": "55"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Winstreak" ],
+				"Image": "IMAGE_UI_JOUST_WIN_STREAK_WIN_STREAK_REWARDS_PANEL",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "BattlezWinstreakValue" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BattlezWinstreakValue",
+				"Width": {
+					"Value": "17%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$WINSTREAK_VALUE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "White"
+			}
+		} ]
+}

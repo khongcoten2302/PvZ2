@@ -1,0 +1,630 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MultiPurchaseScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "MultiPurchaseScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(MultiPurchaseDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "MultiPurchaseDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "MultiPurchaseDialog",
+				"Width": {
+					"Value": "720.0"
+				},
+				"Height": {
+					"Value": "560.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(AgeGateScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(PurchaseButton@.)", "RTID(BackButton@.)", "RTID(ScrollAreaBackground@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "19.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "76.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[STORE_MULTI_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "PurchaseButton" ],
+			"objclass": "HotUIStorePurchaseButtonProperties",
+			"objdata": {
+				"Name": "PurchaseButton",
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[AGE_GATE_ACCEPT_BUTTON]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(AgeGateDialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "ScrollAreaBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ScrollAreaBackground",
+				"Width": {
+					"Value": "640"
+				},
+				"Height": {
+					"Value": "440"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "12"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(ScrollAreaWidget@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_INNER_BKGD"
+			}
+		}, {
+			"aliases": [ "ScrollAreaWidget" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaWidget",
+				"Width": {
+					"Value": "610.0"
+				},
+				"Height": {
+					"Value": "420"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Children": [ "RTID(BundleVerticalList@.)" ],
+				"ScrollMode": "vertical"
+			}
+		}, {
+			"aliases": [ "BundleVerticalList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "BundleVerticalList",
+				"Width": {
+					"Value": "610"
+				},
+				"Height": {
+					"Value": "0.0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(BundleIntroLabel@.)", "RTID(BundleContentsBox@.)", "RTID(RandomCatIntroLabel@.)", "RTID(RandomCatContentsBox@.)" ]
+			}
+		}, {
+			"aliases": [ "BundleIntroLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BundleIntroLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "[STORE_MULTI_INTRO]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "DarkBrown",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "BundleContentsBox" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BundleContentsBox",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(BundleContentsList@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_TINT_ROUNDED_BOX_9SLICE"
+			}
+		}, {
+			"aliases": [ "BundleContentsList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "BundleContentsList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(BundleItemList1@.)", "RTID(BundleItemList2@.)" ]
+			}
+		}, {
+			"aliases": [ "BundleItemList1" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BundleItemList1",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false
+			}
+		}, {
+			"aliases": [ "BundleItemList2" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BundleItemList2",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetY": {
+						"Value": "120"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": []
+			}
+		}, {
+			"aliases": [ "RandomCatIntroLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RandomCatIntroLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$CATEGORY_INTRO",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "DarkBrown",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "RandomCatContentsBox" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RandomCatContentsBox",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(RandomCat1ContentsColumn@.)", "RTID(RandomCat2ContentsColumn@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_TINT_ROUNDED_BOX_9SLICE"
+			}
+		}, {
+			"aliases": [ "RandomCat1ContentsColumn" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RandomCat1ContentsColumn",
+				"Width": {
+					"Value": "49%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(RandomCat1ContentsHeader@.)", "RTID(RandomCat1ContentsLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "RandomCat1ContentsHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RandomCat1ContentsHeader",
+				"Width": {
+					"Value": "98%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "11%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "Premium",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_24_HARDSHADOW",
+				"Color": "Yellow",
+				"Children": [ "RTID(RandomCat1ContentsHeaderIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "RandomCat1ContentsHeaderIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RandomCat1ContentsHeaderIcon",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "28"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_STOREMULTI_SEEDPACKETMINIICONPREMIUM",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "RandomCat1ContentsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RandomCat1ContentsLabel",
+				"Width": {
+					"Value": "94%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "11%"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_24",
+				"Color": "DarkBrown",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "RandomCat2ContentsColumn" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RandomCat2ContentsColumn",
+				"Width": {
+					"Value": "49%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(RandomCat2ContentsHeader@.)", "RTID(RandomCat2ContentsLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "RandomCat2ContentsHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RandomCat2ContentsHeader",
+				"Width": {
+					"Value": "98%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "11%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "Common",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_24_HARDSHADOW",
+				"Color": "White",
+				"Children": [ "RTID(RandomCat2ContentsHeaderIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "RandomCat2ContentsHeaderIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RandomCat2ContentsHeaderIcon",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "28"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0%"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_STOREMULTI_SEEDPACKETMINIICON",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "RandomCat2ContentsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RandomCat2ContentsLabel",
+				"Width": {
+					"Value": "94%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "11%"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_24",
+				"Color": "DarkBrown",
+				"Children": []
+			}
+		} ]
+}

@@ -1,0 +1,1008 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustResultsScreen" ],
+			"objclass": "HotUIJoustResultsScreenProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.85,
+				"Name": "JoustResultsScreen",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(DialogDismiss@.)", "RTID(ContentSpacer@.)" ],
+				"ScoreFillStartDelay": 1.0,
+				"ScoreFillLength": 2.0,
+				"ShieldBreakLength": 1.0,
+				"CrownFillStartDelay": -1.5,
+				"CrownFillLength": 1.618,
+				"CrownFillEffectLength": 1.25
+			}
+		}, {
+			"aliases": [ "ContentSpacer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ContentSpacer",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Children": [ "RTID(JoustMeter@.)", "RTID(ShieldAnim@.)", "RTID(PlayerBox@.)", "RTID(OpponentBox@.)", "RTID(YouWinText@.)", "RTID(YouLoseText@.)", "RTID(CrownCollectEffect@.)", "RTID(CrownIcon@.)", "RTID(EarnedCrowns@.)", "RTID(ContinueButton@.)" ]
+			}
+		}, {
+			"aliases": [ "ShieldAnim" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ShieldAnim",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Resources": [ "UI_Joust_MatchResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_JOUST_SHIELD",
+				"InitialAnimationName": "idle",
+				"PlayStyle": "playandstop",
+				"DrawStyle": "scale_override",
+				"ScaleOverride": 1.4,
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "YouWinText" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "YouWinText",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"Resources": [ "UI_Joust_MatchResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_YOU_WON_TEXT",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "none",
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "YouLoseText" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "YouLoseText",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"Resources": [ "UI_Joust_MatchResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_YOU_LOST_TEXT",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "none",
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "CrownCollectEffect" ],
+			"objclass": "HotUIJoustCrownCollectionEffectProperties",
+			"objdata": {
+				"Name": "CrownCollectEffect",
+				"Width": {
+					"Value": "1"
+				},
+				"Height": {
+					"Value": "1"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-95.0"
+					}
+				},
+				"Resources": [ "UI_Joust_Icons" ],
+				"CrownImage": "IMAGE_UI_JOUST_ICONS_CROWNS_CROWNS_SMALL",
+				"ImageWidth": "32",
+				"FadeInTime": 0.3,
+				"TweenTime": 0.618,
+				"TweenDistance": 120,
+				"TweenCurve": "ease_in",
+				"MinAngleRadians": 0.5235987756,
+				"MaxAngleRadians": 2.617993878
+			}
+		}, {
+			"aliases": [ "CrownIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "CrownIcon",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Resources": [ "UI_Joust_MatchResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_CROWN_COLLECT_ANIM",
+				"InitialAnimationName": "idle",
+				"PlayStyle": "none",
+				"DrawStyle": "scale_override",
+				"ScaleOverride": 1.4,
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "EarnedCrowns" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EarnedCrowns",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "190.0"
+					}
+				},
+				"Label": "WIN/LOSS LABEL",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "JoustMeter" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "JoustMeter",
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "231"
+					}
+				},
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "200"
+				},
+				"UIFileName": "JoustPlayMeter",
+				"AdaptorClassName": "AdaptorJoustPlayMeterHUD"
+			}
+		}, {
+			"aliases": [ "DialogDismiss" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogDismiss",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "PlayerBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PlayerBox",
+				"Width": {
+					"Value": "50.0%"
+				},
+				"Height": {
+					"Value": "250.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "200.0"
+					}
+				},
+				"Children": [ "RTID(PlayerAvatar@.)", "RTID(PlayerName@.)", "RTID(PlayerPlantSelection@.)", "RTID(PlayerTextYourPlants@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "PlayerName" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerName",
+				"Width": {
+					"Value": "230.0"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-37.0"
+					},
+					"OffsetY": {
+						"Value": "-50.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "PlayerAvatar" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "PlayerAvatar",
+				"Width": {
+					"Value": "120.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-94.0"
+					}
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Image": "",
+				"DrawStyle": "stretched",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 0,
+					"mGreen": 0,
+					"mBlue": 255,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				},
+				"Children": [ "RTID(PlayerScoreLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PlayerScoreLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerScoreLabel",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "100,000",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PlayerTextYourPlants" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlayerTextYourPlants",
+				"Width": {
+					"Value": "280.0"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-15.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"Label": "[JOUST_RESULTS_YOUR_PLANTS]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PlayerPlantSelection" ],
+			"objclass": "HotUISeedPacketListProperties",
+			"objdata": {
+				"Name": "PlayerPlantSelection",
+				"Width": {
+					"Value": "350"
+				},
+				"Height": {
+					"Value": "240"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "5.0"
+					},
+					"OffsetY": {
+						"Value": "170"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(PlayerPlantList1@.)", "RTID(PlayerPlantList2@.)", "RTID(PlayerPlantList3@.)" ]
+			}
+		}, {
+			"aliases": [ "PlayerPlantList1" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PlayerPlantList1",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"Children": [ "RTID(PlayerPacket1@.)", "RTID(PlayerPacket2@.)", "RTID(PlayerPacket3@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket1" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket1",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket2" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket2",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket3" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket3",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPlantList2" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PlayerPlantList2",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"Children": [ "RTID(PlayerPacket4@.)", "RTID(PlayerPacket5@.)", "RTID(PlayerPacket6@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket4" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket4",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket5" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket5",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket6" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket6",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPlantList3" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PlayerPlantList3",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "120.0"
+					}
+				},
+				"Children": [ "RTID(PlayerPacket7@.)", "RTID(PlayerPacket8@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket7" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket7",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "PlayerPacket8" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PlayerPacket8",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "OpponentBox",
+				"Width": {
+					"Value": "50.0%"
+				},
+				"Height": {
+					"Value": "250.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "200.0"
+					}
+				},
+				"Children": [ "RTID(OpponentAvatar@.)", "RTID(OpponentName@.)", "RTID(OpponentPlantSelection@.)", "RTID(OpponentTextTheirPlants@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "OpponentName" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "OpponentName",
+				"Width": {
+					"Value": "230.0"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "37.0"
+					},
+					"OffsetY": {
+						"Value": "-50.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "OpponentAvatar" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "OpponentAvatar",
+				"Width": {
+					"Value": "120.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "94.0"
+					}
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Image": "",
+				"DrawStyle": "stretched",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 255,
+					"mGreen": 0,
+					"mBlue": 0,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				},
+				"Children": [ "RTID(OpponentScoreLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "OpponentScoreLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "OpponentScoreLabel",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "100,000",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "OpponentTextTheirPlants" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "OpponentTextTheirPlants",
+				"Width": {
+					"Value": "260.0"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "23.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"Label": "[JOUST_RESULTS_THEIR_PLANTS]",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "OpponentPlantSelection" ],
+			"objclass": "HotUISeedPacketListProperties",
+			"objdata": {
+				"Name": "OpponentPlantSelection",
+				"Width": {
+					"Value": "350"
+				},
+				"Height": {
+					"Value": "240"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "170"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(OpponentPlantList1@.)", "RTID(OpponentPlantList2@.)", "RTID(OpponentPlantList3@.)" ]
+			}
+		}, {
+			"aliases": [ "OpponentPlantList1" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "OpponentPlantList1",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright"
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"Children": [ "RTID(OpponentPacket1@.)", "RTID(OpponentPacket2@.)", "RTID(OpponentPacket3@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket1" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket1",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket2" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket2",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket3" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket3",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPlantList2" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "OpponentPlantList2",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"Children": [ "RTID(OpponentPacket4@.)", "RTID(OpponentPacket5@.)", "RTID(OpponentPacket6@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket4" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket4",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket5" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket5",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket6" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket6",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPlantList3" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "OpponentPlantList3",
+				"Width": {
+					"Value": "273"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "120.0"
+					}
+				},
+				"Children": [ "RTID(OpponentPacket7@.)", "RTID(OpponentPacket8@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket7" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket7",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "OpponentPacket8" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "OpponentPacket8",
+				"Width": {
+					"Value": "87.5"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				}
+			}
+		}, {
+			"aliases": [ "ContinueButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ContinueButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "63"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "515.0"
+					}
+				},
+				"Label": "[CONTINUE_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Battlez_Continue_Press",
+				"UpAudio": "Play_UI_Battlez_Continue_Release",
+				"IncludelistID": "SECURITY_GOURD_DECLINE_BUTTON"
+			}
+		} ]
+}

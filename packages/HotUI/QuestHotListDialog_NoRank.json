@@ -1,0 +1,1082 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "QuestHotListDialog_NoRank" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "QuestHotListDialog_NoRank",
+				"Resources": [ "UI_Event_Panels" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(DialogBorder@.)", "RTID(Dialog@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [ "RTID(QuestTabList@.)", "RTID(QuestListArea@.)", "RTID(QuestListNoQuestsAlert@.)", "RTID(CloseButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogBorder",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "85%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_QUESTS_QUESTBORDER",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(QuestListOutOfQuestAnim@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestTabList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "QuestTabList",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "26"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Children": [ "RTID(QuestCategoryTab0@.)", "RTID(QuestCategoryTab1@.)", "RTID(QuestCategoryTab2@.)", "RTID(QuestCategoryTab3@.)", "RTID(QuestCategoryTab4@.)", "RTID(QuestCategoryTab5@.)", "RTID(QuestCategoryTab6@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "left",
+				"ForceCompactLayout": "true",
+				"SpaceBetweenWidgets": {
+					"Value": "15.0"
+				}
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab0" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab0",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL0",
+				"UpImage": "$TABIMAGEINACTIVE0",
+				"DownImage": "$TABIMAGEACTIVE0",
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"IgnoreClipRect": true,
+				"TappedEvent": "QuestCategoryTab0Tapped",
+				"Children": [ "RTID(QuestCategoryTab0Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab1" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab1",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL1",
+				"UpImage": "$TABIMAGEINACTIVE1",
+				"DownImage": "$TABIMAGEACTIVE1",
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"IgnoreClipRect": true,
+				"TappedEvent": "QuestCategoryTab1Tapped",
+				"Children": [ "RTID(QuestCategoryTab1Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab2" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab2",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL2",
+				"UpImage": "$TABIMAGEINACTIVE2",
+				"DownImage": "$TABIMAGEACTIVE2",
+				"IgnoreClipRect": true,
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"TappedEvent": "QuestCategoryTab2Tapped",
+				"Children": [ "RTID(QuestCategoryTab2Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab3" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab3",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL3",
+				"UpImage": "$TABIMAGEINACTIVE3",
+				"DownImage": "$TABIMAGEACTIVE3",
+				"IgnoreClipRect": true,
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"TappedEvent": "QuestCategoryTab3Tapped",
+				"Children": [ "RTID(QuestCategoryTab3Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab4" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab4",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL4",
+				"UpImage": "$TABIMAGEINACTIVE4",
+				"DownImage": "$TABIMAGEACTIVE4",
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"IgnoreClipRect": true,
+				"TappedEvent": "QuestCategoryTab4Tapped",
+				"Children": [ "RTID(QuestCategoryTab4Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab5" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab5",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL5",
+				"UpImage": "$TABIMAGEINACTIVE5",
+				"DownImage": "$TABIMAGEACTIVE5",
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"IgnoreClipRect": true,
+				"TappedEvent": "QuestCategoryTab5Tapped",
+				"Children": [ "RTID(QuestCategoryTab5Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab6" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab6",
+				"Resources": [ "UI_Store" ],
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"LabelInset": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$TABLABEL6",
+				"UpImage": "$TABIMAGEINACTIVE6",
+				"DownImage": "$TABIMAGEACTIVE6",
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"IgnoreClipRect": true,
+				"TappedEvent": "QuestCategoryTab6Tapped",
+				"Children": [ "RTID(QuestCategoryTab6Notification@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab0Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab0Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab0NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab0NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab0NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab1Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab1Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab1NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab1NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab1NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab2Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab2Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab2NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab2NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab2NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab3Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab3Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab3NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab3NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab3NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab4Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab4Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab4NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab4NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab4NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab5Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab5Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab5NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab5NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab5NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab6Notification" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab6Notification",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "55.0"
+					},
+					"OffsetY": {
+						"Value": "-35.0"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"Children": [ "RTID(QuestCategoryTab6NotificationText@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestCategoryTab6NotificationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestCategoryTab6NotificationText",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-30"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_QUESTS_CLOSE_TAB",
+				"DownImage": "IMAGE_UI_QUESTS_CLOSE_TAB_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "QuestIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestIcon",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Quests" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Image": "IMAGE_UI_QUESTS_QUEST_ICON_BROWN",
+				"DrawType": "normal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "DialogPadding" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogPadding",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "25.0"
+					},
+					"Top": {
+						"Value": "25.0"
+					},
+					"Right": {
+						"Value": "25.0"
+					},
+					"Bottom": {
+						"Value": "25.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "QuestListArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "QuestListArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "1.0"
+					},
+					"Top": {
+						"Value": "58.0"
+					},
+					"Right": {
+						"Value": "1.0"
+					},
+					"Bottom": {
+						"Value": "3.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(QuestListScrollArea@.)", "RTID(DialogNoRankBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogNoRankBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogNoRankBackground",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Resources": [ "UI_Quests" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_QUESTS_TRAVEL_LOG_FINAL",
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "16.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "QuestListScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "QuestListScrollArea",
+				"Width": {
+					"Value": "740"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"ScrollMode": "vertical",
+				"Padding": {
+					"Left": {
+						"Value": "40.0"
+					},
+					"Top": {
+						"Value": "40.0"
+					},
+					"Right": {
+						"Value": "40.0"
+					},
+					"Bottom": {
+						"Value": "40.0"
+					}
+				},
+				"Children": [ "RTID(QuestListInnerScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "QuestListInnerScrollArea" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "QuestListInnerScrollArea",
+				"Width": {
+					"Value": "730"
+				},
+				"Height": {
+					"Value": "0.0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "24.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "16.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "QuestListOutOfQuestAnim" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestListOutOfQuestAnim",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "180.0"
+					},
+					"OffsetY": {
+						"Value": "30.0"
+					}
+				},
+				"Resources": [ "UI_Quests" ],
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_QUESTS_TRAVEL_LOG_CORNER_NORANK"
+			}
+		}, {
+			"aliases": [ "QuestListNoQuestsAlert" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestListNoQuestsAlert",
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"Label": "[QUEST_CONTENT_COMPLETE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_38_HARDSHADOW",
+				"Color": "Dialog_Header_Yellow"
+			}
+		} ]
+}

@@ -1,0 +1,354 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "PerkInfoWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "PerkInfoWidget",
+				"Resources": [],
+				"Width": {
+					"Value": "280"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "300.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)", "RTID(PerkActivationButton@.)", "RTID(UnobtainedShadow@.)", "RTID(StatusIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_PERKS_ENTRY_BKGD_SHINE",
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Children": [ "RTID(LeftSide@.)", "RTID(MainSection@.)", "RTID(BottomRight@.)" ]
+			}
+		}, {
+			"aliases": [ "PerkActivationButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PerkActivationButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"ButtonImageType": "stretched",
+				"HideButtonImages": true,
+				"DownAudio": "Play_UI_Menu_Button_Continue_Press",
+				"UpAudio": "Play_UI_Rift_Penny_Tech_Add_Perk"
+			}
+		}, {
+			"aliases": [ "LeftSide" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeftSide",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(PerkIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "PerkIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkIcon",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-8.0"
+					}
+				},
+				"Children": [ "RTID(PerkLevel@.)" ],
+				"Image": "$PERKICON",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "PerkLevel" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkLevel",
+				"Width": {
+					"Value": "40%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-15.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(PerkLevelLabel@.)" ],
+				"Image": "IMAGE_UI_HUD_INGAME_SCORE_METER_BG",
+				"DrawStyle": "stretched",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "PerkLevelLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PerkLevelLabel",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Label": "$PERKLEVEL",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "MainSection" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeftBox",
+				"Width": {
+					"Value": "70%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright"
+				},
+				"Children": [ "RTID(PerkName@.)", "RTID(PerkDescription@.)" ]
+			}
+		}, {
+			"aliases": [ "PerkName" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PerkName",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$PERKNAME",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PerkDescription" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PerkDescription",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "70%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft"
+				},
+				"Label": "$PERKDESCRIPTION",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "Brown"
+			}
+		}, {
+			"aliases": [ "BottomRight" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MiddleBox",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(UpgradeBackground@.)", "RTID(UpgradeText@.)", "RTID(PennyTechIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "UpgradeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "UpgradeBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_SCORE_METER_BG_TEXT",
+				"DrawStyle": "normal",
+				"DrawType": "9slice"
+			}
+		}, {
+			"aliases": [ "UpgradeText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "UpgradeText",
+				"Width": {
+					"Value": "79%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "1.0"
+					}
+				},
+				"Label": "$UPGRADETEXT",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PennyTechIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PennyTechIcon",
+				"Width": {
+					"Value": "45.0"
+				},
+				"Height": {
+					"Value": "45.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Resources": [ "UI_Rift_Common" ],
+				"Image": "IMAGE_UI_PENNY_PURSUITS_COMMON_BUTTON_PENNYPERK",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "UnobtainedShadow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "UnobtainedShadow",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_SCORE_METER_BG_TEXT",
+				"DrawStyle": "normal",
+				"DrawType": "9slice",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "StatusIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "StatusIcon",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "IMAGE_UI_PERKS_PERK_ICON_LOCKED",
+				"DrawStyle": "stretched_aspectX",
+				"IgnoreMouseInput": true
+			}
+		} ]
+}

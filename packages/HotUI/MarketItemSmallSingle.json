@@ -1,0 +1,548 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MarketItemEntry" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MarketItemEntry",
+				"EntryPoint": true,
+				"Width": {
+					"Value": "170"
+				},
+				"Height": {
+					"Value": "197"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "$CARDIMAGE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(ShineBackground@.)", "RTID(InnerItemArea@.)" ]
+			}
+		}, {
+			"aliases": [ "InnerItemArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "InnerItemArea",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "50.0"
+					}
+				},
+				"Children": [ "RTID(ItemCardBackground@.)", "RTID(ItemSeedPacket@.)", "RTID(ItemPlantAnim@.)", "RTID(ItemTitle@.)", "RTID(ItemAmountText@.)", "RTID(PurchaseButton@.)", "RTID(HiddenInfoAreaButton@.)", "RTID(InfoButton@.)", "RTID(MarketTimerBackground@.)", "RTID(BadgeBackground@.)", "RTID(ValueBackground@.)", "RTID(CheatText@.)", "RTID(CategoryText@.)" ]
+			}
+		}, {
+			"aliases": [ "CheatText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CheatText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "LogGlassesPink"
+			}
+		}, {
+			"aliases": [ "CategoryText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CategoryText",
+				"Width": {
+					"Value": "210"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "406"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_SHADED",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ShineBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ShineBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_CARD_SHINE_BORDER",
+				"ImageInsets": {
+					"Left": {
+						"Value": "5.0"
+					},
+					"Top": {
+						"Value": "6.0"
+					},
+					"Right": {
+						"Value": "5.0"
+					},
+					"Bottom": {
+						"Value": "6.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ItemCardBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemCardBackground",
+				"Width": {
+					"Value": "130.0"
+				},
+				"Height": {
+					"Value": "110.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "20"
+					}
+				},
+				"Children": [ "RTID(ItemImage@.)" ],
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_CARD_SINGLE_BACKGROUND",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "MarketTimerBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MarketTimerBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "26"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "42"
+					}
+				},
+				"Children": [ "RTID(MarketTimer@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_PROMO_RIBBON_SMALL"
+			}
+		}, {
+			"aliases": [ "MarketTimer" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MarketTimer",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "24.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$MARKET_TIMER",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BadgeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BadgeBackground",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "26"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "65"
+					}
+				},
+				"Children": [ "RTID(BadgeText@.)" ],
+				"DrawType": "stretched",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_RED_FLAG"
+			}
+		}, {
+			"aliases": [ "BadgeText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "BadgeText",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "[POWERUP_NEW_BADGE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ValueBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ValueBackground",
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "62.0"
+					}
+				},
+				"Children": [ "RTID(ValueText@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_GENERIC_STAR_ICON"
+			}
+		}, {
+			"aliases": [ "ValueText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ValueText",
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "3x\n Value",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ItemTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemTitle",
+				"Width": {
+					"Value": "89.0%"
+				},
+				"Height": {
+					"Value": "46.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-4"
+					}
+				},
+				"Label": "$ITEM_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ItemImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemImage",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "92"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "4"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "$ITEMIMAGE",
+				"DrawStyle": "stretched_aspectBoth"
+			}
+		}, {
+			"aliases": [ "ItemSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "91"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "16"
+					},
+					"OffsetY": {
+						"Value": "39"
+					}
+				},
+				"PacketConfig": {
+					"PlantType": "$ITEMSEEDPACKET"
+				}
+			}
+		}, {
+			"aliases": [ "ItemPlantAnim" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "ItemPlantAnim",
+				"Width": {
+					"Value": "76%"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "20"
+					},
+					"OffsetY": {
+						"Value": "64"
+					}
+				},
+				"ScaleOverride": 1.3,
+				"DrawStyle": "scale_override",
+				"PlantConfig": {
+					"PlantType": "$ITEMANIMPLANTTYPE",
+					"CostumeLayer": "$ITEMANIMCOSTUMETYPE"
+				}
+			}
+		}, {
+			"aliases": [ "ItemAmountText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemAmountText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "28"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "12"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_HARDSHADOW",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "InfoButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "InfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "-12"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Button_Click_Press",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "HiddenInfoAreaButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "HiddenInfoAreaButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"HideButtonImages": "true",
+				"DownAudio": "",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "PurchaseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PurchaseButton",
+				"Width": {
+					"Value": "136.0"
+				},
+				"Height": {
+					"Value": "42"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "52.0"
+					}
+				},
+				"Label": "Buy Me",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Buy_Coins_Press",
+				"UpAudio": "Play_UI_Menu_Buy_Coins_Release"
+			}
+		} ]
+}

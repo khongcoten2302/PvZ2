@@ -1,0 +1,76 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ZenGardenHUD" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ZenGardenHUD",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ButtonGardeningGlove@.)", "RTID(MessageBar@.)" ]
+			}
+		}, {
+			"aliases": [ "ButtonGardeningGlove" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "ButtonGardeningGlove",
+				"ToggleOnPress": "true",
+				"Resources": [],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_HUD_INGAME_SHOVEL_BUTTON",
+				"DownImage": "IMAGE_UI_HUD_INGAME_SHOVEL_BUTTON_DOWN",
+				"UpAudio": "Play_UI_ZG_Game_Glove_Off",
+				"DownAudio": "Play_UI_ZG_Game_Glove_On"
+			}
+		}, {
+			"aliases": [ "MessageBar" ],
+			"objclass": "HotUIMessageBarProperties",
+			"objdata": {
+				"Name": "MessageBar",
+				"IgnoreMouseInput": true
+			}
+		} ]
+}

@@ -1,0 +1,286 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "ProgressiveRegistrationSuccessScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "ProgressiveRegistrationSuccessScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(ProgressiveRegistrationSuccessDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressiveRegistrationSuccessDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ProgressiveRegistrationSuccessDialog",
+				"Width": {
+					"Value": "70.0%"
+				},
+				"Height": {
+					"Value": "70.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogFooterImage@.)", "RTID(DialogTitle@.)", "RTID(EmailTextField@.)", "RTID(AcceptButton@.)", "RTID(NoteAboutCode@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "17.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "EmailTextField" ],
+			"objclass": "HotUITextEntryProperties",
+			"objdata": {
+				"Name": "EmailTextField",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "62.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogTitle@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0%"
+					}
+				},
+				"DefaultText": "$EMAIL_TEXT",
+				"MaxCharacters": 320,
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Children": [ "RTID(VerifiedText@.)" ]
+			}
+		}, {
+			"aliases": [ "VerifiedText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "VerifiedText",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "56.0"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_VERIFIED]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_OUTLINE",
+				"Color": "LinkedGreen",
+				"Children": [ "RTID(AccountLinkedCheck@.)" ]
+			}
+		}, {
+			"aliases": [ "AccountLinkedCheck" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Nimble" ],
+				"Name": "AccountLinkedCheck",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_NIMBLE_RADIOCHECKOVERLAY",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DialogFooterImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogFooterImage",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "44.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_MAINMENU_BTN_BKGD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "-8.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "-8.0"
+					},
+					"Bottom": {
+						"Value": "-4.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "78.0%"
+				},
+				"Height": {
+					"Value": "52.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "2.0%"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_SUCCESS_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "NoteAboutCode" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NoteAboutCode",
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-100.0"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_SUCCESS_NOTE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Main_Menu_Legal",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-18.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_SUCCESS_BUTTON_CONFIRM]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		} ]
+}

@@ -1,0 +1,1603 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustAvatarSelectionScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustAvatarSelectionScreen",
+				"DarkenBackground": 0.7,
+				"Resources": [ "UI_Joust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(JoustAvatarSelectionDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustAvatarSelectionDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "JoustAvatarSelectionDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "760"
+				},
+				"Height": {
+					"Value": "560"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)", "RTID(DialogButtonList@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "710"
+				},
+				"Height": {
+					"Value": "510"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(JoustAvatarIconArea@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustAvatarIconArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustAvatarIconArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(IconPageTitle@.)", "RTID(CounterLabel@.)", "RTID(AvatarIconRow1@.)", "RTID(AvatarIconRow2@.)", "RTID(AvatarIconRow3@.)", "RTID(AvatarIconRow4@.)", "RTID(PrevIconButton@.)", "RTID(NextIconButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "75.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_AVATAR_SELECT_INSTRUCTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "IconPageTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "IconPageTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"Label": "Basic Icons",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "Dialog_Contents_Color"
+			}
+		}, {
+			"aliases": [ "CounterLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CounterLabel",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "75.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "420.0"
+					}
+				},
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "Dialog_Contents_Color"
+			}
+		}, {
+			"aliases": [ "AvatarIconRow1" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "AvatarIconRow1",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AvatarIcon1@.)", "RTID(AvatarIcon2@.)", "RTID(AvatarIcon3@.)", "RTID(AvatarIcon4@.)", "RTID(AvatarIcon5@.)", "RTID(AvatarIcon6@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "AvatarIcon1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon1",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon1Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"UpImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_1"
+			}
+		}, {
+			"aliases": [ "AvatarIcon1Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon1Selected",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon2",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon2Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon2Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon2Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon3",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon3Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon3Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon3Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon4" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon4",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon4Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon4Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon4Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon5" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon5",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon5Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon5Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon5Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIconRow2" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "AvatarIconRow2",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "100.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AvatarIcon7@.)", "RTID(AvatarIcon8@.)", "RTID(AvatarIcon9@.)", "RTID(AvatarIcon10@.)", "RTID(AvatarIcon11@.)", "RTID(AvatarIcon12@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "AvatarIcon6" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon6",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon6Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon6Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon6Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon7" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon7",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon7Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon7Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon7Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon8" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon8",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon8Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon8Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon8Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon9" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon9",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon9Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon9Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon9Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon10" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon10",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon10Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon10Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon10Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIconRow3" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "AvatarIconRow3",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "190.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AvatarIcon13@.)", "RTID(AvatarIcon14@.)", "RTID(AvatarIcon15@.)", "RTID(AvatarIcon16@.)", "RTID(AvatarIcon17@.)", "RTID(AvatarIcon18@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "AvatarIcon11" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon11",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon11Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon11Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon11Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon12" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon12",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon12Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon12Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon12Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon13" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon13",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon13Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon13Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon13Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon14" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon14",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon14Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon14Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon14Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon15" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon15",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon15Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon15Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon15Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIconRow4" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "AvatarIconRow4",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "280.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(AvatarIcon19@.)", "RTID(AvatarIcon20@.)", "RTID(AvatarIcon21@.)", "RTID(AvatarIcon22@.)", "RTID(AvatarIcon23@.)", "RTID(AvatarIcon24@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "AvatarIcon16" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon16",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon16Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon16Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon16Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon17" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon17",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon17Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon17Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon17Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon18" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon18",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon18Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon18Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon18Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon19" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon19",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon19Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon19Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon19Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon20" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon20",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon20Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon20Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon20Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon21" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon21",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon21Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon21Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon21Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon22" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon22",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon22Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon22Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon22Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon23" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon23",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon23Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon23Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon23Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "AvatarIcon24" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AvatarIcon24",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Avatars" ],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AvatarIcon24Selected@.)" ],
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}, {
+			"aliases": [ "AvatarIcon24Selected" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AvatarIcon24Selected",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_JOUST_AVATARS_AVATAR_SELECTED",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "PrevIconButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PrevIconButton",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-300.0"
+					},
+					"OffsetY": {
+						"Value": "180.0"
+					}
+				},
+				"Font": "BLACK_32_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "9slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"Children": [ "RTID(PrevIconButtonImage@.)" ]
+			}
+		}, {
+			"aliases": [ "PrevIconButtonImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrevIconButtonImage",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-2"
+					},
+					"OffsetY": {
+						"Value": "-1"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_BUTTON_ARROW_LEFT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectY",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "NextIconButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "NextIconButton",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "300.0"
+					},
+					"OffsetY": {
+						"Value": "180.0"
+					}
+				},
+				"Font": "BLACK_32_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "9slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"Children": [ "RTID(NextIconButtonImage@.)" ]
+			}
+		}, {
+			"aliases": [ "NextIconButtonImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NextIconButtonImage",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "-1"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_BUTTON_ARROW_RIGHT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectY",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "DialogButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Children": [ "RTID(CancelButton@.)", "RTID(AcceptButton@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "CancelButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CancelButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[BUTTON_CANCEL]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[JOUST_AVATAR_SAVE]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		} ]
+}

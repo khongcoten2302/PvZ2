@@ -1,0 +1,677 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "CalendarTabbedDialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "CalendarTabbedDialog",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(CalendarTabbedDialogContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "CalendarTabbedDialogContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CalendarTabbedDialogContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(Background@.)", "RTID(TabWidget1@.)", "RTID(TabWidget2@.)", "RTID(TabWidget3@.)", "RTID(TabWidget4@.)", "RTID(TabWidget5@.)", "RTID(CalendarTitle@.)", "RTID(OuterBorder@.)", "RTID(TabButtonList@.)", "RTID(CalendarIcon@.)", "RTID(CloseButton@.)", "RTID(Timer@.)" ]
+			}
+		}, {
+			"aliases": [ "OuterBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "OuterBorder",
+				"Resources": [],
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "500"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER"
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Background",
+				"Resources": [],
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "500"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "15.0"
+					},
+					"Top": {
+						"Value": "15.0"
+					},
+					"Right": {
+						"Value": "15.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "CalendarIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CalendarIcon",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Resources": [ "UI_Calendar" ],
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CALENDAR_ICON_CALENDAR"
+			}
+		}, {
+			"aliases": [ "TabButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "TabButtonList",
+				"Width": {
+					"Value": "55%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "70.0"
+					},
+					"OffsetY": {
+						"Value": "-57.0"
+					}
+				},
+				"Children": [ "RTID(Tab1@.)", "RTID(Tab2@.)", "RTID(Tab3@.)", "RTID(Tab4@.)", "RTID(Tab5@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "left"
+			}
+		}, {
+			"aliases": [ "Tab1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab1",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_GREENTAB_ACTIVE",
+				"DownImage": "IMAGE_UI_GENERIC_GREENTAB_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"Children": [ "RTID(Tab1Label@.)" ]
+			}
+		}, {
+			"aliases": [ "Tab1Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab1Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "Tab2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab2",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_GENERIC_BLUETAB_ACTIVE",
+				"DownImage": "IMAGE_UI_GENERIC_BLUETAB_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [ "RTID(Tab2Label@.)" ]
+			}
+		}, {
+			"aliases": [ "Tab2Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab2Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "Tab3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab3",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_GENERIC_BLUETAB_ACTIVE",
+				"DownImage": "IMAGE_UI_GENERIC_BLUETAB_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [ "RTID(Tab3Label@.)" ]
+			}
+		}, {
+			"aliases": [ "Tab3Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab3Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "Tab4" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab4",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_GENERIC_BLUETAB_ACTIVE",
+				"DownImage": "IMAGE_UI_GENERIC_BLUETAB_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [ "RTID(Tab4Label@.)" ]
+			}
+		}, {
+			"aliases": [ "Tab4Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab4Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "Tab5" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab5",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_GENERIC_BLUETAB_ACTIVE",
+				"DownImage": "IMAGE_UI_GENERIC_BLUETAB_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [ "RTID(Tab5Label@.)" ]
+			}
+		}, {
+			"aliases": [ "Tab5Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab5Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "TabWidget1" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget1",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "CalendarWidget",
+				"AdaptorClassName": "AdaptorCalendarWidget"
+			}
+		}, {
+			"aliases": [ "TabWidget2" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget2",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "CalendarWidget",
+				"AdaptorClassName": "AdaptorCalendarWidget"
+			}
+		}, {
+			"aliases": [ "TabWidget3" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget3",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "CalendarWidget",
+				"AdaptorClassName": "AdaptorCalendarWidget"
+			}
+		}, {
+			"aliases": [ "TabWidget4" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget4",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "CalendarWidget",
+				"AdaptorClassName": "AdaptorCalendarWidget"
+			}
+		}, {
+			"aliases": [ "TabWidget5" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget5",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "480"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "CalendarWidget",
+				"AdaptorClassName": "AdaptorCalendarWidget"
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-87.0"
+					},
+					"OffsetY": {
+						"Value": "-7.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "CalendarTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "CalendarTitle",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "Timer" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Timer",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Resources": [ "UI_Quests" ],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-22.0"
+					},
+					"OffsetY": {
+						"Value": "12.0"
+					}
+				},
+				"Resources": [ "UI_Quests" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_QUESTS_EARMARK_PRIMARY",
+				"Children": [ "RTID(TimerText@.)", "RTID(ClockIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "TimerText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TimerText",
+				"Width": {
+					"Value": "90.0"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-7.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Label": "11:11",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_20",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ClockIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ClockIcon",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-30"
+					},
+					"OffsetY": {
+						"Value": "-5"
+					}
+				},
+				"Resources": [ "UI_Quests" ],
+				"PopAnimName": "POPANIM_UI_QUESTS_DAILY_QUEST_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"DrawStyle": "stretched",
+				"PlayStyle": "playandcontinue"
+			}
+		} ]
+}

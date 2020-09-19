@@ -1,0 +1,229 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "AccountLinkEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "AccountLinkEntry",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(InnerAreaBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "InnerAreaBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InnerAreaBackground",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AccountLinkedCheckbox@.)", "RTID(AccountLinkButton@.)", "RTID(AccountLinkedBorder@.)", "RTID(AccountIconImage@.)", "RTID(MultiPurchaseItemEntry@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_TINT_ROUNDED_BOX_9SLICE"
+			}
+		}, {
+			"aliases": [ "AccountLinkedCheckbox" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Resources": [ "UI_MainMenu" ],
+				"Name": "AccountLinkedCheckbox",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "520"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_MAINMENU_CHECKBOX_DISABLED",
+				"DownImage": "IMAGE_UI_MAINMENU_CHECKBOX_ENABLED",
+				"IgnoreMouseInput": true,
+				"ToggleOnPress": false
+			}
+		}, {
+			"aliases": [ "AccountLinkButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AccountLinkButton",
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Width": {
+					"Value": "260.0"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Label": "$ACCOUNTNAME",
+				"LabelInset": {
+					"Left": {
+						"Value": "40.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "AccountLinkedBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AccountLinkedBorder",
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Width": {
+					"Value": "260.0"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Image": "IMAGE_UI_NIMBLE_LINKEDINFOBORDER",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(AccountLinkedText@.)" ]
+			}
+		}, {
+			"aliases": [ "AccountLinkedText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLinkedText",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "60"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "[ACCOUNT_LINKED]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32",
+				"Color": "LinkedGreen"
+			}
+		}, {
+			"aliases": [ "AccountIconImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Nimble" ],
+				"Name": "AccountIconImage",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "35"
+					},
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Image": "$ACCOUNTICONIMAGE",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "MultiPurchaseItemEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Resources": [ "CollectableCommon" ],
+				"Name": "MultiPurchaseItemEntry",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "320"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": []
+			}
+		} ]
+}

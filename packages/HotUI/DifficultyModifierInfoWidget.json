@@ -1,0 +1,160 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "DifficultyModifierInfoWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "DifficultyModifierInfoWidget",
+				"Resources": [],
+				"Width": {
+					"Value": "285"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)", "RTID(LeftSide@.)", "RTID(RightSide@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Image": "IMAGE_UI_PERKS_ENTRY_BKGD",
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "LeftSide" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeftSide",
+				"Width": {
+					"Value": "25%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"Children": [ "RTID(ModifierIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "ModifierIcon" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "ModifierIcon",
+				"Width": {
+					"Value": "90.0"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"MinHeight": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "RightSide" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RightSide",
+				"Resources": [],
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(Name@.)", "RTID(Description@.)" ]
+			}
+		}, {
+			"aliases": [ "Name" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Name",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$MODIFIERNAME",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_THICKOUTLINE",
+				"Color": "Orange"
+			}
+		}, {
+			"aliases": [ "Description" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Description",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft"
+				},
+				"Label": "$MODIFIERDESCRIPTION",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		} ]
+}

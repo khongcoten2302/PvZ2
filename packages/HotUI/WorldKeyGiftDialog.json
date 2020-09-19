@@ -1,0 +1,207 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "WorldKeyGiftScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "ConversionScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(WorldKeyGiftDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "WorldKeyGiftDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ConversionDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "550.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(ConversionScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(DialogContentsLabel@.)", "RTID(DialogImage@.)", "RTID(OkButton@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "RTID(ConversionDialog@.)"
+				},
+				"Label": "$TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogContentsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogContentsLabel",
+				"Width": {
+					"Value": "475.0"
+				},
+				"Height": {
+					"Value": "115.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogImage@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Preview_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "DialogImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogImage",
+				"Resources": [ "UI_ConversionDialog" ],
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogTitle@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "$CONVERSION_IMAGE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "OkButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "OkButton",
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogContentsLabel@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "$OKBUTTON_LABEL",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		} ]
+}

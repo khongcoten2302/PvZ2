@@ -1,0 +1,1306 @@
+{
+	"objects": [ {
+			"aliases": [ "JoustSchedule" ],
+			"objclass": "JoustSchedule",
+			"objdata": {
+				"TournamentDefinitions": [ {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet57",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1546362000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet40",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1546966800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet41",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1547571600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet68",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1548176400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet29",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1548781200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet63",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1549386000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet42",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1549990800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1550595600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet62",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1546362000,
+						"StartDate": 1551200400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet67",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_snappea", "wood_win_streak_snappea", "brick_win_streak_snappea", "iron_win_streak_snappea", "silver_win_streak_snappea", "gold_win_streak_snappea", "jade_win_streak_snappea", "crystal_win_streak_snappea" ],
+						"SeasonID": 1551373200,
+						"StartDate": 1551805200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet59",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1551373200,
+						"StartDate": 1552410000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet61",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_torchwood", "wood_win_streak_torchwood", "brick_win_streak_torchwood", "iron_win_streak_torchwood", "silver_win_streak_torchwood", "gold_win_streak_torchwood", "jade_win_streak_torchwood", "crystal_win_streak_torchwood" ],
+						"SeasonID": 1551373200,
+						"StartDate": 1553014800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet64",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1551373200,
+						"StartDate": 1553619600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet62",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1554051600,
+						"StartDate": 1554224400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet60",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1554051600,
+						"StartDate": 1554829200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet61",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_torchwood", "wood_win_streak_torchwood", "brick_win_streak_torchwood", "iron_win_streak_torchwood", "silver_win_streak_torchwood", "gold_win_streak_torchwood", "jade_win_streak_torchwood", "crystal_win_streak_torchwood" ],
+						"SeasonID": 1554051600,
+						"StartDate": 1555434000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet39",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1556038800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet69",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_enchantmint", "wood_win_streak_enchantmint", "brick_win_streak_enchantmint", "iron_win_streak_enchantmint", "silver_win_streak_enchantmint", "gold_win_streak_enchantmint", "jade_win_streak_enchantmint", "crystal_win_streak_enchantmint" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1556643600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet6",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1557162000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet6b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1557421200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet66",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_wasabiwhip", "wood_win_streak_wasabiwhip", "brick_win_streak_wasabiwhip", "iron_win_streak_wasabiwhip", "silver_win_streak_wasabiwhip", "gold_win_streak_wasabiwhip", "jade_win_streak_wasabiwhip", "crystal_win_streak_wasabiwhip" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1557766800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet73",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1556038800,
+						"StartDate": 1558371600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet70",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1558976400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet12",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1559581200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet12b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1559840400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet8",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1560186000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet8b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1560445200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet74",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1558976400,
+						"StartDate": 1560790800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": true,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet72",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1561395600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet11",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_toadstool", "wood_win_streak_toadstool", "brick_win_streak_toadstool", "iron_win_streak_toadstool", "silver_win_streak_toadstool", "gold_win_streak_toadstool", "jade_win_streak_toadstool", "crystal_win_streak_toadstool" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1562000400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet11b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_toadstool_b", "wood_win_streak_toadstool_b", "brick_win_streak_toadstool_b", "iron_win_streak_toadstool_b", "silver_win_streak_toadstool_b", "gold_win_streak_toadstool_b", "jade_win_streak_toadstool_b", "crystal_win_streak_toadstool_b" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1562259600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet9",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_solartomato", "wood_win_streak_solartomato", "brick_win_streak_solartomato", "iron_win_streak_solartomato", "silver_win_streak_solartomato", "gold_win_streak_solartomato", "jade_win_streak_solartomato", "crystal_win_streak_solartomato" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1562605200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet9b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_solartomato_b", "wood_win_streak_solartomato_b", "brick_win_streak_solartomato_b", "iron_win_streak_solartomato_b", "silver_win_streak_solartomato_b", "gold_win_streak_solartomato_b", "jade_win_streak_solartomato_b", "crystal_win_streak_solartomato_b" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1562864400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet75",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1561395600,
+						"StartDate": 1563210000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet79",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_party_season", "wood_win_streak_party_season", "brick_win_streak_party_season", "iron_win_streak_party_season", "silver_win_streak_party_season", "gold_win_streak_party_season", "jade_win_streak_party_season", "crystal_win_streak_party_season" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1563814800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet10",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1564419600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet10b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1564678800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter", "wood_win_streak_goopeashooter", "brick_win_streak_goopeashooter", "iron_win_streak_goopeashooter", "silver_win_streak_goopeashooter", "gold_win_streak_goopeashooter", "jade_win_streak_goopeashooter", "crystal_win_streak_goopeashooter" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1565024400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter_boost", "wood_win_streak_goopeashooter_boost", "brick_win_streak_goopeashooter_boost", "iron_win_streak_goopeashooter_boost", "silver_win_streak_goopeashooter_boost", "gold_win_streak_goopeashooter_boost", "jade_win_streak_goopeashooter_boost", "crystal_win_streak_goopeashooter_boost" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1565283600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet80",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_party_season", "wood_win_streak_party_season", "brick_win_streak_party_season", "iron_win_streak_party_season", "silver_win_streak_party_season", "gold_win_streak_party_season", "jade_win_streak_party_season", "crystal_win_streak_party_season" ],
+						"SeasonID": 1563814800,
+						"StartDate": 1565629200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet77",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1566234000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet2",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_enchantmint", "wood_win_streak_enchantmint", "brick_win_streak_enchantmint", "iron_win_streak_enchantmint", "silver_win_streak_enchantmint", "gold_win_streak_enchantmint", "jade_win_streak_enchantmint", "crystal_win_streak_enchantmint" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1566838800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet2b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_enchantmint_boost", "wood_win_streak_enchantmint_boost", "brick_win_streak_enchantmint_boost", "iron_win_streak_enchantmint_boost", "silver_win_streak_enchantmint_boost", "gold_win_streak_enchantmint_boost", "jade_win_streak_enchantmint_boost", "crystal_win_streak_enchantmint_boost" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1567098000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet78",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1567443600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet78b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_armamint_boost", "wood_win_streak_armamint_boost", "brick_win_streak_armamint_boost", "iron_win_streak_armamint_boost", "silver_win_streak_armamint_boost", "gold_win_streak_armamint_boost", "jade_win_streak_armamint_boost", "crystal_win_streak_armamint_boost" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1567702800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet76",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1566234000,
+						"StartDate": 1568048400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet81",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_party_season", "wood_win_streak_party_season", "brick_win_streak_party_season", "iron_win_streak_party_season", "silver_win_streak_party_season", "gold_win_streak_party_season", "jade_win_streak_party_season", "crystal_win_streak_party_season" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1568653200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet15",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_cactus", "wood_win_streak_cactus", "brick_win_streak_cactus", "iron_win_streak_cactus", "silver_win_streak_cactus", "gold_win_streak_cactus", "jade_win_streak_cactus", "crystal_win_streak_cactus" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1569258000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet15b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_cactus_boost", "wood_win_streak_cactus_boost", "brick_win_streak_cactus_boost", "iron_win_streak_cactus_boost", "silver_win_streak_cactus_boost", "gold_win_streak_cactus_boost", "jade_win_streak_cactus_boost", "crystal_win_streak_cactus_boost" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1569517200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet1",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_sun", "wood_win_streak_sun", "brick_win_streak_sun", "iron_win_streak_sun", "silver_win_streak_sun", "gold_win_streak_sun", "jade_win_streak_sun", "crystal_win_streak_sun" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1569862800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet1b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_sun_boost", "wood_win_streak_sun_boost", "brick_win_streak_sun_boost", "iron_win_streak_sun_boost", "silver_win_streak_sun_boost", "gold_win_streak_sun_boost", "jade_win_streak_sun_boost", "crystal_win_streak_sun_boost" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1570122000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet82",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_party_season", "wood_win_streak_party_season", "brick_win_streak_party_season", "iron_win_streak_party_season", "silver_win_streak_party_season", "gold_win_streak_party_season", "jade_win_streak_party_season", "crystal_win_streak_party_season" ],
+						"SeasonID": 1568653200,
+						"StartDate": 1570467600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet84",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_peppermint", "wood_win_streak_peppermint", "brick_win_streak_peppermint", "iron_win_streak_peppermint", "silver_win_streak_peppermint", "gold_win_streak_peppermint", "jade_win_streak_peppermint", "crystal_win_streak_peppermint" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1571072400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet33",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1571677200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet33b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_jackolantern_boost", "wood_win_streak_jackolantern_boost", "brick_win_streak_jackolantern_boost", "iron_win_streak_jackolantern_boost", "silver_win_streak_jackolantern_boost", "gold_win_streak_jackolantern_boost", "jade_win_streak_jackolantern_boost", "crystal_win_streak_jackolantern_boost" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1571936400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet23",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1572282000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet23b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_jackolantern_boost", "wood_win_streak_jackolantern_boost", "brick_win_streak_jackolantern_boost", "iron_win_streak_jackolantern_boost", "silver_win_streak_jackolantern_boost", "gold_win_streak_jackolantern_boost", "jade_win_streak_jackolantern_boost", "crystal_win_streak_jackolantern_boost" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1572541200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet83",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1571072400,
+						"StartDate": 1572886800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet86",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_pumpkin_seasons", "wood_win_streak_pumpkin_seasons", "brick_win_streak_pumpkin_seasons", "iron_win_streak_pumpkin_seasons", "silver_win_streak_pumpkin_seasons", "gold_win_streak_pumpkin_seasons", "jade_win_streak_pumpkin_seasons", "crystal_win_streak_pumpkin_seasons" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1573491600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet25",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_witch_hazel", "wood_win_streak_witch_hazel", "brick_win_streak_witch_hazel", "iron_win_streak_witch_hazel", "silver_win_streak_witch_hazel", "gold_win_streak_witch_hazel", "jade_win_streak_witch_hazel", "crystal_win_streak_witch_hazel" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1574096400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet25b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_witch_hazel_boost", "wood_win_streak_witch_hazel_boost", "brick_win_streak_witch_hazel_boost", "iron_win_streak_witch_hazel_boost", "silver_win_streak_witch_hazel_boost", "gold_win_streak_witch_hazel_boost", "jade_win_streak_witch_hazel_boost", "crystal_win_streak_witch_hazel_boost" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1574355600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet4",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_power_lily", "wood_win_streak_power_lily", "brick_win_streak_power_lily", "iron_win_streak_power_lily", "silver_win_streak_power_lily", "gold_win_streak_power_lily", "jade_win_streak_power_lily", "crystal_win_streak_power_lily" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1574701200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet4b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_power_lily_boost", "wood_win_streak_power_lily_boost", "brick_win_streak_power_lily_boost", "iron_win_streak_power_lily_boost", "silver_win_streak_power_lily_boost", "gold_win_streak_power_lily_boost", "jade_win_streak_power_lily_boost", "crystal_win_streak_power_lily_boost" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1574960400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet85",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1573491600,
+						"StartDate": 1575306000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet87",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_icebloom_seasons", "wood_win_streak_icebloom_seasons", "brick_win_streak_icebloom_seasons", "iron_win_streak_icebloom_seasons", "silver_win_streak_icebloom_seasons", "gold_win_streak_icebloom_seasons", "jade_win_streak_icebloom_seasons", "crystal_win_streak_icebloom_seasons" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1575910800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet26",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_cold_snapdragon", "wood_win_streak_cold_snapdragon", "brick_win_streak_cold_snapdragon", "iron_win_streak_cold_snapdragon", "silver_win_streak_cold_snapdragon", "gold_win_streak_cold_snapdragon", "jade_win_streak_cold_snapdragon", "crystal_win_streak_cold_snapdragon" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1576515600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet26b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_cold_snapdragon_boost", "wood_win_streak_cold_snapdragon_boost", "brick_win_streak_cold_snapdragon_boost", "iron_win_streak_cold_snapdragon_boost", "silver_win_streak_cold_snapdragon_boost", "gold_win_streak_cold_snapdragon_boost", "jade_win_streak_cold_snapdragon_boost", "crystal_win_streak_cold_snapdragon_boost" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1576774800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet35",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_missile_toe", "wood_win_streak_missile_toe", "brick_win_streak_missile_toe", "iron_win_streak_missile_toe", "silver_win_streak_missile_toe", "gold_win_streak_missile_toe", "jade_win_streak_missile_toe", "crystal_win_streak_missile_toe" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1577120400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet35b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_missile_toe_boost", "wood_win_streak_missile_toe_boost", "brick_win_streak_missile_toe_boost", "iron_win_streak_missile_toe_boost", "silver_win_streak_missile_toe_boost", "gold_win_streak_missile_toe_boost", "jade_win_streak_missile_toe_boost", "crystal_win_streak_missile_toe_boost" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1577379600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet88",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1575910800,
+						"StartDate": 1577725200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet89",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_ultomato_seasons", "wood_win_streak_ultomato_seasons", "brick_win_streak_ultomato_seasons", "iron_win_streak_ultomato_seasons", "silver_win_streak_ultomato_seasons", "gold_win_streak_ultomato_seasons", "jade_win_streak_ultomato_seasons", "crystal_win_streak_ultomato_seasons" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1578330000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet31",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_starfruit", "wood_win_streak_starfruit", "brick_win_streak_starfruit", "iron_win_streak_starfruit", "silver_win_streak_starfruit", "gold_win_streak_starfruit", "jade_win_streak_starfruit", "crystal_win_streak_starfruit" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1578934800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet31b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_starfruit_boost", "wood_win_streak_starfruit_boost", "brick_win_streak_starfruit_boost", "iron_win_streak_starfruit_boost", "silver_win_streak_starfruit_boost", "gold_win_streak_starfruit_boost", "jade_win_streak_starfruit_boost", "crystal_win_streak_starfruit_boost" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1579194000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet61",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_torchwood", "wood_win_streak_torchwood", "brick_win_streak_torchwood", "iron_win_streak_torchwood", "silver_win_streak_torchwood", "gold_win_streak_torchwood", "jade_win_streak_torchwood", "crystal_win_streak_torchwood" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1579539600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet61b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_torchwood_boost", "wood_win_streak_torchwood_boost", "brick_win_streak_torchwood_boost", "iron_win_streak_torchwood_boost", "silver_win_streak_torchwood_boost", "gold_win_streak_torchwood_boost", "jade_win_streak_torchwood_boost", "crystal_win_streak_torchwood_boost" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1579798800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet92",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1578330000,
+						"StartDate": 1580144400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet93",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter", "wood_win_streak_goopeashooter", "brick_win_streak_goopeashooter", "iron_win_streak_goopeashooter", "silver_win_streak_goopeashooter", "gold_win_streak_goopeashooter", "jade_win_streak_goopeashooter", "crystal_win_streak_goopeashooter" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1580749200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter", "wood_win_streak_goopeashooter", "brick_win_streak_goopeashooter", "iron_win_streak_goopeashooter", "silver_win_streak_goopeashooter", "gold_win_streak_goopeashooter", "jade_win_streak_goopeashooter", "crystal_win_streak_goopeashooter" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1581354000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter_boost", "wood_win_streak_goopeashooter_boost", "brick_win_streak_goopeashooter_boost", "iron_win_streak_goopeashooter_boost", "silver_win_streak_goopeashooter_boost", "gold_win_streak_goopeashooter_boost", "jade_win_streak_goopeashooter_boost", "crystal_win_streak_goopeashooter_boost" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1581613200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet8",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1581958800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet8b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1582218000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet94",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1580749200,
+						"StartDate": 1582563600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet95",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_dartichoke_seasons", "wood_win_streak_dartichoke_seasons", "brick_win_streak_dartichoke_seasons", "iron_win_streak_dartichoke_seasons", "silver_win_streak_dartichoke_seasons", "gold_win_streak_dartichoke_seasons", "jade_win_streak_dartichoke_seasons", "crystal_win_streak_dartichoke_seasons" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1583168400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet67",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_snappea", "wood_win_streak_snappea", "brick_win_streak_snappea", "iron_win_streak_snappea", "silver_win_streak_snappea", "gold_win_streak_snappea", "jade_win_streak_snappea", "crystal_win_streak_snappea" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1583773200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet67b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_snappea_boost", "wood_win_streak_snappea_boost", "brick_win_streak_snappea_boost", "iron_win_streak_snappea_boost", "silver_win_streak_snappea_boost", "gold_win_streak_snappea_boost", "jade_win_streak_snappea_boost", "crystal_win_streak_snappea_boost" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1584032400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet66",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_wasabiwhip", "wood_win_streak_wasabiwhip", "brick_win_streak_wasabiwhip", "iron_win_streak_wasabiwhip", "silver_win_streak_wasabiwhip", "gold_win_streak_wasabiwhip", "jade_win_streak_wasabiwhip", "crystal_win_streak_wasabiwhip" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1584378000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet66b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_wasabiwhip_boost", "wood_win_streak_wasabiwhip_boost", "brick_win_streak_wasabiwhip_boost", "iron_win_streak_wasabiwhip_boost", "silver_win_streak_wasabiwhip_boost", "gold_win_streak_wasabiwhip_boost", "jade_win_streak_wasabiwhip_boost", "crystal_win_streak_wasabiwhip_boost" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1584637200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet96",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1583168400,
+						"StartDate": 1584982800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet97",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_sun", "wood_win_streak_sun", "brick_win_streak_sun", "iron_win_streak_sun", "silver_win_streak_sun", "gold_win_streak_sun", "jade_win_streak_sun", "crystal_win_streak_sun" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1585587600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet9",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1586192400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet9b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_solartomato_b", "wood_win_streak_solartomato_b", "brick_win_streak_solartomato_b", "iron_win_streak_solartomato_b", "silver_win_streak_solartomato_b", "gold_win_streak_solartomato_b", "jade_win_streak_solartomato_b", "crystal_win_streak_solartomato_b" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1586451600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet11",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1586797200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet11b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_toadstool_b", "wood_win_streak_toadstool_b", "brick_win_streak_toadstool_b", "iron_win_streak_toadstool_b", "silver_win_streak_toadstool_b", "gold_win_streak_toadstool_b", "jade_win_streak_toadstool_b", "crystal_win_streak_toadstool_b" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1587056400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet98",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1585587600,
+						"StartDate": 1587402000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet99",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_pumpkin_seasons", "wood_win_streak_pumpkin_seasons", "brick_win_streak_pumpkin_seasons", "iron_win_streak_pumpkin_seasons", "silver_win_streak_pumpkin_seasons", "gold_win_streak_pumpkin_seasons", "jade_win_streak_pumpkin_seasons", "crystal_win_streak_pumpkin_seasons" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1588006800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet37",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_aloe", "wood_win_streak_aloe", "brick_win_streak_aloe", "iron_win_streak_aloe", "silver_win_streak_aloe", "gold_win_streak_aloe", "jade_win_streak_aloe", "crystal_win_streak_aloe" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1588611600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet37b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_aloe_boost", "wood_win_streak_aloe_boost", "brick_win_streak_aloe_boost", "iron_win_streak_aloe_boost", "silver_win_streak_aloe_boost", "gold_win_streak_aloe_boost", "jade_win_streak_aloe_boost", "crystal_win_streak_aloe_boost" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1588870800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet12",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1589216400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet12b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1589475600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet100",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1588006800,
+						"StartDate": 1589821200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet101",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_tumbleweed_seasons", "wood_win_streak_tumbleweed_seasons", "brick_win_streak_tumbleweed_seasons", "iron_win_streak_tumbleweed_seasons", "silver_win_streak_tumbleweed_seasons", "gold_win_streak_tumbleweed_seasons", "jade_win_streak_tumbleweed_seasons", "crystal_win_streak_tumbleweed_seasons" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1590426000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet81",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_party_season", "wood_win_streak_party_season", "brick_win_streak_party_season", "iron_win_streak_party_season", "silver_win_streak_party_season", "gold_win_streak_party_season", "jade_win_streak_party_season", "crystal_win_streak_party_season" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1591030800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet81b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_pokra_boost", "wood_win_streak_pokra_boost", "brick_win_streak_pokra_boost", "iron_win_streak_pokra_boost", "silver_win_streak_pokra_boost", "gold_win_streak_pokra_boost", "jade_win_streak_pokra_boost", "crystal_win_streak_pokra_boost" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1591290000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet103",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_chomper", "wood_win_streak_chomper", "brick_win_streak_chomper", "iron_win_streak_chomper", "silver_win_streak_chomper", "gold_win_streak_chomper", "jade_win_streak_chomper", "crystal_win_streak_chomper" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1591635600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet103b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_chomper_boost", "wood_win_streak_chomper_boost", "brick_win_streak_chomper_boost", "iron_win_streak_chomper_boost", "silver_win_streak_chomper_boost", "gold_win_streak_chomper_boost", "jade_win_streak_chomper_boost", "crystal_win_streak_chomper_boost" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1591894800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet102",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1590426000,
+						"StartDate": 1592240400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet69",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_enchantmint", "wood_win_streak_enchantmint", "brick_win_streak_enchantmint", "iron_win_streak_enchantmint", "silver_win_streak_enchantmint", "gold_win_streak_enchantmint", "jade_win_streak_enchantmint", "crystal_win_streak_enchantmint" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1592845200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet69b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_enchantmint_boost", "wood_win_streak_enchantmint_boost", "brick_win_streak_enchantmint_boost", "iron_win_streak_enchantmint_boost", "silver_win_streak_enchantmint_boost", "gold_win_streak_enchantmint_boost", "jade_win_streak_enchantmint_boost", "crystal_win_streak_enchantmint_boost" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1593104400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet84",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_peppermint", "wood_win_streak_peppermint", "brick_win_streak_peppermint", "iron_win_streak_peppermint", "silver_win_streak_peppermint", "gold_win_streak_peppermint", "jade_win_streak_peppermint", "crystal_win_streak_peppermint" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1593450000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet84b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_peppermint_boost", "wood_win_streak_peppermint_boost", "brick_win_streak_peppermint_boost", "iron_win_streak_peppermint_boost", "silver_win_streak_peppermint_boost", "gold_win_streak_peppermint_boost", "jade_win_streak_peppermint_boost", "crystal_win_streak_peppermint_boost" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1593709200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet77",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1594054800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet77b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1594314000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet92",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1592845200,
+						"StartDate": 1594659600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet104",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1595264400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet10",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1595869200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet10b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1596128400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet70",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1596474000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet70b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1596733200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet105",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons_double", "wood_win_streak_seasons_double", "brick_win_streak_seasons_double", "iron_win_streak_seasons_double", "silver_win_streak_seasons_double", "gold_win_streak_seasons_double", "jade_win_streak_seasons_double", "crystal_win_streak_seasons_double" ],
+						"SeasonID": 1595264400,
+						"StartDate": 1597078800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet106",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bloominghearts_seasons", "wood_win_streak_bloominghearts_seasons", "brick_win_streak_bloominghearts_seasons", "iron_win_streak_bloominghearts_seasons", "silver_win_streak_bloominghearts_seasons", "gold_win_streak_bloominghearts_seasons", "jade_win_streak_bloominghearts_seasons", "crystal_win_streak_bloominghearts_seasons" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1597683600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1598288400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet58b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter_boost", "wood_win_streak_goopeashooter_boost", "brick_win_streak_goopeashooter_boost", "iron_win_streak_goopeashooter_boost", "silver_win_streak_goopeashooter_boost", "gold_win_streak_goopeashooter_boost", "jade_win_streak_goopeashooter_boost", "crystal_win_streak_goopeashooter_boost" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1598547600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet93",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter", "wood_win_streak_goopeashooter", "brick_win_streak_goopeashooter", "iron_win_streak_goopeashooter", "silver_win_streak_goopeashooter", "gold_win_streak_goopeashooter", "jade_win_streak_goopeashooter", "crystal_win_streak_goopeashooter" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1598893200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet93b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_goopeashooter_boost", "wood_win_streak_goopeashooter_boost", "brick_win_streak_goopeashooter_boost", "iron_win_streak_goopeashooter_boost", "silver_win_streak_goopeashooter_boost", "gold_win_streak_goopeashooter_boost", "jade_win_streak_goopeashooter_boost", "crystal_win_streak_goopeashooter_boost" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1599152400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet107",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_explosive", "wood_win_streak_explosive", "brick_win_streak_explosive", "iron_win_streak_explosive", "silver_win_streak_explosive", "gold_win_streak_explosive", "jade_win_streak_explosive", "crystal_win_streak_explosive" ],
+						"SeasonID": 1597683600,
+						"StartDate": 1599498000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet108",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1600102800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet39",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1600707600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet39b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1600966800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet62",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate", "wood_win_streak_bombegranate", "brick_win_streak_bombegranate", "iron_win_streak_bombegranate", "silver_win_streak_bombegranate", "gold_win_streak_bombegranate", "jade_win_streak_bombegranate", "crystal_win_streak_bombegranate" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1601312400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1a", "wood_rewards_1a", "brick_rewards_1a", "iron_rewards_1a", "silver_rewards_1a", "gold_rewards_1a", "jade_rewards_1a", "crystal_rewards_1a" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet62b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_bombegranate_boost", "wood_win_streak_bombegranate_boost", "brick_win_streak_bombegranate_boost", "iron_win_streak_bombegranate_boost", "silver_win_streak_bombegranate_boost", "gold_win_streak_bombegranate_boost", "jade_win_streak_bombegranate_boost", "crystal_win_streak_bombegranate_boost" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1601571600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet109",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1600102800,
+						"StartDate": 1601917200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet110",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1602522000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet60",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1603126800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet60b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1603386000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet68",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1603731600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet68b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1603990800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet111",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1602522000,
+						"StartDate": 1604336400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet112",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1604941200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet6",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1605546000,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet6b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1605805200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet78",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1606150800,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet78b",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_armamint_boost", "wood_win_streak_armamint_boost", "brick_win_streak_armamint_boost", "iron_win_streak_armamint_boost", "silver_win_streak_armamint_boost", "gold_win_streak_armamint_boost", "jade_win_streak_armamint_boost", "crystal_win_streak_armamint_boost" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1606755600,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1b", "wood_rewards_1b", "brick_rewards_1b", "iron_rewards_1b", "silver_rewards_1b", "gold_rewards_1b", "jade_rewards_1b", "crystal_rewards_1b" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet113",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 1604941200,
+						"StartDate": 1607360400,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					}, {
+						"CrownRewardKey": "CrownSet_Normal",
+						"HideDetailsInFutureSchedule": false,
+						"LeaderboardDefinitionKey": "Leaderboard_3Promo",
+						"LevelSetKey": "LevelSet1",
+						"ProgressiveRewardKeys": [ "ftue_win_streak_1", "soil_win_streak_seasons", "wood_win_streak_seasons", "brick_win_streak_seasons", "iron_win_streak_seasons", "silver_win_streak_seasons", "gold_win_streak_seasons", "jade_win_streak_seasons", "crystal_win_streak_seasons" ],
+						"SeasonID": 0,
+						"StartDate": 1607965200,
+						"TournamentRewardKeys": [ "ftue_rewards_1", "soil_rewards_1", "wood_rewards_1", "brick_rewards_1", "iron_rewards_1", "silver_rewards_1", "gold_rewards_1", "jade_rewards_1", "crystal_rewards_1" ]
+					} ]
+			}
+		} ],
+	"version": 1
+}

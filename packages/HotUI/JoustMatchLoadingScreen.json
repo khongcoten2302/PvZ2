@@ -1,0 +1,246 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustMatchLoadingScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustMatchLoadingScreen",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "800.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_Joust", "UI_Avatars", "AudioJoust" ],
+				"EntryPoint": true,
+				"Children": [ "RTID(VersusIcon@.)", "RTID(PlayerInfoBackground@.)", "RTID(OpponentInfoBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "PlayerInfoBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlayerInfoBackground",
+				"Width": {
+					"Value": "38%"
+				},
+				"Height": {
+					"Value": "42%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "2%"
+					},
+					"OffsetY": {
+						"Value": "0%"
+					}
+				},
+				"Children": [ "RTID(PlayerAvatarImage@.)", "RTID(PlayerNameLabel@.)" ],
+				"Resources": [ "UI_JoustMatchMade" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX",
+				"Image": "IMAGE_UI_JOUST_MATCHLOADING_PLAYERPANEL_BG"
+			}
+		}, {
+			"objclass": "HotUIImageBorderProperties",
+			"aliases": [ "PlayerAvatarImage" ],
+			"objdata": {
+				"Name": "PlayerAvatarImage",
+				"Width": {
+					"Value": "26%"
+				},
+				"Height": {
+					"Value": "25%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "12%"
+					},
+					"OffsetY": {
+						"Value": "36%"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "$PLAYER_AVATAR",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 0,
+					"mGreen": 0,
+					"mBlue": 255,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				}
+			}
+		}, {
+			"objclass": "HotUILabelProperties",
+			"aliases": [ "PlayerNameLabel" ],
+			"objdata": {
+				"Name": "PlayerNameLabel",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "17%"
+					}
+				},
+				"Label": "$PLAYER_NAME",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "VersusIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "VersusIcon",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_JoustMatchMade", "AudioJoust" ],
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_MATCHLOADING_VS_ICON",
+				"ScaleOverride": 1.3,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "OpponentInfoBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "OpponentInfoBackground",
+				"Width": {
+					"Value": "38%"
+				},
+				"Height": {
+					"Value": "42%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "28%"
+					},
+					"OffsetY": {
+						"Value": "0%"
+					}
+				},
+				"Resources": [ "UI_JoustMatchMade" ],
+				"Children": [ "RTID(OpponentAvatarImage@.)", "RTID(OpponentNameLabel@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX",
+				"Image": "IMAGE_UI_JOUST_MATCHLOADING_OPPONENTPANEL_BG"
+			}
+		}, {
+			"objclass": "HotUIImageBorderProperties",
+			"aliases": [ "OpponentAvatarImage" ],
+			"objdata": {
+				"Name": "OpponentAvatarImage",
+				"Width": {
+					"Value": "26%"
+				},
+				"Height": {
+					"Value": "25%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "7%"
+					},
+					"OffsetY": {
+						"Value": "37%"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "$OPPONENT_AVATAR",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 255,
+					"mGreen": 0,
+					"mBlue": 0,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				}
+			}
+		}, {
+			"objclass": "HotUILabelProperties",
+			"aliases": [ "OpponentNameLabel" ],
+			"objdata": {
+				"Name": "OpponentNameLabel",
+				"Width": {
+					"Value": "58%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "33%"
+					}
+				},
+				"Label": "$OPPONENT_NAME",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

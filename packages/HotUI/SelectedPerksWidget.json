@@ -1,0 +1,317 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "SelectedPerksWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "SelectedPerksWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-10.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(SelectedPerksBackgroundList@.)", "RTID(SelectedPerksList@.)" ],
+				"IgnoreMouseInput": false
+			}
+		}, {
+			"aliases": [ "SelectedPerksBackgroundList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Children": [ "RTID(PerkButton1Background@.)", "RTID(PerkButton2Background@.)", "RTID(PerkButton3Background@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "10.0"
+				}
+			}
+		}, {
+			"aliases": [ "SelectedPerksList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "SelectedPerksList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Children": [ "RTID(PerkButton1@.)", "RTID(PerkButton2@.)", "RTID(PerkButton3@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "PerkButton1Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkButton1Background",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Children": [ "RTID(Perk1Label@.)" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "PerkButton1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PerkButton1",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched_aspectX",
+				"UpImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DownImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK"
+			}
+		}, {
+			"aliases": [ "Perk1Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Perk1Label",
+				"Width": {
+					"Value": "65"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-2.0"
+					},
+					"OffsetY": {
+						"Value": "7.0"
+					}
+				},
+				"Label": "[ADD_PERK_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "Yellow"
+			}
+		}, {
+			"aliases": [ "PerkButton2Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkButton2Background",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Children": [ "RTID(Perk2Label@.)" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "PerkButton2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PerkButton2",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched_aspectX",
+				"UpImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DownImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK"
+			}
+		}, {
+			"aliases": [ "Perk2Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Perk2Label",
+				"Width": {
+					"Value": "65"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-2.0"
+					},
+					"OffsetY": {
+						"Value": "7.0"
+					}
+				},
+				"Label": "[ADD_PERK_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "Yellow"
+			}
+		}, {
+			"aliases": [ "PerkButton3Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkButton3Background",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Children": [ "RTID(Perk3Label@.)" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "PerkButton3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PerkButton3",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Resources": [ "UI_Perks" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched_aspectX",
+				"UpImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK",
+				"DownImage": "IMAGE_UI_PERKS_RIFT_ICON_ADDPERK"
+			}
+		}, {
+			"aliases": [ "Perk3Label" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Perk3Label",
+				"Width": {
+					"Value": "65"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-2.0"
+					},
+					"OffsetY": {
+						"Value": "7.0"
+					}
+				},
+				"Label": "[ADD_PERK_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "Yellow"
+			}
+		} ]
+}

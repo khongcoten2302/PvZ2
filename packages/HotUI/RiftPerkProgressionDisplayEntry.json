@@ -1,0 +1,288 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftPerkProgressionDisplayEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RiftPerkProgressionDisplayEntry",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "125"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(PerkDisplay@.)", "RTID(ThresholdDisplay@.)" ]
+			}
+		}, {
+			"aliases": [ "PerkDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PerkDisplay",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(PerkGlowrays@.)", "RTID(PerkBackground@.)", "RTID(PerkIcon@.)", "RTID(LevelContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "ThresholdDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ThresholdDisplay",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "20%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-20"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ThresholdGlow@.)", "RTID(ThresholdBackground@.)", "RTID(ThresholdLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PerkBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkBackground",
+				"Width": {
+					"Value": "85"
+				},
+				"Height": {
+					"Value": "85"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_GLOWCIRCLE",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PerkGlowrays" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkGlowrays",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "200"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_GODRAY",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PerkIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PerkIcon",
+				"Width": {
+					"Value": "75.0"
+				},
+				"Height": {
+					"Value": "75.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-8.5"
+					},
+					"OffsetX": {
+						"Value": "1.75"
+					}
+				},
+				"Image": "",
+				"DrawType": "normal",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "LevelContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LevelContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(LevelBackground@.)", "RTID(LevelLabel@.)", "RTID(UpgradeIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "ThresholdBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ThresholdBackground",
+				"Width": {
+					"Value": "35"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_LEVEL_BACKER",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ThresholdGlow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ThresholdGlow",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_LEVEL_GLOWCIRCLE",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ThresholdLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ThresholdLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Label": "99",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "DarkGrey"
+			}
+		}, {
+			"aliases": [ "LevelBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LevelBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_LEVEL_BACKER",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "LevelLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LevelLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Label": "LV {X}",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "UpgradeIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "UpgradeIcon",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_UPARROW",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		} ]
+}

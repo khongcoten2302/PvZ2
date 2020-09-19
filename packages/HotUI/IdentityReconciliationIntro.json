@@ -1,0 +1,166 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "IdentityReconciliationIntroScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "IdentityReconciliationIntroScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(IdentityReconciliationIntroDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityReconciliationIntroDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "IdentityReconciliationIntroDialog",
+				"Width": {
+					"Value": "450"
+				},
+				"Height": {
+					"Value": "60.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(AcceptButton@.)", "RTID(NoteAboutCode@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "17.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "78.0%"
+				},
+				"Height": {
+					"Value": "52.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "2.0%"
+					}
+				},
+				"Label": "[IDENTITY_RECONCILIATION_INTRO_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "NoteAboutCode" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NoteAboutCode",
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Label": "[IDENTITY_RECONCILIATION_INTRO_TEXT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_SUCCESS_BUTTON_CONFIRM]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		} ]
+}

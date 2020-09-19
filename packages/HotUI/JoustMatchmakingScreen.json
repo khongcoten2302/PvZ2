@@ -1,0 +1,687 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustMatchmakingScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustMatchmakingScreen",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogRoot@.)", "RTID(SwapStateButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogRoot" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "DialogRoot",
+				"Resources": [],
+				"Width": {
+					"Value": "575"
+				},
+				"Height": {
+					"Value": "275"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(FindingOpponentRoot@.)", "RTID(OpponentFoundRoot@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "FindingOpponentRoot" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "FindingOpponentRoot",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Children": [ "RTID(FindingOpponentSpinnerLabel@.)", "RTID(FindingOpponentLabel@.)", "RTID(FindingOpponentButtons@.)" ]
+			}
+		}, {
+			"aliases": [ "FindingOpponentLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "FindingOpponentLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Label": "[JOUST_FINDING_OPPONENT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Message_Color"
+			}
+		}, {
+			"aliases": [ "FindingOpponentSpinnerLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "FindingOpponentSpinnerLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20.0 "
+					}
+				},
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Message_Color"
+			}
+		}, {
+			"aliases": [ "FindingOpponentButtons" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "FindingOpponentButtons",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(CancelMatchmakingButton@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "CancelMatchmakingButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CancelMatchmakingButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Label": "[BUTTON_CANCEL]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "OpponentFoundRoot" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "OpponentFoundRoot",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Children": [ "RTID(OpponentInfoBackground@.)", "RTID(PlantSelectionHeaderLabel@.)", "RTID(PlantSelectionBackground@.)", "RTID(OpponentFoundButtons@.)" ]
+			}
+		}, {
+			"aliases": [ "PlantSelectionHeaderLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantSelectionHeaderLabel",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "140"
+					}
+				},
+				"Label": "Opponent's Plants",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		}, {
+			"aliases": [ "PlantSelectionBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlantSelectionBackground",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "160"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "165"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(PlantSelectionList@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL"
+			}
+		}, {
+			"aliases": [ "PlantSelectionList" ],
+			"objclass": "HotUISeedPacketListProperties",
+			"objdata": {
+				"Name": "PlantSelectionList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Children": [ "RTID(TopPlantList@.)", "RTID(BottomPlantList@.)" ]
+			}
+		}, {
+			"aliases": [ "TopPlantList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "TopPlantList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"Children": [ "RTID(SeedPacketTop1@.)", "RTID(SeedPacketTop2@.)", "RTID(SeedPacketTop3@.)", "RTID(SeedPacketTop4@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketTop1" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketTop1",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketTop2" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketTop2",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "105"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketTop3" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketTop3",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "210"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketTop4" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketTop4",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "315"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "BottomPlantList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BottomPlantList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"Children": [ "RTID(SeedPacketBottom1@.)", "RTID(SeedPacketBottom2@.)", "RTID(SeedPacketBottom3@.)", "RTID(SeedPacketBottom4@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketBottom1" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketBottom1",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketBottom2" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketBottom2",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "105"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketBottom3" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketBottom3",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "210"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SeedPacketBottom4" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "SeedPacketBottom4",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "315"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "OpponentInfoBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "OpponentInfoBackground",
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "133"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(OpponentAvatarImage@.)", "RTID(OpponentNameLabel@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_INNER_BKGD"
+			}
+		}, {
+			"objclass": "HotUIImageProperties",
+			"aliases": [ "OpponentAvatarImage" ],
+			"objdata": {
+				"Name": "OpponentAvatarImage",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "110"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_GENERIC_LOD_PINATA"
+			}
+		}, {
+			"objclass": "HotUILabelProperties",
+			"aliases": [ "OpponentNameLabel" ],
+			"objdata": {
+				"Name": "OpponentNameLabel",
+				"Width": {
+					"Value": "270"
+				},
+				"Height": {
+					"Value": "110"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "110"
+					}
+				},
+				"Label": "OpponentName",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Dialog_Contents_Color"
+			}
+		}, {
+			"aliases": [ "OpponentFoundButtons" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "OpponentFoundButtons",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(FindNewOpponentButton@.)", "RTID(PlayButton@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "FindNewOpponentButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "FindNewOpponentButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Label": "Find New Opponent",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "PlayButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PlayButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Label": "Play!",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "SwapStateButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "SwapStateButton",
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "Swap State",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		} ]
+}

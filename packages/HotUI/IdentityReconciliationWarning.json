@@ -1,0 +1,210 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "IdentityReconciliationWarningScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "IdentityReconciliationWarningScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(IdentityReconciliationWarningDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityReconciliationWarningDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "IdentityReconciliationWarningDialog",
+				"Width": {
+					"Value": "720.0"
+				},
+				"Height": {
+					"Value": "500.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(AcceptButton@.)", "RTID(BackButton@.)", "RTID(IdentityArea@.)", "RTID(WarningDescription@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "19.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "76.0%"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[IDENTITY_RECONCILIATION_WARNING_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "100.0"
+					},
+					"OffsetY": {
+						"Value": "-12.0"
+					}
+				},
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[MAINMENU_ACCEPT]",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-100.0"
+					},
+					"OffsetY": {
+						"Value": "-12.0"
+					}
+				},
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[DIALOG_STRING_CANCEL]",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "WarningDescription" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "WarningDescription",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "110.0"
+					}
+				},
+				"Label": "[IDENTITY_RECONCILIATION_WARNING_TEXT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "IdentityArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "IdentityArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "250"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "55"
+					},
+					"OffsetX": {
+						"Value": "25"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": []
+			}
+		} ]
+}

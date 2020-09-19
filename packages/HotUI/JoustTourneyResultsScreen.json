@@ -1,0 +1,1046 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustTourneyResultsScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustTourneyResultsScreen",
+				"Resources": [ "CollectableCommon", "UI_Joust", "UI_Sprouts", "AudioJoust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogDismiss@.)", "RTID(BackgroundEffects@.)", "RTID(DialogCard@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "400"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(PromotionIcon@.)", "RTID(StayIcon@.)", "RTID(DemotionIcon@.)", "RTID(MiddleContentBox@.)", "RTID(ContinueButton@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_PLANT_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "-8.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "9.0"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_ENDED]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Joust_Tournament_Finished",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogDismiss" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogDismiss",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "PromotionIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "PromotionIcon",
+				"Width": {
+					"Value": "64.0"
+				},
+				"Height": {
+					"Value": "64.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "45.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"ScaleOverride": 1.25,
+				"PopAnimName": "POPANIM_UI_JOUST_LEAGUE_PROMOTION",
+				"InitialAnimationName": "",
+				"PlayStyle": "playandstop",
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "DemotionIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "DemotionIcon",
+				"Width": {
+					"Value": "64.0"
+				},
+				"Height": {
+					"Value": "64.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "45.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"ScaleOverride": 1.25,
+				"PopAnimName": "POPANIM_UI_JOUST_LEAGUE_DEMOTION",
+				"InitialAnimationName": "",
+				"PlayStyle": "playandstop",
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "StayIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "StayIcon",
+				"Width": {
+					"Value": "64.0"
+				},
+				"Height": {
+					"Value": "64.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "45.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"ScaleOverride": 1.25,
+				"PopAnimName": "POPANIM_UI_JOUST_LEAGUE_STAY",
+				"InitialAnimationName": "",
+				"PlayStyle": "playandstop",
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "MiddleContentBox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MiddleContextBox",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "500"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "64"
+					}
+				},
+				"Children": [ "RTID(NewLeagueContent@.)", "RTID(LeagueResultsContent@.)", "RTID(RewardsContent@.)" ]
+			}
+		}, {
+			"aliases": [ "NewLeagueContent" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NewLeagueContent",
+				"Width": {
+					"Value": "217.0"
+				},
+				"Height": {
+					"Value": "217.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "64"
+					},
+					"OffsetX": {
+						"Value": "50"
+					}
+				},
+				"Children": [ "RTID(NewLeagueBG@.)" ],
+				"Resources": [ "UI_Joust", "UI_Almanac_StatIcons" ],
+				"Image": "IMAGE_UI_JOUST_TOURNAMENT_RESULTS_LEAGUE_ICON_FRAME_FILL",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "NewLeagueBG" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NewLeagueBG",
+				"Width": {
+					"Value": "210.0"
+				},
+				"Height": {
+					"Value": "210.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Children": [ "RTID(PreviousLeagueIcon@.)", "RTID(NewLeagueIcon@.)", "RTID(NewLeagueTitleLabel@.)", "RTID(NewLeagueNameLabel@.)" ],
+				"Image": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_COINS",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PreviousLeagueIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PreviousLeagueIcon",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "110"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-120.0"
+					}
+				},
+				"Resources": [ "UI_Leagues" ],
+				"Image": "IMAGE_UI_JOUST_LEAGUE_STAY",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "NewLeagueIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NewLeagueIcon",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "110"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-120.0"
+					}
+				},
+				"Resources": [ "UI_Leagues" ],
+				"Image": "IMAGE_UI_JOUST_LEAGUE_STAY",
+				"DrawStyle": "stretched_aspectX"
+			}
+		}, {
+			"aliases": [ "NewLeagueTitleLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NewLeagueTitleLabel",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-26.0"
+					}
+				},
+				"Label": "Y'all got promoted to",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "NewLeagueNameLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NewLeagueNameLabel",
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom"
+				},
+				"Label": "Taco League",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "LeagueResultsContent" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueResultsContent",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "50.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "64"
+					},
+					"OffsetX": {
+						"Value": "-50"
+					}
+				},
+				"Children": [ "RTID(LeagueResultsTitle@.)", "RTID(LeagueResultsPlace@.)", "RTID(LeagueResultsIcon@.)" ],
+				"Resources": [ "UI_Joust", "UI_Almanac_StatIcons" ],
+				"Image": "IMAGE_UI_ALMANAC_ALMANAC_STAT_SEGMENT_FRAME_1",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "LeagueResultsTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueResultsTitle",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "50.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "15"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_PLACEMENT_RESULT]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "LeagueResultsPlace" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueResultsPlace",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "50.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-15"
+					}
+				},
+				"Label": "3rd",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "LeagueResultsIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueResultsIcon",
+				"Width": {
+					"Value": "50.0"
+				},
+				"Height": {
+					"Value": "50.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-35"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"Resources": [ "UI_Joust", "UI_Almanac_StatIcons" ],
+				"Image": "IMAGE_UI_JOUST_LEAGUE_PLACEMENT_ICON"
+			}
+		}, {
+			"aliases": [ "RewardsContent" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardsContent",
+				"Width": {
+					"Value": "400.0"
+				},
+				"Height": {
+					"Value": "161.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "120"
+					},
+					"OffsetX": {
+						"Value": "-50"
+					}
+				},
+				"Children": [ "RTID(Rewards@.)", "RTID(Tips@.)" ],
+				"Resources": [ "UI_Joust", "UI_Almanac_StatIcons" ],
+				"Image": "IMAGE_UI_ALMANAC_ALMANAC_STAT_SEGMENT_FRAME_1",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "Rewards" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "Rewards",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Children": [ "RTID(RewardsLabel@.)", "RTID(RewardList@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardsLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "15"
+					}
+				},
+				"Label": "[QUEST_REWARD_LABEL]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "RewardList" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "106.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "45"
+					}
+				},
+				"Children": [ "RTID(RewardBox1@.)", "RTID(RewardBox2@.)", "RTID(RewardBox3@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardBox1" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardBox1",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(RewardIcon1@.)", "RTID(RewardLabel1@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardIcon1" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardIcon1",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "RewardLabel1" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardLabel1",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "64"
+					}
+				},
+				"Label": "x100",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "RewardBox2" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardBox2",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "120"
+					}
+				},
+				"Children": [ "RTID(RewardIcon2@.)", "RTID(RewardLabel2@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardIcon2" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardIcon2",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "RewardLabel2" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardLabel2",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "64"
+					}
+				},
+				"Label": "x100",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "RewardBox3" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardBox3",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "240"
+					}
+				},
+				"Children": [ "RTID(RewardIcon3@.)", "RTID(RewardLabel3@.)" ]
+			}
+		}, {
+			"aliases": [ "RewardIcon3" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardIcon3",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "RewardLabel3" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardLabel3",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "64"
+					}
+				},
+				"Label": "x100",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Tips" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "Tips",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Children": [ "RTID(TipsLabel@.)", "RTID(TipsDescriptionLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "TipsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TipsLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "15"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_REWARDS_TIPS]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "TipsDescriptionLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TipsDescriptionLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "106.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "45"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_NO_REWARDS]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "ContinueButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ContinueButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Label": "[CONTINUE_BUTTON]",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"DownAudio": "Play_UI_Battlez_Continue_Press",
+				"UpAudio": "Play_UI_Battlez_Continue_Release",
+				"IncludelistID": "SECURITY_GOURD_DECLINE_BUTTON"
+			}
+		}, {
+			"aliases": [ "BackgroundEffects" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundEffects",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(BackgroundRays@.)", "RTID(BackgroundStars@.)" ]
+			}
+		}, {
+			"aliases": [ "BackgroundRays" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundRays",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(BackgroundEffects@.)"
+				},
+				"Resources": [ "PrizeEffectsCommon" ],
+				"PopAnimName": "POPANIM_EFFECTS_PRIZE_RAYS",
+				"InitialAnimationName": "animation",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.75,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStars" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundStars",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(BackgroundStar1@.)", "RTID(BackgroundStar2@.)", "RTID(BackgroundStar3@.)", "RTID(BackgroundStar4@.)", "RTID(BackgroundStar5@.)", "RTID(BackgroundStar6@.)" ]
+			}
+		}, {
+			"aliases": [ "BackgroundStar1" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar1",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "150.0"
+					},
+					"OffsetY": {
+						"Value": "50.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 1.25,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStar2" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar2",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-200.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 1.0,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStar3" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar3",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "-100.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStar4" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar4",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 1.33,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStar5" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar5",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "233.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 1.15,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundStar6" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "BackgroundStar6",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-275.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"Resources": [ "UI_JoustTournamentResult" ],
+				"PopAnimName": "POPANIM_UI_JOUST_SPINNING_GOLD_STAR",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "playandstop",
+				"ScaleOverride": 0.66,
+				"DrawStyle": "scale_override"
+			}
+		} ]
+}

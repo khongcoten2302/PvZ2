@@ -1,0 +1,657 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MarketScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MarketScreen",
+				"EntryPoint": true,
+				"DarkenBackground": 128.0,
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(ScrollAreaContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(AgeGateDialog@.)",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "6.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "InfoBarContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "InfoBarContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(InfoBarFuelIcon@.)", "RTID(InfoBarFuelWell@.)", "RTID(InfoBarFuelTimerWell@.)", "RTID(InfoBarFuelTimerHeader@.)" ]
+			}
+		}, {
+			"aliases": [ "InfoBarFuelIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InfoBarFuelIcon",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "10.5"
+					},
+					"OffsetY": {
+						"Value": "-3.0"
+					}
+				},
+				"Image": "IMAGE_UI_FUEL_FUEL_ICON_BASIC",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "InfoBarFuelWell" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InfoBarFuelWell",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "48"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "80"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(InfoBarFuelCount@.)" ]
+			}
+		}, {
+			"aliases": [ "InfoBarFuelCount" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "InfoBarFuelCount",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "44"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "InfoBarFuelTimerWell" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InfoBarFuelTimerWell",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "140"
+				},
+				"Height": {
+					"Value": "48"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(InfoBarFuelTimer@.)" ]
+			}
+		}, {
+			"aliases": [ "InfoBarFuelTimer" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "InfoBarFuelTimer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "44"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "InfoBarFuelTimerHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "InfoBarFuelTimerHeader",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-160"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"Label": "[RIFT_FUEL_STORE_TIME_HEADER]",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "CategoryButtonSizeObject" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CategoryButtonSizeObject",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "19.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(CategoryButtonList@.)" ]
+			}
+		}, {
+			"aliases": [ "CategoryButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "CategoryButtonList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"IgnoreMouseInput": true,
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(CategoryButton1@.)", "RTID(CategoryButton2@.)", "RTID(CategoryButton3@.)", "RTID(CategoryButton4@.)", "RTID(CategoryButton5@.)", "RTID(CategoryButton6@.)", "RTID(CategoryButton7@.)", "RTID(CategoryButton8@.)", "RTID(CategoryButton9@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "center"
+			}
+		}, {
+			"aliases": [ "CategoryButton1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton1",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PROMOTED OFFERS",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton2",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "HAVNEN DE GREIGUNSTEIN",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton3",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton4" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton4",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton5" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton5",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton6" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton6",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton7" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton7",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton8" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton8",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "CategoryButton9" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CategoryButton9",
+				"Width": {
+					"Value": "98"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White",
+				"Label": "PLANTS, MAYBE",
+				"UpAudio": "",
+				"DownAudio": "Play_UI_Menu_Tab_Scroll",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "ScrollAreaContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "520"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "60"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(BackButton@.)", "RTID(ScrollAreaBackground@.)", "RTID(CategoryButtonSizeObject@.)", "RTID(ScrollAreaPadding@.)" ]
+			}
+		}, {
+			"aliases": [ "ScrollAreaBackground" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ScrollAreaBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "18.0"
+					},
+					"Right": {
+						"Value": "17.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ScrollAreaPadding" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaPadding",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Padding": {
+					"Left": {
+						"Value": "32.0"
+					},
+					"Right": {
+						"Value": "31.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(InfoBarContainer@.)", "RTID(ScrollAreaWidget@.)" ]
+			}
+		}, {
+			"aliases": [ "ScrollAreaWidget" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "420"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "50"
+					}
+				},
+				"Children": [ "RTID(StorePanelsHorizontalList@.)" ],
+				"ScrollMode": "horizontal",
+				"ShowEdgeGradients": "true"
+			}
+		}, {
+			"aliases": [ "StorePanelsHorizontalList" ],
+			"objclass": "HotUIHorizontalGridProperties",
+			"objdata": {
+				"Name": "StorePanelsHorizontalList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "460"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "40.0"
+				},
+				"SpaceBetweenWidgetsVertically": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": []
+			}
+		} ]
+}

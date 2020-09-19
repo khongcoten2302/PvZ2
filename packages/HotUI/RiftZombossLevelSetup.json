@@ -1,0 +1,953 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftZombossLevelSetup" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "RiftZombossLevelSetup",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(RiftLevelDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftLevelDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "RiftLevelDialog",
+				"Width": {
+					"Value": "510"
+				},
+				"Height": {
+					"Value": "522"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [ "RTID(BackButton@.)", "RTID(DialogCard@.)", "RTID(ZombossTimerBackground@.)", "RTID(DialogTitle@.)", "RTID(AcceptButton@.)" ],
+				"IgnoreMouseInput": true,
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "490"
+				},
+				"Height": {
+					"Value": "505"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-3.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Image": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_BACKGROUND_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"Children": [ "RTID(ProgressBackground@.)", "RTID(ProgressRow@.)", "RTID(DifficultySelectionRow@.)", "RTID(PrizeList@.)", "RTID(DifficultyTitle@.)", "RTID(DifficultyListHolder@.)", "RTID(DifficultyModifierInfoButton@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "45.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Label": "$RIFT_LEVEL_SETUP_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"IgnoreMouseInput": true,
+				"Font": "Dialog_Header_Font_36",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ZombossTimerBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ZombossTimerBackground",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_TIMER_BKGD",
+				"Children": [ "RTID(ZombossTimer@.)", "RTID(ClockIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "ZombossTimer" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZombossTimer",
+				"Width": {
+					"Value": "90.0"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-7.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Label": "11:11",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_20",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ClockIcon" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ClockIcon",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "35"
+					},
+					"OffsetY": {
+						"Value": "-7"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_PENNY_PURSUITS_ZOMBOSS_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"DrawStyle": "normal",
+				"PlayStyle": "playandcontinue"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "30.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Label": "[JOUST_PLAY]",
+				"Font": "Dialog_Header_Font_36",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Resources": [ "UI_AlwaysLoaded" ],
+				"Width": {
+					"Value": "46.0"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-48.0"
+					},
+					"OffsetY": {
+						"Value": "-17.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "ProgressBackground" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ProgressBackground",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "100.0"
+					}
+				},
+				"Children": [ "RTID(ProgressLine@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressLine" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressLine",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "12"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-1"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_LINE",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressRow" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ProgressRow",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "100.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ProgressBackground1@.)", "RTID(ProgressBackground2@.)", "RTID(ProgressBackground3@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressBackground1" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground1",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-160"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_LEFT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox1@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox1" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox1",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM1",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBackground2" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground2",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_MID",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox2@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox2" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox2",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM2",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBackground3" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBackground3",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "46"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "160"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_COMPLETION_TRACKER_RIGHT",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [ "RTID(ProgressBox3@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "ProgressBox3" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ProgressBox3",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"PopAnimName": "$PROGRESS_ANIM3",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.5,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "DifficultySelectionRow" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "DifficultySelectionRow",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "160.0"
+					}
+				},
+				"Padding": {
+					"Bottom": {
+						"Value": "2"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DifficultyBox1@.)", "RTID(DifficultyBox2@.)", "RTID(DifficultyBox3@.)" ],
+				"SpaceBetweenWidgets": {
+					"Value": "20"
+				}
+			}
+		}, {
+			"aliases": [ "DifficultyBox1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DifficultyBox1",
+				"Width": {
+					"Value": "140.0"
+				},
+				"Height": {
+					"Value": "70.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Children": [],
+				"ButtonImageType": "9slice",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Rift_Battle_Zomboss_Difficulty_Select",
+				"UpImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_EASY_UP",
+				"DownImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_EASY_DOWN"
+			}
+		}, {
+			"aliases": [ "DifficultyBox2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DifficultyBox2",
+				"Width": {
+					"Value": "140.0"
+				},
+				"Height": {
+					"Value": "70.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Children": [],
+				"ButtonImageType": "9slice",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Rift_Battle_Zomboss_Difficulty_Select",
+				"UpImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_MEDIUM_UP",
+				"DownImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_MEDIUM_DOWN"
+			}
+		}, {
+			"aliases": [ "DifficultyBox3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DifficultyBox3",
+				"Width": {
+					"Value": "140.0"
+				},
+				"Height": {
+					"Value": "70.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_Difficulty_Selection" ],
+				"Children": [],
+				"ButtonImageType": "9slice",
+				"ButtonImageDrawStyle": "stretched",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Rift_Battle_Zomboss_Difficulty_Select",
+				"UpImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_HARD_UP",
+				"DownImage": "IMAGE_UI_PENNY_PURSUITS_DIFFICULTY_SELECTION_DIFFICULTY_BUTTON_HARD_DOWN"
+			}
+		}, {
+			"aliases": [ "PrizeList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PrizeList",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "35.0",
+						"OffsetX": {
+							"Value": "-10.0"
+						}
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "-5"
+				},
+				"Children": [ "RTID(BasePrizeArea@.)", "RTID(Plus@.)", "RTID(VictoryPrizeArea@.)" ],
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "BasePrizeArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BasePrizeArea",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ZombossDefaultPrizeTitle@.)", "RTID(BasePrizeBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "VictoryPrizeArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "VictoryPrizeArea",
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Width": {
+					"Value": "70%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ZombossVictoryPrizeTitle@.)", "RTID(VictoryPrizeBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "ZombossDefaultPrizeTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZombossDefaultPrizeTitle",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "15.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[ZOMBOSS_DEFAULT_PRIZE_LABEL]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"IgnoreMouseInput": true,
+				"Font": "BLACK_24_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ZombossVictoryPrizeTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ZombossVictoryPrizeTitle",
+				"Width": {
+					"Value": "160"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[ZOMBOSS_GRAND_PRIZE_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"IgnoreMouseInput": true,
+				"Font": "BLACK_24_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BasePrizeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Name": "BasePrizeBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_ZOMBOSS_END_CARD",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(BaseRewardList@.)" ]
+			}
+		}, {
+			"aliases": [ "VictoryPrizeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Rift_Zomboss" ],
+				"Name": "VictoryPrizeBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "IMAGE_UI_PENNY_PURSUITS_ZOMBOSS_ZOMBOSS_END_CARD",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(VictoryRewardList@.)" ]
+			}
+		}, {
+			"aliases": [ "Plus" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Plus",
+				"Width": {
+					"Value": "8.0%"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "+",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "bottom",
+				"IgnoreMouseInput": true,
+				"Font": "BLACK_80_OUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "BaseRewardList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BaseRewardList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				},
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "VictoryRewardList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "VictoryRewardList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5"
+				},
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "DifficultyTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DifficultyTitle",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "115.0"
+					}
+				},
+				"Label": "[DIFFICULTY_MODIFIERS_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"IgnoreMouseInput": true,
+				"Font": "BLACK_19_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "DifficultyListHolder" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DifficultyListHolder",
+				"Width": {
+					"Value": "520"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "DifficultyModifierInfoButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DifficultyModifierInfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "40.0"
+					},
+					"OffsetY": {
+						"Value": "115.0"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"IncludelistID": "DIFFICULTY_MODIFIER_INFO_BUTTON"
+			}
+		} ]
+}

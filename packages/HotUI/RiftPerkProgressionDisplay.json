@@ -1,0 +1,201 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftPerkProgressionDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RiftPerkProgressionDisplay",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(ProgressBarContainer@.)", "RTID(PerkEntryList@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressBarContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ProgressBarContainer",
+				"Width": {
+					"Value": "99%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "35.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(ProgressBarEmpty@.)", "RTID(ProgressBar@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressBar" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBar",
+				"Width": {
+					"Value": "99%"
+				},
+				"Height": {
+					"Value": "10%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "16.0"
+					},
+					"OffsetY": {
+						"Value": "-8.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ProgressMarker@.)" ],
+				"Resources": [ "UI_Perk_Progression" ],
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_GLOW",
+				"DrawStyle": "normal",
+				"DrawType": "3slice_horizontal"
+			}
+		}, {
+			"aliases": [ "ProgressBarEmpty" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressBarEmpty",
+				"Width": {
+					"Value": "99%"
+				},
+				"Height": {
+					"Value": "10%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "16.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Perk_Progression" ],
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_UPGRADE_GLOWBACKER",
+				"DrawStyle": "normal",
+				"DrawType": "3slice_horizontal"
+			}
+		}, {
+			"aliases": [ "ProgressMarker" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ProgressMarker",
+				"Width": {
+					"Value": "25"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PENNY_PURSUITS_PERK_PROGRESSION_RIFT_PERK_PROGRESS_MARKER",
+				"DrawStyle": "stretched",
+				"DrawType": "stretched",
+				"Children": [ "RTID(ProgressBarLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "ProgressBarLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ProgressBarLabel",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0f"
+					},
+					"OffsetY": {
+						"Value": "0.0f"
+					}
+				},
+				"Label": "73",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "PerkEntryList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PerkEntryList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"SpaceBetweenWidgets": {
+					"Value": "100.0"
+				}
+			}
+		} ]
+}

@@ -1,0 +1,690 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "Jukebox" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "Jukebox",
+				"Resources": [ "UI_PauseMenu", "UI_DangerRoom" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(Dialog@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Children": [ "RTID(JukeboxSongListArea@.)", "RTID(AlbumSnapshot@.)", "RTID(DurationArea@.)", "RTID(CloseButton@.)", "RTID(PlayButton@.)", "RTID(PauseButton@.)", "RTID(BackwardButton@.)", "RTID(ForwardButton@.)", "RTID(LoopButton@.)", "RTID(ShuffleButton@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_BG"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "525.0"
+					},
+					"OffsetY": {
+						"Value": "180.0"
+					}
+				},
+				"Children": [ "RTID(AlbumSnapshot_beach@.)", "RTID(AlbumSnapshot_cowboy@.)", "RTID(AlbumSnapshot_dark@.)", "RTID(AlbumSnapshot_dino@.)", "RTID(AlbumSnapshot_egypt@.)", "RTID(AlbumSnapshot_eighties@.)", "RTID(AlbumSnapshot_future@.)", "RTID(AlbumSnapshot_iceage@.)", "RTID(AlbumSnapshot_lostcity@.)", "RTID(AlbumSnapshot_menus@.)", "RTID(AlbumSnapshot_modern@.)", "RTID(AlbumSnapshot_pirate@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_MENUS"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_beach" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_beach",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_BEACH"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_cowboy" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_cowboy",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_COWBOY"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_dark" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_dark",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_DARK"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_dino" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_dino",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_DINO"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_egypt" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_egypt",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_EGYPT"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_eighties" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_eighties",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_EIGHTIES"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_future" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_future",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_FUTURE"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_iceage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_iceage",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_ICEAGE"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_lostcity" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_lostcity",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_LOSTCITY"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_menus" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_menus",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_MENUS"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_modern" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_modern",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_MODERN"
+			}
+		}, {
+			"aliases": [ "AlbumSnapshot_pirate" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AlbumSnapshot_pirate",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_ALBUM_PIRATE"
+			}
+		}, {
+			"aliases": [ "JukeboxSongListArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JukeboxSongListArea",
+				"Width": {
+					"Value": "480"
+				},
+				"Height": {
+					"Value": "310"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "270.0"
+					},
+					"OffsetY": {
+						"Value": "140.0"
+					}
+				},
+				"Children": [ "RTID(JukeboxListBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "JukeboxListBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "JukeboxListBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Resources": [ "UI_Jukebox" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_LIST_BG",
+				"Children": [ "RTID(JukeboxListScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "JukeboxListScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "JukeboxListScrollArea",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"ScrollMode": "vertical",
+				"Children": [ "RTID(JukeboxListInnerScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "JukeboxListInnerScrollArea" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "JukeboxListInnerScrollArea",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "10.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "16.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DurationArea" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DurationArea",
+				"Width": {
+					"Value": "230"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "645.0"
+					},
+					"OffsetY": {
+						"Value": "421.0"
+					}
+				},
+				"Children": [ "RTID(DurationProgressBar@.)", "RTID(DurationText@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_LIST_BG"
+			}
+		}, {
+			"aliases": [ "DurationProgressBar" ],
+			"objclass": "JukeboxProgressBarProperties",
+			"objdata": {
+				"Name": "DurationProgressBar",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"DrawStyle": "normal",
+				"Resources": [ "UI_Jukebox" ],
+				"Image": "IMAGE_UI_JUKEBOX_JUKEBOX_NOWPLAYINGBAR"
+			}
+		}, {
+			"aliases": [ "DurationText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DurationText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "EMPTY",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "45.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_HUD_BACK_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_HUD_BACK_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "SettingsButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "SettingsButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-43.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_HUD_SETTINGS_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_HUD_SETTINGS_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "PlayButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PlayButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "642.0"
+					},
+					"OffsetY": {
+						"Value": "460.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_PLAY_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_PLAY_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "PauseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PauseButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "642.0"
+					},
+					"OffsetY": {
+						"Value": "460.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_PAUSE_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_PAUSE_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "BackwardButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackwardButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "562.0"
+					},
+					"OffsetY": {
+						"Value": "470.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_BACK_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_BACK_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "ForwardButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ForwardButton",
+				"Resources": [ "UI_Jukebox" ],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "725.0"
+					},
+					"OffsetY": {
+						"Value": "470.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_FORWARD_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_FORWARD_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "LoopButton" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "LoopButton",
+				"Resources": [ "UI_Jukebox" ],
+				"ToggleOnPress": "true",
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "658.0"
+					},
+					"OffsetY": {
+						"Value": "127.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_LOOP_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_LOOP_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "ShuffleButton" ],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "ShuffleButton",
+				"Resources": [ "UI_Jukebox" ],
+				"ToggleOnPress": "true",
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "586.0"
+					},
+					"OffsetY": {
+						"Value": "127.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_JUKEBOX_JUKEBOX_SHUFFLE_NORMAL",
+				"DownImage": "IMAGE_UI_JUKEBOX_JUKEBOX_SHUFFLE_SELECTED",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		} ]
+}

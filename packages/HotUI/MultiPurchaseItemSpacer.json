@@ -1,0 +1,42 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MultiPurchaseItemSpacer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "MultiPurchaseItemSpacer",
+				"Width": {
+					"Value": "17"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(SpacerLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "SpacerLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SpacerLabel",
+				"Width": {
+					"Value": "17"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Label": "+",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		} ]
+}

@@ -1,0 +1,1042 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "GameModeSelectionScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "GameModeSelectionScreen",
+				"Resources": [ "AudioJoust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustButtonContainer@.)", "RTID(AdventureButtonContainer@.)", "RTID(RiftButtonContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "AdventureButtonContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AdventureButtonContainer",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "5.0%"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(AdventureButton@.)", "RTID(AdventureText@.)" ]
+			}
+		}, {
+			"aliases": [ "AdventureButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AdventureButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_JOUST_ICICLE_ADVENTURE_ICICLE",
+				"DownImage": "IMAGE_UI_JOUST_ICICLE_ADVENTURE_ICICLE",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}, {
+			"aliases": [ "AdventureText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AdventureText",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"Label": "[ADVENTURE_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"IgnoreMouseInput": true,
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustButtonContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustButtonContainer",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-5.0%"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(JoustAvailableButtonContainer@.)", "RTID(JoustWifiOffContainer@.)", "RTID(JoustUnavailableContainer@.)", "RTID(JoustUpdateAvailableContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustAvailableButtonContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustAvailableButtonContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(JoustButton@.)", "RTID(JoustTitleAvailable@.)", "RTID(JoustSeasonsButton@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustButton",
+				"Resources": [ "UI_Joust_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE",
+				"DownImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "JoustWifiOffContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustWifiOffContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustWifiOffButton@.)", "RTID(JoustNeedConnectionText@.)", "RTID(JoustConnectionIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustWifiOffButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustWifiOffButton",
+				"Resources": [ "UI_Joust_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE_SHADOW",
+				"DownImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE_SHADOW",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "JoustConnectionIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "JoustConnectionIcon",
+				"Resources": [ "UI_Joust" ],
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-40"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_JOUST_WIFI_ICON",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "JoustNeedConnectionText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "JoustNeedConnectionText",
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[JOUST_NEED_CONNECTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustUnavailableContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustUnavailableContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustUnavailableButton@.)", "RTID(JoustLockContainer@.)", "RTID(JoustNeedProgressText@.)", "RTID(JoustTitleUnavailable@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustUnavailableButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustUnavailableButton",
+				"Resources": [ "UI_Joust_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE_SHADOW",
+				"DownImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE_SHADOW",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "JoustLockContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustLockContainer",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustLock@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustLock" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "JoustLock",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Universe_Lock" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_UNIVERSE_WORLD_LOCK",
+				"InitialAnimationName": "idle",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "JoustNeedProgressText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "JoustNeedProgressText",
+				"Width": {
+					"Value": "230"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$NEEDPROGRESS",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustUpdateAvailableContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustUpdateAvailableContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustUpdateAvailableButton@.)", "RTID(JoustUpdateAvailableText@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustUpdateAvailableButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustUpdateAvailableButton",
+				"Resources": [ "UI_Joust_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE",
+				"DownImage": "IMAGE_UI_JOUST_ICICLE_JOUST_ICICLE",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "JoustUpdateAvailableText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "JoustUpdateAvailableText",
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[JOUST_UPDATE_AVAILABLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustTitleAvailable" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "JoustTitleAvailable",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[JOUST_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustTitleUnavailable" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "JoustTitleUnavailable",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[JOUST_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "Grey"
+			}
+		}, {
+			"aliases": [ "RiftButtonContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftButtonContainer",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(RiftAvailableButtonContainer@.)", "RTID(RiftWifiOffContainer@.)", "RTID(RiftUnavailableContainer@.)", "RTID(RiftUpdateAvailableContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftAvailableButtonContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftAvailableButtonContainer",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(RiftButton@.)", "RTID(RiftTitleAvailable@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "RiftButton",
+				"Resources": [ "UI_Rift_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"ParentAnchorPoint": "center",
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-0.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE",
+				"DownImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "RiftWifiOffContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftWifiOffContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RiftWifiOffButton@.)", "RTID(RiftNeedConnectionText@.)", "RTID(RiftConnectionIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftWifiOffButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "RiftWifiOffButton",
+				"Resources": [ "UI_Rift_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE_SHADOW",
+				"DownImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE_SHADOW",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "RiftConnectionIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RiftConnectionIcon",
+				"Resources": [ "UI_Joust" ],
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-40"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_JOUST_WIFI_ICON",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "RiftNeedConnectionText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RiftNeedConnectionText",
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[RIFT_NEED_CONNECTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "RiftUnavailableContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftUnavailableContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RiftUnavailableButton@.)", "RTID(RiftLockContainer@.)", "RTID(RiftNeedProgressText@.)", "RTID(RiftTitleUnavailable@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftUnavailableButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "RiftUnavailableButton",
+				"Resources": [ "UI_Rift_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE_SHADOW",
+				"DownImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE_SHADOW",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "RiftLockContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftLockContainer",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RiftLock@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftLock" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "RiftLock",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Universe_Lock" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_UNIVERSE_WORLD_LOCK",
+				"InitialAnimationName": "idle",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "RiftNeedProgressText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RiftNeedProgressText",
+				"Width": {
+					"Value": "230"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "$RIFTNEEDPROGRESS",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "RiftUpdateAvailableContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RiftUpdateAvailableContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(RiftUpdateAvailableButton@.)", "RTID(RiftUpdateAvailableText@.)" ]
+			}
+		}, {
+			"aliases": [ "RiftUpdateAvailableButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "RiftUpdateAvailableButton",
+				"Resources": [ "UI_Rift_Icicles" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageDrawStyle": "stretched_aspectY",
+				"UpImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE",
+				"DownImage": "IMAGE_UI_RIFT_ICICLE_RIFT_ICICLE",
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "RiftUpdateAvailableText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RiftUpdateAvailableText",
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[RIFT_UPDATE_AVAILABLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "RiftTitleAvailable" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RiftTitleAvailable",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[RIFT_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "RiftTitleUnavailable" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RiftTitleUnavailable",
+				"Width": {
+					"Value": "300"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "150.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[RIFT_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_THICKOUTLINE",
+				"Color": "Grey"
+			}
+		}, {
+			"objclass": "HotUIPropertyAnimatorProperties",
+			"objdata": {
+				"FirstTargetCurve": {
+					"StartValue": 22,
+					"EndValue": 33,
+					"Duration": 24.0,
+					"PhaseOffset": 0
+				},
+				"Curve": "sin_wave",
+				"TargetProperty": "widgety",
+				"Targets": [ "RTID(AdventureButton@.)" ]
+			}
+		}, {
+			"objclass": "HotUIPropertyAnimatorProperties",
+			"objdata": {
+				"FirstTargetCurve": {
+					"StartValue": -18,
+					"EndValue": -2,
+					"Duration": 24.0,
+					"PhaseOffset": 0.1
+				},
+				"Curve": "sin_wave",
+				"TargetProperty": "widgety",
+				"Targets": [ "RTID(JoustButton@.)", "RTID(JoustWifiOffButton@.)", "RTID(JoustUnavailableButton@.)", "RTID(JoustUpdateAvailableButton@.)", "RTID(JoustLock@.)", "RTID(JoustSeasonsLogo@.)" ]
+			}
+		}, {
+			"objclass": "HotUIPropertyAnimatorProperties",
+			"objdata": {
+				"FirstTargetCurve": {
+					"StartValue": -18,
+					"EndValue": -2,
+					"Duration": 24.0,
+					"PhaseOffset": 0.2
+				},
+				"Curve": "sin_wave",
+				"TargetProperty": "widgety",
+				"Targets": [ "RTID(RiftButton@.)", "RTID(RiftWifiOffButton@.)", "RTID(RiftUnavailableButton@.)", "RTID(RiftUpdateAvailableButton@.)", "RTID(RiftLock@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustSeasonsButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "JoustSeasonsButton",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-50.0"
+					}
+				},
+				"HideButtonImages": true,
+				"Children": [ "RTID(JoustSeasonsLogo@.)" ],
+				"DownAudio": "Play_UI_Landing_Battlez_Play_Press",
+				"UpAudio": "Play_UI_Landing_Battlez_Play_Release"
+			}
+		}, {
+			"aliases": [ "JoustSeasonsLogo" ],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "JoustSeasonsLogo",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"UIFileName": "JoustSeasonsLogo",
+				"AdaptorClassName": "AdaptorJoustSeasonsLogo"
+			}
+		} ]
+}

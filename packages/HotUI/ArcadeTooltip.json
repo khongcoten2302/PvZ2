@@ -1,0 +1,205 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "TouchLayer" ],
+			"objclass": "HotUITouchLayerProperties",
+			"objdata": {
+				"Name": "TouchLayer",
+				"EntryPoint": true,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(Tooltip@.)" ],
+				"IgnoreSafeArea": true
+			}
+		}, {
+			"aliases": [ "Tooltip" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Tooltip",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(UpCaret@.)", "RTID(DownCaret@.)", "RTID(Content@.)" ],
+				"Image": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"DrawType": "9slice",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "UpCaret" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "UpCaret",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "3.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_POPUP_CARET",
+				"DrawType": "normal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "DownCaret" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DownCaret",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "11.5"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_POPUP_CARET",
+				"DrawType": "vertical_mirror",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "Content" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "Content",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "5.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "5.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"Children": [ "RTID(Title@.)", "RTID(Body@.)" ]
+			}
+		}, {
+			"aliases": [ "Title" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Title",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(HorizontalRule@.)" ],
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "Black"
+			}
+		}, {
+			"aliases": [ "HorizontalRule" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "HorizontalRule",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_4PXDIVIDER",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "Body" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Body",
+				"IgnoreMouseInput": true,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "75.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "30.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18",
+				"Color": "Black"
+			}
+		} ]
+}

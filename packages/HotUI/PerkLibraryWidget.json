@@ -1,0 +1,111 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "PerkLibraryWidget" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "PerkLibraryWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(Background@.)", "RTID(PerkScrollArea@.)" ],
+				"IgnoreMouseInput": false
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "93%"
+				},
+				"Height": {
+					"Value": "94%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-2.0"
+					}
+				},
+				"Resources": [ "UI_Perks" ],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_PERKS_PERK_SELECTION_BACKGROUND_BROWN",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PerkScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "PerkScrollArea",
+				"Width": {
+					"Value": "600.0"
+				},
+				"Height": {
+					"Value": "264.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-3.0"
+					}
+				},
+				"Children": [ "RTID(InnerScroll@.)" ],
+				"ScrollMode": "vertical"
+			}
+		}, {
+			"aliases": [ "InnerScroll" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "InnerScroll",
+				"Width": {
+					"Value": "600.0"
+				},
+				"Height": {
+					"Value": "264.0"
+				},
+				"MinHeight": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"NumColumns": 2,
+				"SpaceBetweenWidgets": {
+					"Value": "10"
+				}
+			}
+		} ]
+}

@@ -1,0 +1,79 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "NewsData" ],
+			"objclass": "SettingsNewsData",
+			"objdata": {
+				"NewsDataEntries": [ {
+						"Date": 1600099200,
+						"LocalizedData": {
+							"en": {
+								"Text": "After the equinox, it's a straight shot into a fertile fall with PvZ 2! This update includes:\n• New plant, the generously gelatinous Murkadamia Nut\n• new perks and content in Penny's Pursuit, including the Lost City of Doom!\n• The chilling Lawn of Doom event, Oct. 18 to Nov. 3!\n• An entirely new Store Design\n• More Season Prizes, Epic Quests, and Piñata Parties\n• Fixes a-planty\nCurl up with some hot cocoa (or preferred autumnal drink) and Plants vs. Zombies 2!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "¡Tras el equinoccio, en PvZ 2 el otoño está a tiro de piedra! Esta actualización incluye:\n• Nueva planta: la genuina y gelatinosa Nuez de Macadabria.\n• Ventajas y contenido nuevo en La búsqueda de Penny, ¡incluida la Ciudad perdida de la perdición!\n• El refrescante evento del Patio de la perdición, ¡del 18 de octubre al 3 de noviembre!\n• Un rediseño completo de la tienda.\n• Más premios de temporada, misiones épicas y Fiestas de piñatas.\n• Resolución de errores por plantadoquier.\n¡Acurrúcate con un chocolate caliente (o la bebida otoñal que prefieras) y tu Plants vs. Zombies 2!"
+							},
+							"de": {
+								"Text": "Nach der Tag-Nacht-Gleiche steht dir ein freudiger Herbst bevor – jetzt bei PvZ 2! Dieses Update beinhaltet:\n• Neue Pflanze: die genial-gelatinöse Aspiknuss\n• Neue Vorteile und Inhalte bei der Penny-Jagd, inklusive der Verlorenen Stadt der Verdammnis!\n• Ein schauerliches 'Rasen der Verdammnis'-Event vom 18. Oktober bis 3. November!\n• Ein brandneues Design für den Laden\n• Mehr Saison-Preise, mehr epische Aufträge, mehr Piñata-Partys\n •Haufenweise Bugfixes\nMach es dir mit einem heißen Kakao (oder einem anderen Herbstgetränk deiner Wahl) und Plants vs. Zombies 2 gemütlich!"
+							},
+							"fr": {
+								"Text": "Après l'équinoxe, PvZ 2 file tout droit vers un automne fertile ! Au programme de cette mise à jour :\n• Une nouvelle plante, la généreuse et gélatineuse Noix de macadombre\n• Du contenu et des bonus inédits pour La course-poursuite de Penny, dont La Cité perdue de la peur\n•L'événement glacial Gazon de la mort, du 18 octobre au 3 novembre !\n• Un nouveau look pour la boutique\n• Des récompenses de saison, des quêtes épiques et des parties de piñata\n• Des correctifs à la pelle\nFaites-vous un bon chocolat chaud (ou votre boisson automnale préférée) et installez-vous confortablement pour jouer à Plants vs. Zombies 2 ! "
+							},
+							"it": {
+								"Text": "Con questo equinozio, diamo il via al fertile autunno con PvZ 2! Questo aggiornamento include:\n• Nuova pianta, la generosamente gelatinosa tenebronoce\n• Nuovi bonus e contenuti in Ricerca di Penny, tra cui la Città perduta della sventura!\n• l'evento da brividi Prato della sventura, dal 18 ottobre al 3 novembre!\n• Un negozio tutto nuovo\n• Ancora più premi stagionali, missioni epiche e Party della Piñata\n• Un filare di correzioni\nCoccolati con una tazza di cioccolata calda (o con la tua bevanda preferita) e Plants vs. Zombies 2!"
+							},
+							"pt": {
+								"Text": "Após o equinócio, seguimos direto com um outono fértil com PvZ 2! Esta atualização inclui:\n• Nova planta - a tremelicante gelatinosa Macabradâmia\n• Novas vantagens e conteúdo na Perseguição da Penny, incluindo a Cidade Perdida da Ruína!\n• Novo design de loja\n• O arrepiante evento Gramado da Ruína, de 18 de outubro a 3 de novembro!\n• Mais prêmios de temporada, missões épicas e Festas Piñata\n• Correções adubantes\nPegue uma xícara de chocolate quente e jogue Plants vs. Zombies 2!"
+							}
+						}
+					}, {
+						"Date": 1593030339,
+						"LocalizedData": {
+							"en": {
+								"Text": "Greetings PVZ 2 Players,\nStarting from July 7, 2020, players who have not entered Arena in PvZ 2 for 150 days will have their progress in Arena reset.  This will result in the player needing to pick an avatar and start in Soil League as a new player would. Progress in other areas of the game such as adventure mode will not be affected, nor will collected mint currency. To avoid losing your Arena progress, please make sure to enter Arena at least once every 150 days.",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "Saludos, jugadores y jugadoras de PvZ 2:\nA partir del 7 de julio de 2020, quienes no hayan entrado en la Arena de PvZ 2 en 150 días, verán reiniciado su progreso en la misma Como consecuencia, el jugador o jugadora tendrá que elegir un avatar y comenzar en la Liga Tierra como un nuevo jugador. El progreso en otras áreas del juego, como el modo aventura, no se verá afectado; así como tampoco las mentas reunidas. Para no perder tu progreso en la Arena, debes acceder a ella al menos una vez cada 150 días."
+							},
+							"de": {
+								"Text": "Hallo, liebe PvZ-2-Spieler!\nAb dem 7. Juli 2020 werden Arena-Fortschritte von Spielern, die die Arena in PvZ 2 seit 150 Tagen nicht betreten haben, zurückgesetzt. In Folge müssen diese Spieler dann wieder einen Avatar auswählen und beginnen wie ein neuer Spieler in der Erd-Liga. Fortschritte in anderen Spielbereichen wie dem Abenteuermodus sind davon ebenso wenig betroffen wie gesammelte Minz-Währung. Bitte betretet mindestens einmal alle 150 Tage die Arena, um eure Arena-Fortschritte nicht zu verlieren."
+							},
+							"fr": {
+								"Text": "Fans de PVZ 2, bonjour !\nÀ partir du 7 juillet 2020, la progression des personnes qui n'ont pas joué dans l'Arène de PvZ 2 depuis plus de 150 jours sera réinitialisée. Il faudra choisir un avatar et recommencer en Ligue de terre comme au tout début. La progression dans les autres secteurs du jeu (mode Aventure, bonbons à la menthe, etc.) ne sera pas affectée. Pour éviter de perdre votre progression, pensez à jouer dans l'Arène au moins une fois tous les 150 jours."
+							},
+							"it": {
+								"Text": "Salve, giocatori di PvZ 2!\nA partire dal 7 luglio 2020, i giocatori che non hanno effettuato l'accesso all'Arena di PvZ 2 per 150 giorni vedranno azzerati i loro progressi nell'Arena. Pertanto sarà necessario scegliere un avatar e cominciare dalla Lega di terra come fanno i nuovi giocatori. I progressi in altre aree del gioco, come la modalità avventura, e le mentine raccolte resteranno inalterati. Per evitare di perdere i progressi nell'Arena, si consiglia di accedere all'Arena almeno una volta ogni 150 giorni."
+							},
+							"pt": {
+								"Text": "Saudações, Jogadores de PvZ 2:\nA partir do dia 7 de julho de 2020, os jogadores que não tiverem entrado na Arena no PvZ 2 por 150 dias terão seu progresso nela zerado. Isso implica no jogador precisar escolher um avatar e começar na Liga de Terra, como qualquer jogador novo. A mudança não afeta nem o progresso em outras áreas do jogo, como o modo Aventura, nem a quantidade de moedas coletadas. Para evitar perder seu progresso na Arena, certifique-se de entrar nela pelo menos uma vez a cada 150 dias."
+							}
+						}
+					}, {
+						"Date": 1500397200,
+						"LocalizedData": {
+							"en": {
+								"Text": "Compatibility Update:\nIn order to meet new OS requirements, we are updating our minimum supported iOS devices to iOS 9.0 or later, as well as iPhone 5s, iPod touch (6th Generation), iPad mini 2, and iPad Pro or later. This change will begin in our next binary update (7.9), which will release in February, 2020. Those on older devices will not be able to get the latest update and will lose access to online features (like Arena), but can continue once they switch to a supported device. We recommend backing-up your progress by logging into Game Center, or Registering your Account with EA (cloud icon on the lower left of the Select a Player screen).",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "Actualización de compatibilidad:\nPara poder cumplir con los nuevos requisitos del SO, vamos a actualizar nuestros dispositivos iOS mínimos compatibles a iOS 9.0 o superior, así como a iPhone 5s, iPod touch (6.ª generación), iPad mini 2 y iPad Pro o superior. Este cambio empezará con nuestra próxima actualización binaria (7.9), que aparecerá en febrero de 2020. Los usuarios de dispositivos más antiguos no podrán descargar la última actualización y perderán el acceso a las funciones online (como Arena), pero podrán continuar en cuanto se cambien a un dispositivo compatible. Recomendamos guardar una copia de seguridad de tus progresos iniciando sesión en Game Center o registrando tu cuenta con EA (icono de la nube en la parte inferior izquierda de la pantalla Seleccionar a un jugador)."
+							},
+							"de": {
+								"Text": "Kompatibilitäts-Update:\nUm den neuen Betriebssystemanforderungen gerecht zu werden, unterstützen wir künftig nur noch iOS-Geräte mit iOS 9.0 oder höher sowie iPhone 5s, iPod touch (6. Generation), iPad mini 2 und iPad Pro oder höher. Diese Änderung tritt mit unserem nächsten binären Update (7.9), das im Februar 2020 veröffentlicht wird, in Kraft. Nutzer älterer Geräte können das neueste Update nicht nutzen und verlieren dadurch den Zugriff auf Online-Funktionen wie die Arena. Sie können aber fortfahren, sobald sie zu einem unterstützten Gerät wechseln. Wir empfehlen, deinen Fortschritt zu sichern, indem du dich im Game Center anmeldest oder dein Konto bei EA registrierst (Wolken-Symbol unten links auf dem Spielerauswahl-Bildschirm)."
+							},
+							"fr": {
+								"Text": "Mise à jour de compatibilité : \nAfin de répondre aux dernières exigences en matière de système d'exploitation, les versions minimum prises en charge sont désormais les suivantes : iOS 9.0 ou plus, iPhone 5s, iPod touch (6e génération), iPad mini 2 et iPad Pro ou plus. Cette modification prendra effet lors de notre prochaine mise à jour binaire (7.9) en février 2020. Si vous utilisez un appareil plus ancien, vous ne pourrez plus effectuer de mise à jour et vous perdrez l'accès aux fonctionnalités en ligne (l'Arène, par exemple), mais vous pourrez cependant continuer une fois que vous aurez basculé vers un appareil pris en charge. Nous vous recommandons de sauvegarder votre progression en vous connectant au Game Center ou en enregistrant votre Compte auprès d'EA (icône en forme de nuage dans le coin inférieur gauche de l'écran Sélectionner un joueur)."
+							},
+							"it": {
+								"Text": "Aggiornamento compatibilità:\nPer poter soddisfare i nuovi requisiti del SO, stiamo aggiornando i dispositivi iOS minimi supportati a iOS 9.0 o superiore, oltre a iPhone 5s, iPod Touch (sesta generazione), iPad Mini 2 e iPad Pro o successivo. Questo cambiamento avrà effetto a partire dal prossimo aggiornamento binario (7.9), che rilasceremo a febbraio 2020. Gli utenti che utilizzano dispositivi più vecchi non potranno scaricare il nuovo aggiornamento e non avranno più accesso alle funzionalità online (come l'Arena), ma potranno riprendere una volta passati a uno dei dispositivi supportati. Consigliamo di fare un backup dei progressi effettuando l'accesso a Game Center o registrando un account EA (icona della nuvola in basso a sinistra nella schermata Seleziona un giocatore)."
+							},
+							"pt": {
+								"Text": "Atualização de compatibilidade:\nPara poder atender aos novos requisitos do SO, atualizamos os dispositivos iOS com compatibilidade mínima para iOs 9.0 ou posterior, bem como iPhone 5s, iPod touch (6º geração), iPad mini 2 e iPad Pro, ou posteriores. Essa alteração terá efeito a partir da nossa próxima atualização binária (7.9), a ser lançada em fevereiro de 2020. Quem tiver o jogo em dispositivos mais antigos não poderá receber as atualizações mais recentes e vai perder o acesso a recursos online (como a Arena), mas pode continuar assim que fizer a troca por um dispositivo compatível. Recomendamos fazer o backup do seu progresso fazendo login no Game Center, ou registrando sua Conta com a EA (no ícone de nuvem no lado inferior esquerdo da tela Selecionar um Jogador)."
+							}
+						}
+					} ]
+			}
+		} ]
+}

@@ -1,0 +1,387 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MiniGameLevelPack" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MiniGameLevelPack",
+				"EntryPoint": true,
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_VaseBreakerMenu" ],
+				"Width": {
+					"Value": "485.0"
+				},
+				"Height": {
+					"Value": "227.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Children": [ "RTID(DialogPadding@.)" ],
+				"Image": "IMAGE_UI_VASEBREAKER_LEVELPACK_BG",
+				"DrawType": "9slice",
+				"DrawStyle": "stretch"
+			}
+		}, {
+			"aliases": [ "DialogPadding" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogPadding",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(ObjectiveLabel@.)", "RTID(Backdrop@.)" ]
+			}
+		}, {
+			"aliases": [ "ObjectiveLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ObjectiveLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "50.0"
+					}
+				},
+				"Label": "$PACK_DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "Backdrop" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Backdrop",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_VaseBreakerMenu" ],
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(PathAnim1@.)", "RTID(PathAnim2@.)", "RTID(PathAnim3@.)", "RTID(ButtonAnimLevel1@.)", "RTID(ButtonAnimLevel2@.)", "RTID(ButtonAnimLevel3@.)", "RTID(ButtonLevel1@.)", "RTID(ButtonLevel2@.)", "RTID(ButtonLevel3@.)", "RTID(PowerUpReward@.)", "RTID(GiftBoxAnim@.)" ],
+				"Image": "IMAGE_UI_ARCADEMENU_BG_EGYPT",
+				"DrawType": "normal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "PathAnim1" ],
+			"objclass": "HotUIAnimPathProperties",
+			"objdata": {
+				"Name": "PathAnim1",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_MAP_PATH",
+				"InitialAnimationName": "beam_path_open"
+			}
+		}, {
+			"aliases": [ "PathAnim2" ],
+			"objclass": "HotUIAnimPathProperties",
+			"objdata": {
+				"Name": "PathAnim2",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_MAP_PATH",
+				"InitialAnimationName": "beam_path_open"
+			}
+		}, {
+			"aliases": [ "PathAnim3" ],
+			"objclass": "HotUIAnimPathProperties",
+			"objdata": {
+				"Name": "PathAnim3",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_MAP_PATH",
+				"InitialAnimationName": "beam_path_open"
+			}
+		}, {
+			"aliases": [ "ButtonAnimLevel1" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ButtonAnimLevel1",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_LEVEL_NODE",
+				"InitialAnimationName": "finished",
+				"ScaleOverride": 1.25,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "ButtonAnimLevel2" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ButtonAnimLevel2",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "138.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_LEVEL_NODE",
+				"InitialAnimationName": "finished",
+				"ScaleOverride": 1.25,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "ButtonAnimLevel3" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ButtonAnimLevel3",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "257.0"
+					},
+					"OffsetY": {
+						"Value": "55.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_LEVEL_NODE",
+				"InitialAnimationName": "finished",
+				"ScaleOverride": 1.25,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "GiftBoxAnim" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "GiftBoxAnim",
+				"IgnoreMouseInput": true,
+				"Resources": [ "WorldMapSpine" ],
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "80.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "370.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"PopAnimName": "POPANIM_WORLDMAP_GIFTBOX_WORLD_MAP",
+				"InitialAnimationName": "idle",
+				"ScaleOverride": 1.1,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "ButtonLevel1" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ButtonLevel1",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "16.0"
+					},
+					"OffsetY": {
+						"Value": "14.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"Label": "1",
+				"Font": "BLACK_46_OUTLINE",
+				"ButtonImageType": "3slice",
+				"HideButtonImages": true
+			}
+		}, {
+			"aliases": [ "ButtonLevel2" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ButtonLevel2",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "137.0"
+					},
+					"OffsetY": {
+						"Value": "14.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"Label": "2",
+				"Font": "BLACK_46_OUTLINE",
+				"HideButtonImages": true
+			}
+		}, {
+			"aliases": [ "ButtonLevel3" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ButtonLevel3",
+				"Width": {
+					"Value": "80.0"
+				},
+				"Height": {
+					"Value": "120.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "255.0"
+					},
+					"OffsetY": {
+						"Value": "14.0"
+					}
+				},
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press",
+				"Label": "3",
+				"Font": "BLACK_46_OUTLINE",
+				"HideButtonImages": true
+			}
+		}, {
+			"aliases": [ "PowerUpReward" ],
+			"objclass": "HotUIPowerUpButtonProperties",
+			"objdata": {
+				"Name": "PowerUpReward",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "370.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				}
+			}
+		} ]
+}

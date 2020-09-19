@@ -1,0 +1,185 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MultiPurchaseItemEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "MultiPurchaseItemEntry",
+				"Width": {
+					"Value": "280"
+				},
+				"Height": {
+					"Value": "442"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(ItemImage@.)", "RTID(ItemSeedPacket@.)", "RTID(ItemPlantAnim@.)", "RTID(ItemAmountText@.)", "RTID(GuaranteedBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "GuaranteedBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "GuaranteedBackground",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "2"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_GUARANTEED_BG",
+				"DrawStyle": "3slice_horizontal",
+				"Children": [ "RTID(GuaranteedLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "GuaranteedLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "GuaranteedLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Label": "[STORE_MULTI_GUARANTEED]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "ItemImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemImage",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "142"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "32"
+					},
+					"OffsetY": {
+						"Value": "76"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "$ITEMIMAGE",
+				"DrawStyle": "stretched_aspectBoth"
+			}
+		}, {
+			"comment": "Not expected to be used, but here.  We can't scale the seed packet.",
+			"aliases": [ "ItemSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "180"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "70"
+					},
+					"OffsetY": {
+						"Value": "100"
+					}
+				},
+				"PacketConfig": {
+					"PlantType": "$ITEMSEEDPACKET"
+				}
+			}
+		}, {
+			"aliases": [ "ItemPlantAnim" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "ItemPlantAnim",
+				"Width": {
+					"Value": "76%"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetX": {
+						"Value": "38"
+					},
+					"OffsetY": {
+						"Value": "100"
+					}
+				},
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override",
+				"PlantConfig": {
+					"PlantType": "$ITEMANIMPLANTTYPE",
+					"CostumeLayer": "$ITEMANIMCOSTUMETYPE"
+				}
+			}
+		}, {
+			"aliases": [ "ItemAmountText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemAmountText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "topcenter",
+					"ParentAnchorPoint": "topcenter",
+					"OffsetY": {
+						"Value": "200"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_32_HARDSHADOW",
+				"Color": "White"
+			}
+		} ]
+}

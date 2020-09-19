@@ -1,0 +1,365 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonPrizeDisplayEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonPrizeDisplayEntry",
+				"Width": {
+					"Value": "44"
+				},
+				"Height": {
+					"Value": "55"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(PrizeIndicator@.)", "RTID(PrizeContainer@.)", "RTID(PrizeTextLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PrizeContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PrizeContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(PrizeBackground@.)", "RTID(PrizeImage@.)", "RTID(PrizeSeedPacket@.)", "RTID(PrizePlant@.)", "RTID(PrizeForegroundLocked@.)", "RTID(PrizeForegroundUnlocked@.)", "RTID(CheckmarkContainer@.)", "RTID(LockIcon@.)" ]
+			}
+		}, {
+			"aliases": [ "PrizeIndicator" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PrizeIndicator",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(PrizeThresholdPointer@.)", "RTID(ProgressTextLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "PrizeBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizeBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_PRIZE_WINDOW_LOWER",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PrizeForegroundLocked" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizeForegroundLocked",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_PRIZE_WINDOW_UPPER_UNLOCKED",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PrizeForegroundUnlocked" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizeForegroundUnlocked",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_PRIZE_WINDOW_UPPER_LOCKED",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PrizeThresholdPointer" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizeThresholdPointer",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_Seasons_Max" ],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_PRIZE_METER_SECTIONAL_TAB",
+				"DrawType": "normal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "PrizeImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizeImage",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Resources": [ "UI_QuestTinyPinatas" ],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY"
+			}
+		}, {
+			"aliases": [ "PrizeSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "PrizeSeedPacket",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "10%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PlantType": ""
+			}
+		}, {
+			"aliases": [ "PrizeTextLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PrizeTextLabel",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "5"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "X",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "PrizePlant" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "PrizePlant",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"ScaleOverride": 0.9,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "fixed"
+			}
+		}, {
+			"aliases": [ "ProgressTextLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ProgressTextLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "-2.0"
+					},
+					"OffsetX": {
+						"Value": "-5.0"
+					}
+				},
+				"Label": "99",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "DarkGrey"
+			}
+		}, {
+			"aliases": [ "CheckmarkContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CheckmarkContainer",
+				"Width": {
+					"Value": "10%"
+				},
+				"Height": {
+					"Value": "10%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetY": {
+						"Value": "12%"
+					},
+					"OffsetX": {
+						"Value": "-11%"
+					}
+				},
+				"Children": [ "RTID(Checkmark@.)" ]
+			}
+		}, {
+			"aliases": [ "Checkmark" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "Checkmark",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_GENERIC_CHECK_MARK_ANIM",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 0.5,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "LockIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LockIcon",
+				"Width": {
+					"Value": "17"
+				},
+				"Height": {
+					"Value": "17"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "IMAGE_UI_LOCK_SMALL_GOLD",
+				"DrawStyle": "stretched_aspectY"
+			}
+		} ]
+}

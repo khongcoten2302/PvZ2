@@ -1,0 +1,104 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonSchedule" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonSchedule",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(MainDialogArea@.)" ]
+			}
+		}, {
+			"aliases": [ "MainDialogArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MainDialogArea",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0"
+					},
+					"Bottom": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice",
+				"Children": [ "RTID(ScrollAreaBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "ScrollAreaBackground" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaBackground",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(SeasonEventList@.)" ]
+			}
+		}, {
+			"aliases": [ "SeasonEventList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "SeasonEventList",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "4.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				}
+			}
+		} ]
+}

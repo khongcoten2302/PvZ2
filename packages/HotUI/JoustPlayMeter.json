@@ -1,0 +1,798 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustMeterContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustMeterContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(MeterGameBorder@.)", "RTID(JoustPlayMeter@.)" ]
+			}
+		}, {
+			"aliases": [ "MeterGameBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "MeterGameBorder",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_SCREEN_EDGE_GLOW",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "JoustPlayMeter" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Resources": [ "AudioJoust" ],
+				"Name": "JoustPlayMeter",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(JoustPlayMeterBar@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustPlayMeterBar" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustPlayMeterBar",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "5"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(BackgroundLeftOffset@.)", "RTID(BackgroundRightOffset@.)", "RTID(JoustPlayMeterBorder@.)", "RTID(GauntletAnimOffset@.)", "RTID(TimerRoot@.)" ]
+			}
+		}, {
+			"aliases": [ "JoustPlayMeterBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "JoustPlayMeterBorder",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "422"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Children": [ "RTID(JoustPlayMeterNotch@.)", "RTID(LeftAvatarIcon@.)", "RTID(RightAvatarIcon@.)", "RTID(BrainDot@.)", "RTID(BrainDot2@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_LAYER_1"
+			}
+		}, {
+			"aliases": [ "JoustPlayMeterNotch" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "JoustPlayMeterNotch",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "12"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_MIDPOINT_TRIANGLES"
+			}
+		}, {
+			"aliases": [ "BrainDot" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BrainDot",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "2.3"
+				},
+				"Height": {
+					"Value": "4"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_BRAIN_DOT"
+			}
+		}, {
+			"aliases": [ "BrainDot2" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BrainDot2",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "2.3"
+				},
+				"Height": {
+					"Value": "4"
+				},
+				"Anchor": {
+					"AnchorPoint": "right"
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_BRAIN_DOT"
+			}
+		}, {
+			"aliases": [ "LeftAvatarIcon" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "LeftAvatarIcon",
+				"Resources": [ "UI_Avatars" ],
+				"Width": {
+					"Value": "55"
+				},
+				"Height": {
+					"Value": "55"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "-59"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 0,
+					"mGreen": 0,
+					"mBlue": 255,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				},
+				"Children": [ "RTID(LabelScoreLeft@.)" ]
+			}
+		}, {
+			"aliases": [ "RightAvatarIcon" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "RightAvatarIcon",
+				"Resources": [ "UI_Avatars" ],
+				"Width": {
+					"Value": "55"
+				},
+				"Height": {
+					"Value": "55"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "59"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_JOUST_AVATARS_AVATAR_BORDER",
+				"BorderColor": {
+					"mRed": 255,
+					"mGreen": 0,
+					"mBlue": 0,
+					"mAlpha": 255
+				},
+				"BorderInsets": {
+					"Left": {
+						"Value": "-2.5"
+					},
+					"Top": {
+						"Value": "-2.5"
+					},
+					"Right": {
+						"Value": "-2.5"
+					},
+					"Bottom": {
+						"Value": "-2.5"
+					}
+				},
+				"Children": [ "RTID(LabelScoreRight@.)" ]
+			}
+		}, {
+			"aliases": [ "BackgroundLeftOffset" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundLeftOffset",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-200"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(BackgroundEndcapLeft@.)", "RTID(BackgroundImageLeft@.)", "RTID(PoleImageLeft@.)" ]
+			}
+		}, {
+			"aliases": [ "BackgroundRightOffset" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundRightOffset",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "200"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(BackgroundEndcapRight@.)", "RTID(BackgroundImageRight@.)", "RTID(PoleImageRight@.)" ]
+			}
+		}, {
+			"aliases": [ "BackgroundEndcapLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundEndcapLeft",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "12"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_BACKGROUND_ENDCAP_B",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "BackgroundEndcapRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundEndcapRight",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "12"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_BACKGROUND_ENDCAP_R",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "BackgroundImageLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundImageLeft",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "204"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-2"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_BACKGROUND_BLUE",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "BackgroundImageRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundImageRight",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "204"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_BACKGROUND_RED",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PoleImageLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PoleImageLeft",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_LANCE_BLUE",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "PoleImageRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PoleImageRight",
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "400"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_JOUST_METER_LANCE_RED",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "GauntletAnimOffset" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "GauntletAnimOffset",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "96"
+					},
+					"OffsetY": {
+						"Value": "103"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(GauntletScoreOffset@.)" ]
+			}
+		}, {
+			"aliases": [ "GauntletScoreOffset" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "GauntletScoreOffset",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(SparkBack@.)", "RTID(GauntletLeft@.)", "RTID(GauntletRight@.)", "RTID(SparkTop@.)" ]
+			}
+		}, {
+			"aliases": [ "SparkBack" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "SparkBack",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "60.0"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "105.0"
+					},
+					"OffsetY": {
+						"Value": "90.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_JOUST_METER_ASSETS_JOUST_SPARKING_BACK",
+				"InitialAnimationName": "animation",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "SparkTop" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "SparkTop",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "60.0"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "105.0"
+					},
+					"OffsetY": {
+						"Value": "90.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_JOUST_METER_ASSETS_JOUST_SPARKING",
+				"InitialAnimationName": "animation",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "GauntletLeft" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "GauntletLeft",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "60.0"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "15.0"
+					},
+					"OffsetY": {
+						"Value": "53.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_JOUST_METER_ASSETS_JOUST_GLOVE_BLUE",
+				"InitialAnimationName": "animation2",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.7,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "GauntletRight" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "GauntletRight",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "60.0"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "103.0"
+					},
+					"OffsetY": {
+						"Value": "53.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_JOUST_METER_ASSETS_JOUST_GLOVE_RED",
+				"InitialAnimationName": "animation2",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1.7,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "LabelScoreLeft" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LabelScoreLeft",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "100,000",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "LabelScoreRight" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LabelScoreRight",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "100,000",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "TimerRoot" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "TimerRoot",
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "28.0"
+					}
+				},
+				"Children": [ "RTID(TimerBackground@.)", "RTID(TimerAnim@.)", "RTID(TimerLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "TimerBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TimerBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Resources": [ "UI_Joust_Meter" ],
+				"Image": "IMAGE_UI_JOUST_JOUST_METER_ASSETS_JOUST_TIMER_BG",
+				"DrawStyle": "normal",
+				"DrawType": "3slice_horizontal"
+			}
+		}, {
+			"aliases": [ "TimerAnim" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "TimerAnim",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Joust_Meter" ],
+				"Width": {
+					"Value": "25.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_JOUST_JOUST_METER_ASSETS_JOUST_METER_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 0.75,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "TimerLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TimerLabel",
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-5.0"
+					}
+				},
+				"Label": "5:30",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "JoustGameScore",
+				"Color": "White"
+			}
+		} ]
+}

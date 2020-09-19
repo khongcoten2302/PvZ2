@@ -1,0 +1,283 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "CalendarWidgetEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "CalendarWidgetEntry",
+				"Resources": [],
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "185"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Background@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_CALENDAR_CALENDAR_CARD_DAY",
+				"DrawType": "9slice",
+				"DrawStyle": "strethed",
+				"Children": [ "RTID(BackgroundShine@.)", "RTID(DayLabel@.)", "RTID(AmountBackground@.)", "RTID(BackgroundShadow@.)", "RTID(RewardImage@.)", "RTID(RewardSeedPacket@.)", "RTID(RewardPlant@.)", "RTID(CheckmarkContainer@.)" ]
+			}
+		}, {
+			"aliases": [ "DayLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DayLabel",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "Black"
+			}
+		}, {
+			"aliases": [ "AmountBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "AmountBackground",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Children": [ "RTID(AmountText@.)" ],
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawStyle": "stretched",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "AmountText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AmountText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "RewardImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardImage",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [ "UI_QuestTinyPinatas" ],
+				"Image": "",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		}, {
+			"aliases": [ "RewardSeedPacket" ],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "RewardSeedPacket",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"PlantType": ""
+			}
+		}, {
+			"aliases": [ "RewardPlant" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "RewardPlant",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"ScaleOverride": 0.9,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "fixed"
+			}
+		}, {
+			"aliases": [ "CheckmarkContainer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CheckmarkContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Children": [ "RTID(Checkmark@.)" ]
+			}
+		}, {
+			"aliases": [ "Checkmark" ],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "Checkmark",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_GENERIC_CHECK_MARK_ANIM",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 1,
+				"DrawStyle": "scale_override"
+			}
+		}, {
+			"aliases": [ "BackgroundShine" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundShine",
+				"Width": {
+					"Value": "119"
+				},
+				"Height": {
+					"Value": "199"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-2"
+					}
+				},
+				"Image": "IMAGE_UI_CALENDAR_CALENDAR_CARD_GLOW7DAY",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice",
+				"IgnoreMouseInput": true
+			}
+		}, {
+			"aliases": [ "BackgroundShadow" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundShadow",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_SCORE_METER_BG_TEXT",
+				"DrawStyle": "normal",
+				"DrawType": "9slice",
+				"IgnoreMouseInput": true
+			}
+		} ]
+}

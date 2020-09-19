@@ -1,0 +1,156 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonsProgressBar" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonsProgressBar",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Resources": [ "AudioSeasons" ],
+				"Children": [ "RTID(SeasonsProgressBarEmpty@.)", "RTID(JoustSeasonPrizesDisplay@.)", "RTID(SeasonsProgressBar@.)" ]
+			}
+		}, {
+			"aliases": [ "SeasonsProgressBar" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "SeasonsProgressBar",
+				"Width": {
+					"Value": "99%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.5%"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(SeasonsShieldMarker@.)" ],
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PROGRESS_BAR_GREEN_FILL",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		}, {
+			"aliases": [ "SeasonsProgressBarEmpty" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "SeasonsProgressBarEmpty",
+				"Width": {
+					"Value": "99%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.5%"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PROGRESS_BAR_BACKGROUND",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		}, {
+			"aliases": [ "SeasonsShieldMarker" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "SeasonsShieldMarker",
+				"Width": {
+					"Value": "25"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Seasons_Max" ],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_PRIZE_METER_SHIELD",
+				"DrawStyle": "stretched",
+				"DrawType": "stretched",
+				"Children": [ "RTID(SeasonsProgressBarProgressLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "SeasonsProgressBarProgressLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SeasonsProgressBarProgressLabel",
+				"Width": {
+					"Value": "30"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0f"
+					},
+					"OffsetY": {
+						"Value": "0.0f"
+					}
+				},
+				"Label": "73",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_16_THICKOUTLINE",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "JoustSeasonPrizesDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "JoustSeasonPrizesDisplay",
+				"Width": {
+					"Value": "99.5%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"IgnoreMouseInput": true
+			}
+		} ]
+}

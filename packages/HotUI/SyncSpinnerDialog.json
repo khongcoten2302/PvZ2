@@ -1,0 +1,143 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "SyncSpinnerScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "SyncSpinnerScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(SyncSpinnerDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "SyncSpinnerDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "SyncSpinnerDialog",
+				"Width": {
+					"Value": "450.0"
+				},
+				"Height": {
+					"Value": "400.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(SyncSpinnerScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(SyncStateLabel@.)", "RTID(CancelButton@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "SyncStateLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SyncStateLabel",
+				"Width": {
+					"Value": "76.0%"
+				},
+				"Height": {
+					"Value": "56.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogFooterImage@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Label": "$SYNCSTATETEXT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		}, {
+			"aliases": [ "CancelButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CancelButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(SyncSpinnerDialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Width": {
+					"Value": "200.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "[BUTTON_CANCEL]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		} ]
+}

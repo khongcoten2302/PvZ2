@@ -1,0 +1,575 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustLeagueInfoScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Resources": [ "AudioJoust" ],
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "JoustLeagueInfoScreen",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"Children": [ "RTID(DialogBackground@.)", "RTID(DialogCard@.)", "RTID(DialogBorder@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogBackground",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "790"
+				},
+				"Height": {
+					"Value": "96%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_CARDS_ALMANAC_PLANT_CARD",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"Children": [ "RTID(LeagueTopBarTitleText@.)", "RTID(LeagueTopBarSubText@.)", "RTID(LeagueCrownIconLeft@.)", "RTID(LeagueCrownIconRight@.)", "RTID(LeagueBottomBarTitleText@.)", "RTID(LeagueBottomBarSubText@.)", "RTID(LeagueListArea@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogBorder" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogBorder",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [ "RTID(CloseButton@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueTopBarTitleText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueTopBarTitleText",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_LEAGUE_REWARDS_HEADER]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_46_HARDSHADOW",
+				"Color": "Dialog_Header_Yellow"
+			}
+		}, {
+			"aliases": [ "LeagueTopBarSubText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueTopBarSubText",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "70.0"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_LEAGUE_REWARDS_SUBHEADER]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_HARDSHADOW",
+				"Color": "Dialog_Header_Yellow"
+			}
+		}, {
+			"aliases": [ "LeagueCrownIconLeft" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueCrownIconLeft",
+				"Width": {
+					"Value": "45"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-330.0"
+					},
+					"OffsetY": {
+						"Value": "-57.0"
+					}
+				},
+				"Resources": [ "UI_Joust" ],
+				"DrawStyle": "stretched",
+				"DrawType": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_JOUST_ICONS_CROWNS_CROWNS_SMALL"
+			}
+		}, {
+			"aliases": [ "LeagueCrownIconRight" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueCrownIconRight",
+				"Width": {
+					"Value": "45"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "330.0"
+					},
+					"OffsetY": {
+						"Value": "-57.0"
+					}
+				},
+				"Resources": [ "UI_Joust" ],
+				"DrawStyle": "stretched",
+				"DrawType": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_JOUST_ICONS_CROWNS_CROWNS_SMALL"
+			}
+		}, {
+			"aliases": [ "LeagueBottomBarTitleText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueBottomBarTitleText",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-55.0"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_LEAGUE_REWARDS_DESCRIPTION1]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "LeagueBottomBarSubText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LeagueBottomBarSubText",
+				"Width": {
+					"Value": "700"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-25.0"
+					}
+				},
+				"Label": "[JOUST_TOURNAMENT_LEAGUE_REWARDS_DESCRIPTION2]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "Joust_League_Info_Label_Color"
+			}
+		}, {
+			"aliases": [ "CloseButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-54.0"
+					},
+					"OffsetY": {
+						"Value": "33.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}, {
+			"aliases": [ "QuestIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestIcon",
+				"IgnoreMouseInput": true,
+				"Resources": [ "UI_Quests" ],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Image": "IMAGE_UI_QUESTS_QUEST_ICON_BROWN",
+				"DrawType": "normal",
+				"DrawStyle": "normal"
+			}
+		}, {
+			"aliases": [ "DialogPadding" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogPadding",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "25.0"
+					},
+					"Top": {
+						"Value": "25.0"
+					},
+					"Right": {
+						"Value": "25.0"
+					},
+					"Bottom": {
+						"Value": "25.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "LeagueListArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "LeagueListArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "3.0"
+					},
+					"Top": {
+						"Value": "98.0"
+					},
+					"Right": {
+						"Value": "3.0"
+					},
+					"Bottom": {
+						"Value": "98.0"
+					}
+				},
+				"Children": [ "RTID(LeagueListBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueListBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LeagueListBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Resources": [ "UI_Quests" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_QUESTS_QUEST_LIST_BG",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "16.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"Children": [ "RTID(LeagueListScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueListScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "LeagueListScrollArea",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"ScrollMode": "vertical",
+				"Padding": {
+					"Left": {
+						"Value": "40.0"
+					},
+					"Top": {
+						"Value": "40.0"
+					},
+					"Right": {
+						"Value": "40.0"
+					},
+					"Bottom": {
+						"Value": "40.0"
+					}
+				},
+				"Children": [ "RTID(LeagueListInnerScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "LeagueListInnerScrollArea" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "LeagueListInnerScrollArea",
+				"Width": {
+					"Value": "740"
+				},
+				"Height": {
+					"Value": "0.0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		} ]
+}

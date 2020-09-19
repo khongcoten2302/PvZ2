@@ -1,0 +1,403 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "AccountLinkScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "AccountLinkScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(AccountLinkDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "AccountLinkDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "AccountLinkDialog",
+				"Width": {
+					"Value": "720.0"
+				},
+				"Height": {
+					"Value": "510.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(AgeGateScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(SyncDataButton@.)", "RTID(BackButton@.)", "RTID(AccountLegalLabel@.)", "RTID(InnerAreaBackground@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "19.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "76.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[LINK_ACCOUNTS_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "SyncDataButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "SyncDataButton",
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottonleft",
+					"OffsetX": {
+						"Value": "12.0"
+					},
+					"OffsetY": {
+						"Value": "-12.0"
+					}
+				},
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[SYNC_DATA]",
+				"ButtonImageType": "3slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "BackButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "BackButton",
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(AgeGateDialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "InnerAreaBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InnerAreaBackground",
+				"Width": {
+					"Value": "640"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "60"
+					}
+				},
+				"Children": [ "RTID(InnerAreaVerticalList@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_GENERIC_POPUP_9SLICE"
+			}
+		}, {
+			"aliases": [ "InnerAreaVerticalList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "InnerAreaVerticalList",
+				"Width": {
+					"Value": "610"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Children": [ "RTID(AccountLinkDescription@.)", "RTID(AccountLinkColumnHeaders@.)", "RTID(AccountLinkList@.)", "RTID(AccountLinkListBottomSpacer@.)" ]
+			}
+		}, {
+			"aliases": [ "AccountLinkDescription" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLinkDescription",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[ACCOUNT_LINK_DESCRIPTION]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "AccountLinkColumnHeaders" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AccountLinkColumnHeaders",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(AccountLinkColumnHeader@.)", "RTID(AccountLinkColumnHeader2@.)", "RTID(AccountLinkColumnHeader3@.)" ]
+			}
+		}, {
+			"aliases": [ "AccountLinkColumnHeader" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLinkColumnHeader",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "[LINK_ACCOUNT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "AccountLinkColumnHeader2" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLinkColumnHeader2",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "280.0"
+					}
+				},
+				"Label": "[LINK_REWARDS]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "AccountLinkColumnHeader3" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLinkColumnHeader3",
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "440.0"
+					}
+				},
+				"Label": "[LINK_COMPLETE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}, {
+			"aliases": [ "AccountLinkList" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "AccountLinkList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "8.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-30"
+					}
+				},
+				"Children": []
+			}
+		}, {
+			"aliases": [ "AccountLinkListBottomSpacer" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AccountLinkListBottomSpacer",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "5"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				}
+			}
+		}, {
+			"aliases": [ "AccountLegalLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AccountLegalLabel",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "-50.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"Label": "[PROGRESSIVE_REGISTRATION_NOTE_PERSONAL_INFO]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "DarkBrown",
+				"Children": [ "RTID(PrivacyLink@.)" ]
+			}
+		}, {
+			"aliases": [ "PrivacyLink" ],
+			"objclass": "HotUIClickableLinkProperties",
+			"objdata": {
+				"Name": "PrivacyLink",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Text": "[SETTINGS_PRIVACY_TITLE]",
+				"Link": "[SETTINGS_PRIVACY_URL]",
+				"Font": "Main_Menu_Legal"
+			}
+		} ]
+}

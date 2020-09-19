@@ -1,0 +1,127 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "PerkProgressionLibraryDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "PerkProgressionLibraryDisplay",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"IgnoreSafeArea": true,
+				"Children": [ "RTID(OuterBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "OuterBackground" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "OuterBackground",
+				"Resources": [ "UI_Perks" ],
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(ProgressBarScroll@.)" ],
+				"DrawType": "tiled",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_MODERN",
+				"ImageInsets": {
+					"Left": {
+						"Value": "15.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "15.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "ProgressBarScroll" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ProgressBarScroll",
+				"Width": {
+					"Value": "94%"
+				},
+				"Height": {
+					"Value": "93%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Children": [ "RTID(ProgressBarInnerScroll@.)" ],
+				"ScrollMode": "horizontal"
+			}
+		}, {
+			"aliases": [ "ProgressBarInnerScroll" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "ProgressBarInnerScroll",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "200.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				}
+			}
+		} ]
+}

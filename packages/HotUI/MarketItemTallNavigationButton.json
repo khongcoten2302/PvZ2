@@ -1,0 +1,67 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MarketItemEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "MarketItemEntry",
+				"EntryPoint": true,
+				"Resources": [],
+				"Width": {
+					"Value": "48"
+				},
+				"Height": {
+					"Value": "422"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "4.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "2.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(NavigationButton@.)" ]
+			}
+		}, {
+			"aliases": [ "NavigationButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "NavigationButton",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": ">>",
+				"Font": "BLACK_32_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "9slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Button_Click_Press",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		} ]
+}

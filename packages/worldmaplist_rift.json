@@ -1,0 +1,388 @@
+{
+	"objects": [ {
+			"objclass": "WorldMapList",
+			"objdata": {
+				"MapList": [ {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_sandbox/rift_sandbox1",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_sandbox/rift_sandbox6" ],
+						"MapName": "rift1",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 12,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_001",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_008" ],
+						"MapName": "rift1a",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 13,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_019",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_035" ],
+						"MapName": "rift1b",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 14,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_022",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_032" ],
+						"MapName": "rift2",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 15,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_024",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_007" ],
+						"MapName": "rift3",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 16,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_047",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_055" ],
+						"MapName": "rift4",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 17,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_041",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_040" ],
+						"MapName": "rift5",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 18,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_042",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_009" ],
+						"MapName": "rift6",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 19,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_063",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_059" ],
+						"MapName": "rift7",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 20,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_058",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_062" ],
+						"MapName": "rift8",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 21,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_001-050/rift_021",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_001-050/rift_011" ],
+						"MapName": "rift9",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 22,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_065",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_069" ],
+						"MapName": "rift10",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 23,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_Future/rift_future01",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_Future/rift_future24" ],
+						"MapName": "riftfuture",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 24,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_080",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_076" ],
+						"MapName": "rift14",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 25,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_079",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_075" ],
+						"MapName": "rift15",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 26,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_Dark/rift_dark1",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_Dark/rift_dark19" ],
+						"MapName": "riftdark",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 27,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_072",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_086" ],
+						"MapName": "rift17",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 28,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_094",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_092" ],
+						"MapName": "rift18",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 29,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_071",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_051-100/rift_099" ],
+						"MapName": "rift19",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 30,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_Pirate/rift_pirate1",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_Pirate/rift_pirate24" ],
+						"MapName": "riftpirate",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 31,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_101-150/rift_108",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_101" ],
+						"MapName": "rift21",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 32,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_101-150/rift_106",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_113" ],
+						"MapName": "rift22",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 33,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_101-150/rift_107",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_109" ],
+						"MapName": "rift23",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 34,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_LostCity/rift_lostcity1",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_LostCity/rift_lostcity31" ],
+						"MapName": "riftlostcity",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 35,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_101-150/rift_114",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_116" ],
+						"MapName": "rift26",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 36,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_101-150/rift_124",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_119" ],
+						"MapName": "rift27",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 37,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					}, {
+						"Disabled": false,
+						"EntryPoint": "rifts/rift_051-100/rift_097",
+						"Hidden": true,
+						"IsRiftWorld": true,
+						"LastLevel": [ "rifts/rift_101-150/rift_118" ],
+						"MapName": "rift28",
+						"UseNightSpiral": true,
+						"WorldResources": {
+							"ID": 38,
+							"ResGroups": [ "WorldMap_Twister" ],
+							"ImagePrefix": "IMAGE_WORLDMAP_TWISTER",
+							"AnimationPrefix": "POPANIM_WORLDMAP_TWISTER"
+						}
+					} ]
+			},
+			"uid": "1.0.ffffffff"
+		} ],
+	"version": 1
+}

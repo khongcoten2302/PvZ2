@@ -1,0 +1,59 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "LeaderboardScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "LeaderboardScrollArea",
+				"Width": {
+					"Value": "310.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Children": [ "RTID(LeaderboardInnerScrollArea@.)" ],
+				"ScrollMode": "vertical"
+			}
+		}, {
+			"aliases": [ "LeaderboardInnerScrollArea" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "LeaderboardInnerScrollArea",
+				"Width": {
+					"Value": "310.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"MinHeight": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "40.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "30.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "-15"
+				}
+			}
+		} ]
+}

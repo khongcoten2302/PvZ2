@@ -1,0 +1,106 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "MarketPanel" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "MarketPanel",
+				"EntryPoint": true,
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "400.0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom"
+				},
+				"Children": [ "RTID(PanelTitle@.)", "RTID(PanelContentsBox@.)" ]
+			}
+		}, {
+			"aliases": [ "PanelTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PanelTitle",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "[STORE_MULTI_INTRO]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22",
+				"Color": "DarkBrown",
+				"Children": []
+			}
+		}, {
+			"aliases": [ "PanelContentsBox" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PanelContentsBox",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "360"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Children": [ "RTID(PanelProductList@.)" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_TINT_ROUNDED_BOX_9SLICE"
+			}
+		}, {
+			"aliases": [ "PanelProductList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PanelProductList",
+				"Resources": [],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "360"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false
+			}
+		} ]
+}

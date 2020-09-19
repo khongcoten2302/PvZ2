@@ -1,0 +1,57 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonPrizesDisplay" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonPrizesDisplay",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(PrizeEntryList@.)" ]
+			}
+		}, {
+			"aliases": [ "PrizeEntryList" ],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "PrizeEntryList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"SpaceBetweenWidgets": {
+					"Value": "auto"
+				}
+			}
+		} ]
+}

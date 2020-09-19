@@ -1,0 +1,69 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "RiftDifficultyEntry" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RiftDifficultyEntry",
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(DifficultyIcon@.)", "RTID(DifficultyText@.)" ]
+			}
+		}, {
+			"aliases": [ "DifficultyIcon" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [ "UI_Difficulty_Modifiers" ],
+				"Name": "DifficultyIcon",
+				"Width": {
+					"Value": "60"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Image": "$DIFFICULTYICON",
+				"DrawType": "normal",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DifficultyText" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DifficultyText",
+				"Width": {
+					"Value": "95%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetY": {
+						"Value": "-5"
+					}
+				},
+				"Label": "$DIFFICULTYTEXT",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_19_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

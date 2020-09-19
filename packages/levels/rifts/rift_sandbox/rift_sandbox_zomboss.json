@@ -1,0 +1,269 @@
+{
+	"#comment": "Rift 1A Zomboss - joust 75",
+	"objects": [ {
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_RIFT]",
+				"DisablePlantBoosts": true,
+				"GridItemLevel": 1,
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"Modules": [ "RTID(JoustDarkMowers@LevelModules)", "RTID(SeedBank@CurrentLevel)", "RTID(JoustZombieWinCondition@LevelModules)", "RTID(NewWaves@CurrentLevel)", "RTID(LastStand@CurrentLevel)", "RTID(ZombossBattle@CurrentLevel)", "RTID(SeedPacketHalfTimeModule@LevelModules)", "RTID(LevelDifficultyScaling@CurrentLevel)", "RTID(WaveDuplicator@CurrentLevel)", "RTID(PerkActivator@CurrentLevel)", "RTID(DefaultZombossRiftPointOfLoss@LevelModules)" ],
+				"Name": "",
+				"NormalPresentTable": "dark_normal_01",
+				"ShinyPresentTable": "dark_shiny_01",
+				"VictoryModule": "RTID(RiftOutro@LevelModules)",
+				"LossModule": "RTID(RiftOutro@LevelModules)",
+				"StageModule": "RTID(DarkStage@LevelModules)",
+				"LevelMutator": "RTID(LevelMutator@CurrentLevel)",
+				"SuppressAccountUpgrades": true,
+				"SuppressDynamicTutorial": true,
+				"SuppressPlantfoodPurchase": true
+			}
+		}, {
+			"aliases": [ "SeedBank" ],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [ {
+						"Level": -1,
+						"PlantType": "goldbloom"
+					} ],
+				"SelectionMethod": "chooser"
+			}
+		}, {
+			"aliases": [ "PerkActivator" ],
+			"objclass": "PerkHandlerModuleProperties",
+			"objdata": {}
+		}, {
+			"aliases": [ "LevelMutator" ],
+			"objclass": "LevelMutatorModuleProperties",
+			"objdata": {
+				"MutatorTables": [ "RTID(MutatorRiftZombossTest@LevelMutatorTables)", "RTID(MutatorRiftZombossBatteryBasic@LevelMutatorTables)" ]
+			}
+		}, {
+			"aliases": [ "LevelDifficultyScaling" ],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "RiftDifficulty",
+				"ZombieLevelSwaps": [ {
+						"Level": 0,
+						"Swaps": [ {
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [ "RTID(lostcity@ZombieTypes)", "RTID(dino_imp@ZombieTypes)", "RTID(future@ZombieTypes)" ]
+							}, {
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [ "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties@ZombieTypes)", "RTID(dino@ZombieTypes)", "RTID(future_jetpack@ZombieTypes)" ]
+							}, {
+								"From": "RTID(barrelroller@ZombieTypes)",
+								"To": [ "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties_armor1@ZombieTypes)", "RTID(dino@ZombieTypes)", "RTID(future_jetpack@ZombieTypes)" ]
+							}, {
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [ "RTID(explorer@ZombieTypes)", "RTID(pirate@ZombieTypes)" ]
+							} ]
+					}, {
+						"Level": 3,
+						"Swaps": [ {
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [ "RTID(lostcity@ZombieTypes)", "RTID(dino_imp@ZombieTypes)", "RTID(future@ZombieTypes)" ]
+							}, {
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [ "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties_armor1@ZombieTypes)", "RTID(dino_armor2@ZombieTypes)", "RTID(future_jetpack@ZombieTypes)" ]
+							}, {
+								"From": "RTID(barrelroller@ZombieTypes)",
+								"To": [ "RTID(barrelroller@ZombieTypes)", "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties_armor2@ZombieTypes)", "RTID(dino_armor3@ZombieTypes)", "RTID(lostcity_excavator@ZombieTypes)" ]
+							}, {
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [ "RTID(explorer@ZombieTypes)", "RTID(pirate_captain@ZombieTypes)" ]
+							} ]
+					}, {
+						"Level": 6,
+						"Swaps": [ {
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [ "RTID(lostcity@ZombieTypes)", "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties_armor2@ZombieTypes)" ]
+							}, {
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [ "RTID(pirate_armor1@ZombieTypes)", "RTID(eighties_armor2@ZombieTypes)", "RTID(dino_armor3@ZombieTypes)", "RTID(future_jetpack_veteran@ZombieTypes)" ]
+							}, {
+								"From": "RTID(barrelroller@ZombieTypes)",
+								"To": [ "RTID(pirate_armor2@ZombieTypes)", "RTID(eighties_armor2@ZombieTypes)", "RTID(dino_armor4@ZombieTypes)", "RTID(lostcity_excavator@ZombieTypes)" ]
+							}, {
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [ "RTID(explorer@ZombieTypes)", "RTID(explorer_veteran@ZombieTypes)", "RTID(pirate_captain@ZombieTypes)", "RTID(lostcity_excavator@ZombieTypes)" ]
+							} ]
+					} ]
+			}
+		}, {
+			"aliases": [ "WaveDuplicator" ],
+			"objclass": "WaveDuplicatorModuleProperties",
+			"objdata": {
+				"PeriodOfWavesToLoop": 6,
+				"WaveSetsToAppend": 20
+			}
+		}, {
+			"aliases": [ "LastStand" ],
+			"objclass": "LastStandMinigameProperties",
+			"objdata": {
+				"StartingPlantfood": 1,
+				"StartingSun": 1600,
+				"PreSeedchooserFlow": "rift"
+			}
+		}, {
+			"aliases": [ "ZombossBattle" ],
+			"objclass": "ZombossRiftBattleModuleProperties",
+			"objdata": {
+				"ReservedColumnCount": 2,
+				"ShowInStreetView": true,
+				"ZombossDeathColumn": 5,
+				"ZombossDeathRow": 3,
+				"ZombossMechType": "zombossmech_lostcity_battlez",
+				"ZombossSpawnGridPosition": {
+					"mX": 6,
+					"mY": 3
+				},
+				"ZombossPhases": 3
+			}
+		}, {
+			"aliases": [ "NewWaves" ],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [ {
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"MaxPoints": 500,
+						"PointIncrementPerWave": 100,
+						"StartingPoints": 100,
+						"StartingWave": 0,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					}, {
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 1,
+						"ZombiePool": [ "RTID(bighead_barrelroller@ZombieTypes)", "RTID(lostcity_jane@ZombieTypes)", "RTID(poncho@ZombieTypes)", "RTID(mech_cone@ZombieTypes)" ]
+					} ],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		}, {
+			"aliases": [ "WaveManagerProps" ],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 100,
+				"WaveCount": 12,
+				"WaveSpendingPointIncrement": 150,
+				"WaveSpendingPoints": 0,
+				"Waves": [ [ "RTID(Wave1@CurrentLevel)" ], [ "RTID(Wave2@CurrentLevel)" ], [ "RTID(Wave3@CurrentLevel)" ], [ "RTID(Wave4@CurrentLevel)" ], [ "RTID(Wave5@CurrentLevel)" ], [ "RTID(Wave6@CurrentLevel)" ], [ "RTID(Wave7@CurrentLevel)" ], [ "RTID(Wave8@CurrentLevel)" ], [ "RTID(Wave9@CurrentLevel)" ], [ "RTID(Wave10@CurrentLevel)" ], [ "RTID(Wave11@CurrentLevel)" ], [ "RTID(Wave12@CurrentLevel)" ] ],
+				"WavesAlwaysRandomized": true
+			}
+		}, {
+			"aliases": [ "Wave1" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}, {
+			"aliases": [ "Wave2" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [ {
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}, {
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					} ]
+			}
+		}, {
+			"aliases": [ "Wave3" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0
+			}
+		}, {
+			"aliases": [ "Wave4" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}, {
+			"aliases": [ "Wave5" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [ {
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}, {
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					} ]
+			}
+		}, {
+			"aliases": [ "Wave6" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}, {
+			"aliases": [ "Wave7" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [ {
+						"Type": "RTID(poncho_plate@ZombieTypes)"
+					} ]
+			}
+		}, {
+			"aliases": [ "Wave8" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [ {
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}, {
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					} ]
+			}
+		}, {
+			"aliases": [ "Wave9" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}, {
+			"aliases": [ "Wave10" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}, {
+			"aliases": [ "Wave11" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [ {
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}, {
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					} ]
+			}
+		}, {
+			"aliases": [ "Wave12" ],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		} ],
+	"version": 1
+}

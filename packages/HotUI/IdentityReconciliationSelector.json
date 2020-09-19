@@ -1,0 +1,214 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "IdentityReconciliationSelectorScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "IdentityReconciliationSelectorScreen",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Children": [ "RTID(IdentityReconciliationSelectorDialog@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityReconciliationSelectorDialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "IdentityReconciliationSelectorDialog",
+				"Width": {
+					"Value": "720.0"
+				},
+				"Height": {
+					"Value": "550"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "RTID(AgeGateScreen@.)"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "24.0"
+					}
+				},
+				"Children": [ "RTID(DialogTitle@.)", "RTID(IdentityListArea@.)", "RTID(AcceptButton@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "19.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "76.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"Label": "[IDENTITY_RECONCILIATION_DIALOG_HEADER]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "AcceptButton" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "AcceptButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "12.0"
+					},
+					"OffsetY": {
+						"Value": "-12.0"
+					}
+				},
+				"Width": {
+					"Value": "100.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Label": "[MAINMENU_ACCEPT]",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		}, {
+			"aliases": [ "IdentityListArea" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "IdentityListArea",
+				"Width": {
+					"Value": "97%"
+				},
+				"Height": {
+					"Value": "380"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-12.0"
+					}
+				},
+				"Children": [ "RTID(IdentityListBackground@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityListBackground" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "IdentityListBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [ "UI_Nimble" ],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_NIMBLE_LIST_BG",
+				"Children": [ "RTID(IdentityListScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityListScrollArea" ],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "IdentityListScrollArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"ScrollMode": "vertical",
+				"Children": [ "RTID(IdentityListInnerScrollArea@.)" ]
+			}
+		}, {
+			"aliases": [ "IdentityListInnerScrollArea" ],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "IdentityListInnerScrollArea",
+				"Width": {
+					"Value": "700"
+				},
+				"Height": {
+					"Value": "10.0"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				}
+			}
+		} ]
+}

@@ -1,0 +1,106 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "JoustSeasonsLogo" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonsLogo",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(Background@.)" ]
+			}
+		}, {
+			"aliases": [ "Background" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Resources": [ "UI_Seasons_Shield" ],
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "55.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_SEASONS_SHIELD_PVZ2_SEASONS_UIASSET_TITLE_SHIELD",
+				"DrawType": "9slice",
+				"DrawStyle": "9slice",
+				"Children": [ "RTID(SeasonPlant@.)", "RTID(SeasonLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "SeasonPlant" ],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "SeasonPlant",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"IgnoreMouseInput": true,
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "-2"
+					}
+				},
+				"ScaleOverride": 0.8,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "fixed"
+			}
+		}, {
+			"aliases": [ "SeasonLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SeasonLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-20"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Label": "[SEASON_CURRENT_NAME]",
+				"HorizontalJustification": "center",
+				"Font": "BLACK_16_HARDSHADOW",
+				"Color": "Dialog_Header_Color"
+			}
+		} ]
+}

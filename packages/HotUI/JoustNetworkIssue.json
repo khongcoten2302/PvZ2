@@ -1,0 +1,285 @@
+{
+	"version": 1,
+	"objects": [ {
+			"aliases": [ "DialogScreen" ],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "DialogScreen",
+				"Resources": [ "AudioJoust" ],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [ "RTID(Dialog@.)", "RTID(DialogButtonList@.)" ]
+			}
+		}, {
+			"aliases": [ "Dialog" ],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "580"
+				},
+				"Height": {
+					"Value": "450"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [ "RTID(DialogCard@.)" ],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		}, {
+			"aliases": [ "DialogCard" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "98%"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_CARDS_ALMANAC_UPGRADES_CARD",
+				"Children": [ "RTID(DialogTitle@.)", "RTID(NetworkIssueImage@.)", "RTID(DialogContentsLabel@.)" ]
+			}
+		}, {
+			"aliases": [ "DialogTitle" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		}, {
+			"aliases": [ "DialogContentsLabel" ],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogContentsLabel",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "Grey"
+			}
+		}, {
+			"aliases": [ "NetworkIssueImage" ],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "NetworkIssueImage",
+				"Resources": [ "UI_Joust" ],
+				"Width": {
+					"Value": "200"
+				},
+				"Height": {
+					"Value": "171"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "120"
+					}
+				},
+				"Image": "IMAGE_UI_JOUST_CONNECTION_DIALOG_OFFLINE_IMAGE",
+				"DrawStyle": "stretched"
+			}
+		}, {
+			"aliases": [ "DialogButtonList" ],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Children": [ "RTID(DialogButtonRetry@.)", "RTID(DialogButtonFail@.)" ],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		}, {
+			"aliases": [ "DialogButtonRetry" ],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButtonRetry",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "$BUTTON_RETRY_LABEL",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"ButtonImage": "$IMAGE_BUTTON_IMAGE",
+				"IncludelistID": "BASIC_DIALOG_BUTTON_RETRY",
+				"UpAudio": "Play_UI_Battlez_Continue_Press",
+				"DownAudio": "Play_UI_Battlez_Continue_Release"
+			}
+		}, {
+			"aliases": [ "DialogButtonFail" ],
+			"defaults": "DialogButtonRetry@.",
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButtonFail",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "$BUTTON_FAIL_LABEL",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"ButtonImage": "$IMAGE_BUTTON_IMAGE",
+				"IncludelistID": "BASIC_DIALOG_BUTTON_FAIL",
+				"UpAudio": "Play_UI_Forfeit_Press",
+				"DownAudio": "Play_UI_Forfeit_Release"
+			}
+		} ]
+}
