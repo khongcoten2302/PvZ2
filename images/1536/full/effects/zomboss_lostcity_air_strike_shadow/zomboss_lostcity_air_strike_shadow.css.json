@@ -1,0 +1,29 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 3,
+	"sub": [],
+	"label": {
+		"animation": [ 0, 2 ]
+	},
+	"img": [ {
+			"src": "zomboss_lostcity_air_strike_shadow_742x680",
+			"sz": [ 742.0, 680.0 ],
+			"origin": [ -14.8, -2.0 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, -219.85, -127.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, -219.85, -127.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, -219.85, -127.65 ]
+				} ]
+		} ]
+}

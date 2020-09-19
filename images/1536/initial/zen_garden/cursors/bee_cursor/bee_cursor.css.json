@@ -1,0 +1,23 @@
+{
+	"origin": [ 26.4, 32.0 ],
+	"frameRate": 24,
+	"frameSum": 1,
+	"sub": [ "Bee_Cursor" ],
+	"label": {
+		"idle": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "bee_cursor_132x162",
+			"sz": [ 132.0, 162.0 ],
+			"origin": [ -66.0, -80.0 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 0.0, 0.0 ]
+				} ]
+		} ]
+}

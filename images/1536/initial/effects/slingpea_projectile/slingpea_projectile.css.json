@@ -1,0 +1,58 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 6,
+	"sub": [],
+	"label": {
+		"tier1": [ 0, 1 ],
+		"tier2": [ 2, 3 ],
+		"tier3": [ 4, 5 ]
+	},
+	"img": [ {
+			"src": "slingpea_projectile_28x27",
+			"sz": [ 28.0, 27.0 ],
+			"origin": [ 13.2, 22.3 ]
+		}, {
+			"src": "slingpea_projectile_40x37",
+			"sz": [ 40.0, 37.0 ],
+			"origin": [ 7.6, 17.1 ]
+		}, {
+			"src": "slingpea_projectile_79x79",
+			"sz": [ 79.0, 79.0 ],
+			"origin": [ -11.95, -4.0 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 181.05, 182.3 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 181.05, 182.3 ]
+				} ]
+		}, {
+			"id": [ 1, 1 ],
+			"parent": [],
+			"range": [ 2, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 175.45, 177.1 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 175.45, 177.1 ]
+				} ]
+		}, {
+			"id": [ 2, 2 ],
+			"parent": [],
+			"range": [ 4, 6 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 155.9, 156.0 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 155.9, 156.0 ]
+				} ]
+		} ]
+}

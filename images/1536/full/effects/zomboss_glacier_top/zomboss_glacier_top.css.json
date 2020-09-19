@@ -1,0 +1,26 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 2,
+	"sub": [],
+	"label": {
+		"animation": [ 0, 1 ]
+	},
+	"img": [ {
+			"src": "zomboss_glacier_top_707x783",
+			"sz": [ 707.0, 783.0 ],
+			"origin": [ -361.85, -579.5 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.75, 0.0, 0.0, 0.75, -158.5, -196.2 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 0.75, 0.0, 0.0, 0.75, -158.5, -196.2 ]
+				} ]
+		} ]
+}

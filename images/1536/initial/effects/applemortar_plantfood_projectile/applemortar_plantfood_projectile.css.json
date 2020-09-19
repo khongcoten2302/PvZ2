@@ -1,0 +1,23 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [],
+	"label": {
+		"animation": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "applemortar_plantfood_projectile_96x121",
+			"sz": [ 96.0, 121.0 ],
+			"origin": [ -18.05, 11.45 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.000796326710733, 0.999999682931834, -0.999999682931834, 0.000796326710733, 245.8, 178.95 ]
+				} ]
+		} ]
+}

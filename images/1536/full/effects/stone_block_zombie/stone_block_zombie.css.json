@@ -1,0 +1,101 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 2,
+	"sub": [ "stone_block_damage05", "stone_block_damage04", "stone_block_damage03", "stone_block_damage02", "stone_block_damage01", "stone_block_damage00", "stone_block_full" ],
+	"label": {
+		"idle": [ 0, 1 ]
+	},
+	"img": [ {
+			"src": "stone_block_zombie_88x61",
+			"sz": [ 88.0, 61.0 ],
+			"origin": [ 20.6, 184.0 ]
+		}, {
+			"src": "stone_block_zombie_153x92",
+			"sz": [ 153.0, 92.0 ],
+			"origin": [ 5.45, 152.35 ]
+		}, {
+			"src": "stone_block_zombie_158x172",
+			"sz": [ 158.0, 172.0 ],
+			"origin": [ 0.45, 72.75 ]
+		}, {
+			"src": "stone_block_zombie_158x242",
+			"sz": [ 158.0, 242.0 ],
+			"origin": [ 0.45, 2.65 ]
+		}, {
+			"src": "stone_block_zombie_159x242",
+			"sz": [ 159.0, 242.0 ],
+			"origin": [ -14.55, 0.65 ]
+		}, {
+			"src": "stone_block_zombie_159x243",
+			"sz": [ 159.0, 243.0 ],
+			"origin": [ -78.9, -120.85 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0, 0 ],
+			"parent": [ 0, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 136.4, 200.4 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 136.4, 200.4 ]
+				} ]
+		}, {
+			"id": [ 0, 1, 0, 1 ],
+			"parent": [ 1, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 121.25, 168.75 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 121.25, 168.75 ]
+				} ]
+		}, {
+			"id": [ 0, 2, 0, 2 ],
+			"parent": [ 2, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 116.25, 89.15 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 116.25, 89.15 ]
+				} ]
+		}, {
+			"id": [ 0, 3, 0, 3 ],
+			"parent": [ 3, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 116.25, 19.05 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 116.25, 19.05 ]
+				} ]
+		}, {
+			"id": [ 0, 4, 0, 4 ],
+			"parent": [ 4, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 115.75, 19.05 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 115.75, 19.05 ]
+				} ]
+		}, {
+			"id": [ 0, 5, 0, 5 ],
+			"parent": [ 5, 6 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 115.75, 18.05000000000001 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 115.75, 18.05000000000001 ]
+				} ]
+		} ]
+}

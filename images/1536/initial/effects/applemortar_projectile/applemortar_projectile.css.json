@@ -1,0 +1,35 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [ "applemortar_ammo_bottom", "applemortar_ammo_top" ],
+	"label": {
+		"animation": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "applemortar_projectile_47x102",
+			"sz": [ 47.0, 102.0 ],
+			"origin": [ -4.2, -2.75 ]
+		}, {
+			"src": "applemortar_projectile_57x53",
+			"sz": [ 57.0, 53.0 ],
+			"origin": [ -2.75, -2.75 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.000796326710733, 0.999999682931834, -0.999999682931834, 0.000796326710733, 226.0, 172.95 ]
+				} ]
+		}, {
+			"id": [ 1, 0, 1 ],
+			"parent": [ 1 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.000796326710733, 0.999999682931834, -0.999999682931834, 0.000796326710733, 253.3, 166.1 ]
+				} ]
+		} ]
+}

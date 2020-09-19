@@ -1,0 +1,29 @@
+{
+	"origin": [ 76.8, 91.2 ],
+	"frameRate": 30,
+	"frameSum": 3,
+	"sub": [ "healer_beam" ],
+	"label": {
+		"animation": [ 0, 2 ]
+	},
+	"img": [ {
+			"src": "zombie_roman_healer_beam_133x10",
+			"sz": [ 133.0, 10.0 ],
+			"origin": [ -2.0, -2.0 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 126.0, 224.25 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 126.0, 224.25 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 126.0, 224.25 ]
+				} ]
+		} ]
+}

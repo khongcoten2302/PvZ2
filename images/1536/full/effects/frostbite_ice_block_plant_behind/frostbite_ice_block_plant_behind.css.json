@@ -1,0 +1,83 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [ "ice_block_damage5", "ice_block_damage4", "ice_block_damage3", "ice_block_damage2", "ice_block_damage1", "ice_block_damage0" ],
+	"label": {
+		"idle": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "frostbite_ice_block_plant_behind_121x171",
+			"sz": [ 121.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		}, {
+			"src": "frostbite_ice_block_plant_behind_146x171",
+			"sz": [ 146.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		}, {
+			"src": "frostbite_ice_block_plant_behind_164x171",
+			"sz": [ 164.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		}, {
+			"src": "frostbite_ice_block_plant_behind_164x171_2",
+			"sz": [ 164.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		}, {
+			"src": "frostbite_ice_block_plant_behind_164x171_3",
+			"sz": [ 164.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		}, {
+			"src": "frostbite_ice_block_plant_behind_164x171_4",
+			"sz": [ 164.0, 171.0 ],
+			"origin": [ -3.0, -3.0 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		}, {
+			"id": [ 1, 0, 1 ],
+			"parent": [ 1 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		}, {
+			"id": [ 2, 0, 2 ],
+			"parent": [ 2 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		}, {
+			"id": [ 3, 0, 3 ],
+			"parent": [ 3 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		}, {
+			"id": [ 4, 0, 4 ],
+			"parent": [ 4 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		}, {
+			"id": [ 5, 0, 5 ],
+			"parent": [ 5 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 119.5, 103.5 ]
+				} ]
+		} ]
+}

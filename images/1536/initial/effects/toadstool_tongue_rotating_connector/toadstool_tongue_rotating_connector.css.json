@@ -1,0 +1,23 @@
+{
+	"origin": [ 8.93, 5.8 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [],
+	"label": {
+		"tongue_base": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "toadstool_tongue_rotating_connector_49x34",
+			"sz": [ 49.0, 34.0 ],
+			"origin": [ -6.25, -0.6 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.999954223632812, 0.0, 0.0, 0.999954223632812, -2.0, -2.0 ]
+				} ]
+		} ]
+}

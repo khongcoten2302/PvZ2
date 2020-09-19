@@ -1,0 +1,86 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 2,
+	"sub": [ "zombie_armor_statue_damage_04", "zombie_armor_statue_damage_03", "zombie_armor_statue_damage_02", "zombie_armor_statue_damage_01", "zombie_armor_statue_norm", "zombie_armor_statue_full" ],
+	"label": {
+		"idle": [ 0, 1 ]
+	},
+	"img": [ {
+			"src": "zombie_armor_statue_full_131x214",
+			"sz": [ 131.0, 214.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "zombie_armor_statue_full_131x214_2",
+			"sz": [ 131.0, 214.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "zombie_armor_statue_full_131x214_3",
+			"sz": [ 131.0, 214.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "zombie_armor_statue_full_138x214",
+			"sz": [ 138.0, 214.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "zombie_armor_statue_full_138x215",
+			"sz": [ 138.0, 215.0 ],
+			"origin": [ -2.75, -2.75 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0, 0 ],
+			"parent": [ 0, 5 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				} ]
+		}, {
+			"id": [ 0, 1, 0, 1 ],
+			"parent": [ 1, 5 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				} ]
+		}, {
+			"id": [ 0, 2, 0, 2 ],
+			"parent": [ 2, 5 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				} ]
+		}, {
+			"id": [ 0, 3, 0, 3 ],
+			"parent": [ 3, 5 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				} ]
+		}, {
+			"id": [ 0, 4, 0, 4 ],
+			"parent": [ 4, 5 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 122.3, 49.65 ]
+				} ]
+		} ]
+}

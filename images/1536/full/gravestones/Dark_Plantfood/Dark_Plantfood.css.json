@@ -1,0 +1,75 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 5,
+	"sub": [ "plant_state1", "plant_state2", "plant_state3", "plant_state4", "plant_state5" ],
+	"label": {
+		"undamaged": [ 0, 0 ],
+		"damage1": [ 1, 1 ],
+		"damage2": [ 2, 2 ],
+		"damage3": [ 3, 3 ],
+		"damage4": [ 4, 4 ]
+	},
+	"img": [ {
+			"src": "Dark_Plantfood_132x160",
+			"sz": [ 132.0, 160.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "Dark_Plantfood_132x160_2",
+			"sz": [ 132.0, 160.0 ],
+			"origin": [ -2.75, -2.75 ]
+		}, {
+			"src": "Dark_Plantfood_132x157",
+			"sz": [ 132.0, 157.0 ],
+			"origin": [ -2.75, -2.6 ]
+		}, {
+			"src": "Dark_Plantfood_129x144",
+			"sz": [ 129.0, 144.0 ],
+			"origin": [ -2.0, -2.75 ]
+		}, {
+			"src": "Dark_Plantfood_93x95",
+			"sz": [ 93.0, 95.0 ],
+			"origin": [ -2.75, -2.75 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 0 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 129.8, 101.8 ]
+				} ]
+		}, {
+			"id": [ 1, 0, 1 ],
+			"parent": [ 1 ],
+			"range": [ 1, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 129.8, 101.8 ]
+				} ]
+		}, {
+			"id": [ 2, 0, 2 ],
+			"parent": [ 2 ],
+			"range": [ 2, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 129.8, 104.55 ]
+				} ]
+		}, {
+			"id": [ 3, 0, 3 ],
+			"parent": [ 3 ],
+			"range": [ 3, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 132.65, 117.5 ]
+				} ]
+		}, {
+			"id": [ 4, 0, 4 ],
+			"parent": [ 4 ],
+			"range": [ 4, 5 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 148.75, 165.85 ]
+				} ]
+		} ]
+}

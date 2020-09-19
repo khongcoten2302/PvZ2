@@ -1,0 +1,58 @@
+{
+	"origin": [ 90.0, 90.0 ],
+	"frameRate": 24,
+	"frameSum": 6,
+	"sub": [ "snowpea_head", "snowpea_head_2", "snowpea_head_03" ],
+	"label": {
+		"animation": [ 0, 1 ],
+		"animation2": [ 2, 3 ],
+		"animation3": [ 4, 5 ]
+	},
+	"img": [ {
+			"src": "T_pea_rock_projectile_84x75",
+			"sz": [ 84.0, 75.0 ],
+			"origin": [ -40.55, -36.6 ]
+		}, {
+			"src": "T_pea_rock_projectile_114x110",
+			"sz": [ 114.0, 110.0 ],
+			"origin": [ -54.2, -59.6 ]
+		}, {
+			"src": "T_pea_rock_projectile_167x81",
+			"sz": [ 167.0, 81.0 ],
+			"origin": [ -58.8, -37.2 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 183.1, 186.2 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 183.1, 186.2 ]
+				} ]
+		}, {
+			"id": [ 1, 0, 1 ],
+			"parent": [ 1 ],
+			"range": [ 2, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 169.45, 163.2 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 169.45, 163.2 ]
+				} ]
+		}, {
+			"id": [ 2, 0, 2 ],
+			"parent": [ 2 ],
+			"range": [ 4, 6 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 164.85, 185.6 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 164.85, 185.6 ]
+				} ]
+		} ]
+}

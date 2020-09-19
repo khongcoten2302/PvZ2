@@ -1,0 +1,26 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 2,
+	"sub": [],
+	"label": {
+		"animation": [ 0, 1 ]
+	},
+	"img": [ {
+			"src": "homing_thistle_projectile_80x29",
+			"sz": [ 80.0, 29.0 ],
+			"origin": [ -11.05, -4.4 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 156.25, 179.75 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 156.25, 179.75 ]
+				} ]
+		} ]
+}

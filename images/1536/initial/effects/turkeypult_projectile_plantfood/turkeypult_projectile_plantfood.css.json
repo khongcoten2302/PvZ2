@@ -1,0 +1,32 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 4,
+	"sub": [ "head" ],
+	"label": {
+		"animation": [ 0, 3 ]
+	},
+	"img": [ {
+			"src": "turkeypult_projectile_plantfood_92x88",
+			"sz": [ 92.0, 88.0 ],
+			"origin": [ -48.7, -55.1 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 4 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ -1.0, 0.0, 0.0, 1.0, 132.15, 162.95 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ -1.0, 0.0, 0.0, 1.0, 132.15, 162.95 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ -1.0, 0.0, 0.0, 1.0, 132.15, 162.95 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ -1.0, 0.0, 0.0, 1.0, 132.15, 162.95 ]
+				} ]
+		} ]
+}

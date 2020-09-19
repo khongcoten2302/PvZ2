@@ -1,0 +1,26 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 2,
+	"sub": [ "guacodile_avacado_pit" ],
+	"label": {
+		"animation": [ 0, 1 ]
+	},
+	"img": [ {
+			"src": "guacodile_projectile_49x35",
+			"sz": [ 49.0, 35.0 ],
+			"origin": [ -1.5, -13.65 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0 ],
+			"parent": [ 0 ],
+			"range": [ 0, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 171.4, 177.75 ]
+				}, {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 171.4, 177.75 ]
+				} ]
+		} ]
+}

@@ -1,0 +1,23 @@
+{
+	"origin": [ 8.06, 7.85 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [],
+	"label": {
+		"tongue_base": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "toadstool_tongue_projectile_tip_45x44",
+			"sz": [ 45.0, 44.0 ],
+			"origin": [ 6.75, 7.3 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, -2.0, -2.0 ]
+				} ]
+		} ]
+}

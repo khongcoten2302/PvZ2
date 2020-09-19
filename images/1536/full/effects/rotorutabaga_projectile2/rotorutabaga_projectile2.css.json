@@ -1,0 +1,23 @@
+{
+	"origin": [ 7.72, 2.8 ],
+	"frameRate": 24,
+	"frameSum": 1,
+	"sub": [],
+	"label": {
+		"animation": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "rotorutabaga_projectile2_47x20",
+			"sz": [ 47.0, 20.0 ],
+			"origin": [ -1.1, -5.5 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0 ],
+			"parent": [],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 0.8800048828125, 0.0, 0.0, 0.8800048828125, -1.1, -2.4 ]
+				} ]
+		} ]
+}

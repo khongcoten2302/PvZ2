@@ -1,0 +1,75 @@
+{
+	"origin": [ 78.0, 78.0 ],
+	"frameRate": 30,
+	"frameSum": 6,
+	"sub": [],
+	"label": {
+		"undamaged": [ 0, 0 ],
+		"damage1": [ 1, 1 ],
+		"damage2": [ 2, 2 ],
+		"damage3": [ 3, 3 ],
+		"damage4": [ 4, 5 ]
+	},
+	"img": [ {
+			"src": "Cowboy_Gravestone_106x172",
+			"sz": [ 106.0, 172.0 ],
+			"origin": [ -15.9, -2.75 ]
+		}, {
+			"src": "Cowboy_Gravestone_106x172_2",
+			"sz": [ 106.0, 172.0 ],
+			"origin": [ -15.15, -2.75 ]
+		}, {
+			"src": "Cowboy_Gravestone_111x182",
+			"sz": [ 111.0, 182.0 ],
+			"origin": [ -32.65, -2.75 ]
+		}, {
+			"src": "Cowboy_Gravestone_111x177",
+			"sz": [ 111.0, 177.0 ],
+			"origin": [ -32.65, 2.25 ]
+		}, {
+			"src": "Cowboy_Gravestone_111x108",
+			"sz": [ 111.0, 108.0 ],
+			"origin": [ -32.65, 70.6 ]
+		} ],
+	"layer": [ {
+			"id": [ 1, 0 ],
+			"parent": [],
+			"range": [ 0, 0 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 149.2, 76.6 ]
+				} ]
+		}, {
+			"id": [ 2, 1 ],
+			"parent": [],
+			"range": [ 1, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 149.95, 76.6 ]
+				} ]
+		}, {
+			"id": [ 3, 2 ],
+			"parent": [],
+			"range": [ 2, 2 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 132.45, 76.6 ]
+				} ]
+		}, {
+			"id": [ 4, 3 ],
+			"parent": [],
+			"range": [ 3, 3 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 132.45, 81.6 ]
+				} ]
+		}, {
+			"id": [ 0, 4 ],
+			"parent": [],
+			"range": [ 4, 4 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 132.45, 149.95 ]
+				} ]
+		} ]
+}

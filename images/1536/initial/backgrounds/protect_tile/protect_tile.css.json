@@ -1,0 +1,47 @@
+{
+	"origin": [ 76.8, 91.2 ],
+	"frameRate": 30,
+	"frameSum": 1,
+	"sub": [ "protect_01_shadow", "protect_01_base_alt", "protect_tile_01_stripes" ],
+	"label": {
+		"animation": [ 0, 0 ]
+	},
+	"img": [ {
+			"src": "protect_tile_131x155",
+			"sz": [ 131.0, 155.0 ],
+			"origin": [ -19.45, -36.45 ]
+		}, {
+			"src": "protect_tile_133x157",
+			"sz": [ 133.0, 157.0 ],
+			"origin": [ 11.2, 10.1 ]
+		}, {
+			"src": "protect_tile_112x125",
+			"sz": [ 112.0, 125.0 ],
+			"origin": [ 2.85, 3.9 ]
+		} ],
+	"layer": [ {
+			"id": [ 0, 0, 0, 0 ],
+			"parent": [ 0, 1 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.025299072265625, 0.0, 0.0, 1.0, 127.05, 154.55 ]
+				} ]
+		}, {
+			"id": [ 0, 1, 1 ],
+			"parent": [ 1 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.0, 0.0, 0.0, 1.0, 126.05, 150.05 ]
+				} ]
+		}, {
+			"id": [ 1, 0, 2 ],
+			"parent": [ 2 ],
+			"range": [ 0, 1 ],
+			"frame": [ {
+					"opacity": 1.0,
+					"matrix": [ 1.138580322265625, 0.0, 0.0, 1.183990478515625, 127.95, 151.55 ]
+				} ]
+		} ]
+}
